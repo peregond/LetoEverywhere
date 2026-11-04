@@ -1,0 +1,20 @@
+/* A single illustrated cover, with live controls kept outside the artwork. */
+#app[data-screen=home]{background:#185574}
+.home-shell{position:relative;isolation:isolate;overflow:hidden;width:100%;max-width:600px;min-height:100svh;min-height:100dvh;padding:calc(14px + env(safe-area-inset-top)) max(20px,env(safe-area-inset-right)) calc(28px + env(safe-area-inset-bottom)) max(20px,env(safe-area-inset-left));color:#fff7e6}
+.home-cover{position:absolute;z-index:-2;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.home-shell:after{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(#0b2c4670,transparent 40%,transparent 72%,#103244a6)}
+.home-header{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:48px}
+.home-place{font:600 11px/1.3 Arial,sans-serif;letter-spacing:.2em;text-shadow:0 1px 8px #123744}
+.home-utilities{display:flex;gap:8px}
+.home-icon{display:grid;place-items:center;width:44px;height:44px;padding:11px;border:1px solid #fff6;border-radius:50%;background:#123e4bc9;color:#fff7e6}
+.home-icon svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.home-back{align-self:flex-start;margin:22px 0 0;color:inherit;text-decoration:none;font:16px/1.5 Arial,sans-serif;text-shadow:0 1px 8px #123744}
+.home-title{width:100%;padding:0;margin:4px 0 0;text-align:center}
+.home-title h1{font:700 clamp(40px,10.8vw,68px)/1.05 Georgia,serif;letter-spacing:-.035em;margin:0;text-shadow:0 2px 16px #183d54aa}
+.home-title h1 em{display:block;color:#ffe39a;font-weight:400;line-height:1.1;letter-spacing:-.025em}
+.home-bottom{display:grid;gap:8px;width:100%;margin-top:auto;padding-top:25px}
+.home-bottom .primary{width:100%;min-height:58px;padding:16px;border-radius:40px;background:#c33f29;color:#fff7e6;font:600 18px/1.4 Arial,sans-serif;box-shadow:0 4px 20px #14374722}
+.home-new-game{min-height:44px;border:0;background:#103244a6;border-radius:24px;color:#fff7e6;font:15px/1.4 Arial,sans-serif}
+.home-icon:hover{background:#20576b}.home-bottom .primary:hover{background:#ad3523}
+@media(min-width:900px) and (hover:hover) and (pointer:fine){#app[data-screen=home]{padding:24px;background:#123746}.home-shell{min-height:min(960px,calc(100dvh - 48px));border-radius:20px;box-shadow:0 20px 70px #071e3866}}
+@media(orientation:landscape) and (max-height:600px){.home-shell{max-width:100%;padding:16px 28px;min-height:100dvh}.home-cover{object-position:center 60%}.home-title{width:50%;margin:12px 0}.home-title h1{font-size:clamp(36px,7vw,58px)}.home-bottom{width:min(45%,400px)}.home-back{margin-top:8px}}
