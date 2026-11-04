@@ -13,3 +13,5 @@
 
 .scene[data-scene=airport] .scene-stage{background-image:url('airport-officers.png')}
 @media (orientation:portrait){.scene[data-scene=airport] .scene-stage{background-position:70% center}}
+
+.novel-shell .dialogue{padding-bottom:max(18px,env(safe-area-inset-bottom))}
