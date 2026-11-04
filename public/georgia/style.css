@@ -50,3 +50,10 @@
 .scene[data-scene=baggage_note] .scene-stage{background-image:url('passport-note.webp')}
 .passport-note-text{position:absolute;z-index:1;top:45%;left:50%;width:min(44%,55vh);transform:translate(-50%,-50%) rotate(-1deg);color:#423933;text-align:center;white-space:pre-line;font:italic clamp(12px,2.1vw,25px)/1.4 Georgia,serif;pointer-events:none}
 @media(orientation:portrait){.passport-note-text{width:80%;font-size:clamp(13px,4vw,22px)}}
+
+/* Portrait artwork keeps the passport and the officer visible on phones. */
+@media (orientation:portrait){
+ .scene[data-scene=man_passport] .scene-stage{background-image:url('passport-return-portrait.webp');background-position:center 40%}
+ .scene[data-scene=baggage_note] .scene-stage{background-image:url('passport-note-portrait.webp');background-position:center center}
+ .scene[data-scene=baggage_note] .passport-note-text{top:50%;width:54%;font-size:clamp(12px,3.5vw,20px)}
+}
