@@ -34,8 +34,9 @@
   <link rel="stylesheet" href="./meal-menu.css?v=0.17.10">
   <link rel="stylesheet" href="./coin-catch.css?v=0.17.19">
   <link rel="stylesheet" href="./white-card.css?v=0.17.23">
-<link rel="stylesheet" href="/platform-navigation.css"><style>.native-app [data-action="account"]{display:none}</style></head>
+<link rel="stylesheet" href="./platform-navigation.css"><style>.native-app [data-action="account"],.static-app [data-action="account"]{display:none}</style></head>
 <body data-screen="home">
+  <script>if (location.hostname.endsWith(".github.io")) document.documentElement.classList.add("static-app");</script>
   <script>if (window.Capacitor?.isNativePlatform()) document.documentElement.classList.add("native-app");</script>
   <div class="ios-scroll-edge-guard" aria-hidden="true"></div>
   <main id="app" aria-label="Белградское лето">
@@ -43,7 +44,7 @@
     <section id="home" class="screen home">
       <div id="home-cast" class="home-cast" aria-hidden="true"></div>
       <header class="home-header"><div class="language-switch" id="language-switch"></div><button type="button" class="app-version home-version" data-app-version data-action="release-notes"></button><nav class="home-utilities" aria-label="Меню игры"><button data-action="chapters" aria-label="Главы" title="Главы"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 3h6a3 3 0 0 1 3 3v15a4 4 0 0 0-4-2H4V3Z"/><path d="M20 3h-5a2 2 0 0 0-2 2v16a4 4 0 0 1 4-2h3V3Z"/></svg></button><button data-action="account" aria-label="Мой прогресс" title="Мой прогресс"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg></button><button data-action="settings" aria-label="Настройки" title="Настройки"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-.5 2-2 1-2-.5L2 10l1.5 1.5v2L2 15l2.5 4.5 2-.5 2 1 .5 2h6l.5-2 2-1 2 .5L22 15l-1.5-1.5v-2L22 10l-2.5-4.5-2 .5-2-1L15 3H9Z"/><circle cx="12" cy="12" r="3"/></svg></button></nav></header>
-      <a href="/" style="position:absolute;top:5rem;left:1rem;z-index:20;color:white;text-decoration:none">← Все истории</a><div class="home-title"><h1>Белградское<em>лето</em></h1></div>
+      <a href="./" style="position:absolute;top:5rem;left:1rem;z-index:20;color:white;text-decoration:none">← Все истории</a><div class="home-title"><h1>Белградское<em>лето</em></h1></div>
       <div class="home-bottom"><button id="resume" class="primary" hidden>Продолжить игру</button><button id="new-game" class="primary" disabled>Загрузка…</button></div>
     </section>
     <section id="interaction" class="screen interaction" hidden aria-labelledby="interaction-title">
@@ -72,5 +73,5 @@
   </main>
   <dialog id="panel"><div class="panel-heading"><h2 id="panel-title"></h2><button id="close-panel" class="close-button" aria-label="Закрыть панель"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div><div id="panel-content"></div></dialog>
   <script type="module" src="./app.js?v=0.17.25"></script>
-<script src="/directional-navigation.js" defer></script></body>
+<script src="./directional-navigation.js" defer></script></body>
 </html>
