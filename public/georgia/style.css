@@ -39,3 +39,14 @@
 .denied-screen .lead{margin:8px auto 20px;max-width:550px}
 .denied-screen>button{margin:4px}
 @media(max-width:600px){.denied-shell{padding-top:max(16px,env(safe-area-inset-top))}.denied-screen{padding:20px 0}.denied-screen>button{width:100%;margin:4px 0}}
+
+/* Dialogue expressions preserve the character's pose and switch with the scene. */
+.character.attendant[data-expression=thoughtful]{background-image:url('attendant-thoughtful.webp')}
+.character.attendant[data-expression=amused]{background-image:url('attendant-amused.webp')}
+.passport-booth .character.officer-f[data-expression=skeptical]{background-image:url('officer-f-skeptical.webp')}
+.passport-booth .character.officer-f[data-expression=warm]{background-image:url('officer-f-warm.webp')}
+.passport-booth .character.officer-m[data-expression=surprised]{background-image:url('officer-m-surprised.webp')}
+.scene[data-scene=man_passport] .scene-stage{background-image:url('passport-return.webp')}
+.scene[data-scene=baggage_note] .scene-stage{background-image:url('passport-note.webp')}
+.passport-note-text{position:absolute;z-index:1;top:45%;left:50%;width:min(44%,55vh);transform:translate(-50%,-50%) rotate(-1deg);color:#423933;text-align:center;white-space:pre-line;font:italic clamp(12px,2.1vw,25px)/1.4 Georgia,serif;pointer-events:none}
+@media(orientation:portrait){.passport-note-text{width:80%;font-size:clamp(13px,4vw,22px)}}
