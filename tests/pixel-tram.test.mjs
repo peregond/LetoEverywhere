@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {mountPixelTram} from '../public/pixel-tram.js';
+import {makeDocument,all,withClass} from './fake-dom.mjs';
+const doc=makeDocument(),root=doc.createElement('section');let completions=0,settings=0;
+const dispose=mountPixelTram(root,{onComplete:()=>completions++,onBack(){},onSettings:()=>settings++,canRewind:false});
+const controls=withClass(root,'pixel-tram-controls')[0].children;const button=label=>all(root).find(n=>n.tag==='button'&&n.textContent===label);
+assert.equal(withClass(root,'pixel-tram-cell').length,25);assert.equal(button('Продолжить').hidden,true);assert.equal(button('Назад').disabled,true);
+button('Настройки').click();assert.equal(settings,1);
+for(const arrow of ['→','↑','↑','←'])controls.find(n=>n.textContent===arrow).click();assert.equal(button('Продолжить').hidden,false);assert.equal(completions,0);
+button('Продолжить').click();assert.equal(completions,1);dispose();assert.equal(root.classList.contains('pixel-tram'),false);assert.equal(controls[0].handlers.click,undefined);

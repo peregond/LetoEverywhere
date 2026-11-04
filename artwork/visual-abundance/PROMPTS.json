@@ -1,0 +1,348 @@
+[
+  {
+    "id": "milica-worried",
+    "file": "milica-worried.webp",
+    "reference": "milica.webp",
+    "description": "hold closed sketchbook to torso with one arm, free hand resting near chin, concerned attentive eyes",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference.  Expression and pose: hold closed sketchbook to torso with one arm, free hand resting near chin, concerned attentive eyes. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-fe85ff86-e6f6-4e26-93ee-c8fd3d4fc396.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "dragan-worried",
+    "file": "dragan-worried.webp",
+    "reference": "dragan-v2.webp",
+    "description": "one hand rubbing bearded chin, other resting at waist, concerned brows",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference.  Expression and pose: one hand rubbing bearded chin, other resting at waist, concerned brows. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-a32917f0-0462-4bea-ba98-7bc8a5a239a0.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "nikola-worried",
+    "file": "nikola-worried-buzz-v3.webp",
+    "reference": "nikola-friendly-buzz-v3.webp",
+    "description": "one hand lightly touching eyebrow, other resting at apron tie, concerned attentive eyes",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference.  Expression and pose: one hand lightly touching eyebrow, other resting at apron tie, concerned attentive eyes. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-36f2994e-f8dd-4f63-bb7f-9803b7efe1d3.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "jelena-worried",
+    "file": "jelena-worried.webp",
+    "reference": "jelena-confident.webp",
+    "description": "hold hands together at waist, concerned attentive eyes and slightly pursed lips",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference.  Expression and pose: hold hands together at waist, concerned attentive eyes and slightly pursed lips. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-c24753ed-804e-4224-96b6-a74b3c964b97.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "asya-worried",
+    "file": "asya-worried.webp",
+    "reference": "asya-friendly.webp",
+    "description": "one hand touching bag strap and other crossed under elbow, concerned brows",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference.  Expression and pose: one hand touching bag strap and other crossed under elbow, concerned brows. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-3659f1db-7b75-42f5-ae0b-c972f66370e1.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "luka-worried",
+    "file": "luka-worried.webp",
+    "reference": "luka-reference-friendly-v3.webp",
+    "description": "one forearm across torso and other hand at chin, concerned brows",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference.  Expression and pose: one forearm across torso and other hand at chin, concerned brows. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-a0e343df-2e42-4c6f-a661-092d10869c14.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "teodora-worried",
+    "file": "teodora-worried.webp",
+    "reference": "teodora-friendly-living.webp",
+    "description": "hold folder under one arm, free hand resting at neck above shirt collar, concerned brows",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference.  Expression and pose: hold folder under one arm, free hand resting at neck above shirt collar, concerned brows. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-7304046d-abf6-47b7-89ea-14a74a7bb7da.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "lazar-worried",
+    "file": "lazar-worried.webp",
+    "reference": "lazar-friendly-living.webp",
+    "description": "hold closed folder with both hands low, concerned attentive gaze",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference.  Expression and pose: hold closed folder with both hands low, concerned attentive gaze. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-da78cc5a-7be8-43ba-8284-44c1d1a9c0e5.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "ivana-worried",
+    "file": "ivana-worried.webp",
+    "reference": "ivana-friendly-living.webp",
+    "description": "one hand on belt and other rubbing temple, concerned attentive gaze",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference.  Expression and pose: one hand on belt and other rubbing temple, concerned attentive gaze. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-d62d9069-717c-48eb-bf48-389bda152ece.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "strahinja-worried",
+    "file": "strahinja-worried.webp",
+    "reference": "strahinja-friendly-living.webp",
+    "description": "hands joined loosely in front, shoulders slightly lowered, concerned brows",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference.  Expression and pose: hands joined loosely in front, shoulders slightly lowered, concerned brows. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-b64ffd52-b5bd-439a-851e-1c80abdcd90c.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-worried",
+    "file": "milos-worried.webp",
+    "reference": "milos-friendly-living.webp",
+    "description": "one hand rubbing back of neck and other resting at side, concerned attentive gaze",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference.  Expression and pose: one hand rubbing back of neck and other resting at side, concerned attentive gaze. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-d2f0fd8c-3160-445d-ba9b-261e9bd37a73.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-masked-thoughtful",
+    "file": "milos-masked-thoughtful.webp",
+    "reference": "workshop/milos-masked-friendly-v2-draft.webp",
+    "description": "thoughtful attentive gaze, one hand near covered chin and other loosely crossed at waist",
+    "extra": "The black knitted balaclava MUST stay on, with THREE separate openings: one for each eye and one for the mouth, keeping all other face and scalp covered. Preserve the navy Serbian riot police uniform and protective armor from reference. Emotion shown through visible eyes, mouth and posture. No face reveal.",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference. The black knitted balaclava MUST stay on, with THREE separate openings: one for each eye and one for the mouth, keeping all other face and scalp covered. Preserve the navy Serbian riot police uniform and protective armor from reference. Emotion shown through visible eyes, mouth and posture. No face reveal. Expression and pose: thoughtful attentive gaze, one hand near covered chin and other loosely crossed at waist. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-f78d598c-6b8e-4058-9292-da40b58cf28a.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "nikola-evening-worried",
+    "file": "nikola-evening-worried-buzz-v3.webp",
+    "reference": "nikola-evening-friendly-buzz-v3.webp",
+    "description": "one hand holding opposite forearm, shoulders gently drawn in, concerned brows",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference.  Expression and pose: one hand holding opposite forearm, shoulders gently drawn in, concerned brows. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-e20473f5-6c11-4a61-b92a-982f37468c7a.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-masked-flirty",
+    "file": "milos-masked-flirty.webp",
+    "reference": "workshop/milos-masked-friendly-v2-draft.webp",
+    "description": "a small warm interested smile and playful eyes, gentle head tilt, one hand resting casually at waist",
+    "extra": "The black knitted balaclava MUST stay on, with THREE separate openings: one for each eye and one for the mouth, keeping all other face and scalp covered. Preserve the navy Serbian riot police uniform and protective armor from reference. Emotion shown through visible eyes, mouth and posture. No face reveal.",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference. The black knitted balaclava MUST stay on, with THREE separate openings: one for each eye and one for the mouth, keeping all other face and scalp covered. Preserve the navy Serbian riot police uniform and protective armor from reference. Emotion shown through visible eyes, mouth and posture. No face reveal. Expression and pose: a small warm interested smile and playful eyes, gentle head tilt, one hand resting casually at waist. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-32bc182a-c449-4b0b-a37b-325b1357741a.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-masked-laughing",
+    "file": "milos-masked-laughing.webp",
+    "reference": "workshop/milos-masked-friendly-v2-draft.webp",
+    "description": "warm visible laugh and smiling eyes, shoulders turned and one open palm raised low",
+    "extra": "The black knitted balaclava MUST stay on, with THREE separate openings: one for each eye and one for the mouth, keeping all other face and scalp covered. Preserve the navy Serbian riot police uniform and protective armor from reference. Emotion shown through visible eyes, mouth and posture. No face reveal.",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference. The black knitted balaclava MUST stay on, with THREE separate openings: one for each eye and one for the mouth, keeping all other face and scalp covered. Preserve the navy Serbian riot police uniform and protective armor from reference. Emotion shown through visible eyes, mouth and posture. No face reveal. Expression and pose: warm visible laugh and smiling eyes, shoulders turned and one open palm raised low. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-17897803-42bc-4853-b50d-97580f99956d.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-masked-shy",
+    "file": "milos-masked-shy.webp",
+    "reference": "workshop/milos-masked-friendly-v2-draft.webp",
+    "description": "a modest shy smile, gaze a little aside, one hand rubbing back of neck",
+    "extra": "The black knitted balaclava MUST stay on, with THREE separate openings: one for each eye and one for the mouth, keeping all other face and scalp covered. Preserve the navy Serbian riot police uniform and protective armor from reference. Emotion shown through visible eyes, mouth and posture. No face reveal.",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference. The black knitted balaclava MUST stay on, with THREE separate openings: one for each eye and one for the mouth, keeping all other face and scalp covered. Preserve the navy Serbian riot police uniform and protective armor from reference. Emotion shown through visible eyes, mouth and posture. No face reveal. Expression and pose: a modest shy smile, gaze a little aside, one hand rubbing back of neck. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-544b33b9-ccdb-4dde-a0c6-626711e0d506.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-masked-surprised",
+    "file": "milos-masked-surprised.webp",
+    "reference": "workshop/milos-masked-friendly-v2-draft.webp",
+    "description": "raised eyebrows, surprised eyes, both palms open low at sides",
+    "extra": "The black knitted balaclava MUST stay on, with THREE separate openings: one for each eye and one for the mouth, keeping all other face and scalp covered. Preserve the navy Serbian riot police uniform and protective armor from reference. Emotion shown through visible eyes, mouth and posture. No face reveal.",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference. The black knitted balaclava MUST stay on, with THREE separate openings: one for each eye and one for the mouth, keeping all other face and scalp covered. Preserve the navy Serbian riot police uniform and protective armor from reference. Emotion shown through visible eyes, mouth and posture. No face reveal. Expression and pose: raised eyebrows, surprised eyes, both palms open low at sides. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-05e90d08-df81-43fa-af27-fe78cea7cc04.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-masked-confident",
+    "file": "milos-masked-confident.webp",
+    "reference": "workshop/milos-masked-friendly-v2-draft.webp",
+    "description": "calm assured gaze, upright shoulders, arms loosely folded",
+    "extra": "The black knitted balaclava MUST stay on, with THREE separate openings: one for each eye and one for the mouth, keeping all other face and scalp covered. Preserve the navy Serbian riot police uniform and protective armor from reference. Emotion shown through visible eyes, mouth and posture. No face reveal.",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference. The black knitted balaclava MUST stay on, with THREE separate openings: one for each eye and one for the mouth, keeping all other face and scalp covered. Preserve the navy Serbian riot police uniform and protective armor from reference. Emotion shown through visible eyes, mouth and posture. No face reveal. Expression and pose: calm assured gaze, upright shoulders, arms loosely folded. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-58712038-a3ad-4b4c-977f-93e8027dfe69.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-masked-worried",
+    "file": "milos-masked-worried.webp",
+    "reference": "workshop/milos-masked-friendly-v2-draft.webp",
+    "description": "concerned eyebrows and attentive eyes, one hand resting at chin and other holding elbow",
+    "extra": "The black knitted balaclava MUST stay on, with THREE separate openings: one for each eye and one for the mouth, keeping all other face and scalp covered. Preserve the navy Serbian riot police uniform and protective armor from reference. Emotion shown through visible eyes, mouth and posture. No face reveal.",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference. The black knitted balaclava MUST stay on, with THREE separate openings: one for each eye and one for the mouth, keeping all other face and scalp covered. Preserve the navy Serbian riot police uniform and protective armor from reference. Emotion shown through visible eyes, mouth and posture. No face reveal. Expression and pose: concerned eyebrows and attentive eyes, one hand resting at chin and other holding elbow. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-2038cf03-cd65-45ba-ace4-af4d75a723d3.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-uniform-thoughtful",
+    "file": "milos-uniform-thoughtful.webp",
+    "reference": "milos-uniform-friendly.webp",
+    "description": "thoughtful attentive gaze, one hand near covered chin and other loosely crossed at waist",
+    "extra": "Preserve the plain navy summer Serbian police shirt and trousers from reference, no mask, helmet or armor.",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference. Preserve the plain navy summer Serbian police shirt and trousers from reference, no mask, helmet or armor. Expression and pose: thoughtful attentive gaze, one hand near covered chin and other loosely crossed at waist. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-dc6f838f-fd86-4ec4-b7c6-943ec283a3fc.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-uniform-laughing",
+    "file": "milos-uniform-laughing.webp",
+    "reference": "milos-uniform-friendly.webp",
+    "description": "warm visible laugh and smiling eyes, shoulders turned and one open palm raised low",
+    "extra": "Preserve the plain navy summer Serbian police shirt and trousers from reference, no mask, helmet or armor.",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference. Preserve the plain navy summer Serbian police shirt and trousers from reference, no mask, helmet or armor. Expression and pose: warm visible laugh and smiling eyes, shoulders turned and one open palm raised low. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-e5d2f299-c927-4569-9141-af3610de92bc.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-uniform-flirty",
+    "file": "milos-uniform-flirty.webp",
+    "reference": "milos-uniform-friendly.webp",
+    "description": "a small warm interested smile and playful eyes, gentle head tilt, one hand resting casually at waist",
+    "extra": "Preserve the plain navy summer Serbian police shirt and trousers from reference, no mask, helmet or armor.",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference. Preserve the plain navy summer Serbian police shirt and trousers from reference, no mask, helmet or armor. Expression and pose: a small warm interested smile and playful eyes, gentle head tilt, one hand resting casually at waist. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-d97797a1-aa3f-4ab3-a927-e88191d11b81.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-uniform-shy",
+    "file": "milos-uniform-shy.webp",
+    "reference": "milos-uniform-friendly.webp",
+    "description": "a modest shy smile, gaze a little aside, one hand rubbing back of neck",
+    "extra": "Preserve the plain navy summer Serbian police shirt and trousers from reference, no mask, helmet or armor.",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference. Preserve the plain navy summer Serbian police shirt and trousers from reference, no mask, helmet or armor. Expression and pose: a modest shy smile, gaze a little aside, one hand rubbing back of neck. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-d98b3b1c-9d50-4f11-9839-a27711c66b01.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-uniform-surprised",
+    "file": "milos-uniform-surprised.webp",
+    "reference": "milos-uniform-friendly.webp",
+    "description": "raised eyebrows, surprised eyes, both palms open low at sides",
+    "extra": "Preserve the plain navy summer Serbian police shirt and trousers from reference, no mask, helmet or armor.",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference. Preserve the plain navy summer Serbian police shirt and trousers from reference, no mask, helmet or armor. Expression and pose: raised eyebrows, surprised eyes, both palms open low at sides. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-210a3eee-bf1c-4484-a2e5-b38333b586e1.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-uniform-confident",
+    "file": "milos-uniform-confident.webp",
+    "reference": "milos-uniform-friendly.webp",
+    "description": "calm assured gaze, upright shoulders, arms loosely folded",
+    "extra": "Preserve the plain navy summer Serbian police shirt and trousers from reference, no mask, helmet or armor.",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference. Preserve the plain navy summer Serbian police shirt and trousers from reference, no mask, helmet or armor. Expression and pose: calm assured gaze, upright shoulders, arms loosely folded. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-f8cb954d-5235-4012-9b2c-e5f4eba02cb7.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "milos-uniform-worried",
+    "file": "milos-uniform-worried.webp",
+    "reference": "milos-uniform-friendly.webp",
+    "description": "concerned eyebrows and attentive eyes, one hand resting at chin and other holding elbow",
+    "extra": "Preserve the plain navy summer Serbian police shirt and trousers from reference, no mask, helmet or armor.",
+    "prompt": "Edit the supplied fictional game character into ONE new emotional portrait. Preserve this person's exact individual face identity, hairstyle, adult age, body build and fully clothed outfit from reference. Preserve the plain navy summer Serbian police shirt and trousers from reference, no mask, helmet or armor. Expression and pose: concerned eyebrows and attentive eyes, one hand resting at chin and other holding elbow. Normal everyday interaction, natural hands and believable anatomy. Match the reference's semi realistic hand painted visual novel illustration with fine outlines and soft warm natural light. Portrait from entire head with clear margin above hair through mid thighs, both shoulders elbows and hands fully inside frame. True transparent alpha background, clean cutout, no scene, text or watermark.",
+    "master": "/workspace/generated_images/exec-1f31d8eb-6adc-44cb-bff1-cb15cc64c37c.png",
+    "kind": "portrait"
+  },
+  {
+    "id": "belgrade-cafe-twilight",
+    "file": "belgrade-cafe-twilight.webp",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer visual novel. A small neighbourhood Belgrade cafe terrace at twilight, warm lit windows and amber pendant lamps, tiny table for two with simple ceramic coffee cups and lemon slice, cream stucco facades and cobbled pedestrian street, darkening blue summer sky, subtle bokeh of distant walkers, romantic but everyday. Empty near center for characters. Consistent original semi realistic hand painted style, fine drawn contours, softly textured brushwork, bright natural Balkan summer palette, believable architecture and perspective, no photography, no 3D, no UI or watermark. Keep important objects above the lower quarter that will be covered by dialogue. No large foreground people.",
+    "master": "/workspace/generated_images/exec-01e73b21-1ea0-42d3-8321-a4623053b8d2.png",
+    "kind": "background"
+  },
+  {
+    "id": "belgrade-kitchen-day",
+    "file": "belgrade-kitchen-day.webp",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer visual novel. A modest lived-in Belgrade apartment kitchen in afternoon DAYLIGHT, pale cabinets, wooden dining table with three simple ceramic tea cups, kettle, bread in cloth, potted basil on open window, old cream facades beyond, warm friendly home rather than luxury. Table at side and middle floor clear for a character. Consistent original semi realistic hand painted style, fine drawn contours, softly textured brushwork, bright natural Balkan summer palette, believable architecture and perspective, no photography, no 3D, no UI or watermark. Keep important objects above the lower quarter that will be covered by dialogue. No large foreground people.",
+    "master": "/workspace/generated_images/exec-fee6e419-7150-4c4a-9cff-4c888b2651d7.png",
+    "kind": "background"
+  },
+  {
+    "id": "asya-home-evening",
+    "file": "asya-home-evening.webp",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer visual novel. Asya's small rented Belgrade apartment in late afternoon warm sun: worn sofa, books, dark denim jacket on chair, small green plants, laptop closed beside plate of apricots and three ceramic tea cups, handmade concert art with no readable writing on wall, lived-in alternative music taste. Clear center for overlaid characters, cosy rather than luxurious. Consistent original semi realistic hand painted style, fine drawn contours, softly textured brushwork, bright natural Balkan summer palette, believable architecture and perspective, no photography, no 3D, no UI or watermark. Keep important objects above the lower quarter that will be covered by dialogue. No large foreground people.",
+    "master": "/workspace/generated_images/exec-f90ea184-d993-4c36-a08e-376758be35c6.png",
+    "kind": "background"
+  },
+  {
+    "id": "belgrade-room-night",
+    "file": "belgrade-room-night.webp",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer visual novel. A modest rented Belgrade room at NIGHT, deep blue sky through open window, warm amber bedside lamp, neatly folded summer clothes, small wooden desk and glass of water, cream linen curtains, bed at left, red rooftops seen in moonlight, intimate peaceful realistic home. Clear middle area for a character. Consistent original semi realistic hand painted style, fine drawn contours, softly textured brushwork, bright natural Balkan summer palette, believable architecture and perspective, no photography, no 3D, no UI or watermark. Keep important objects above the lower quarter that will be covered by dialogue. No large foreground people.",
+    "master": "/workspace/generated_images/exec-a99b1335-ac25-4c0d-bfdb-ee5caaf353b6.png",
+    "kind": "background"
+  },
+  {
+    "id": "airport-departure-lounge",
+    "file": "airport-departure-lounge.webp",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer visual novel. Belgrade airport DEPARTURE gate lounge in bright afternoon light, tall glass windows looking onto distant airplanes and airport apron, rows of dark blue seats, overhead gate screen showing only indistinct abstract shapes, small carry-on near an empty seat, large open middle aisle. Believable contemporary Serbian airport architecture, no readable text, no logos. Consistent original semi realistic hand painted style, fine drawn contours, softly textured brushwork, bright natural Balkan summer palette, believable architecture and perspective, no photography, no 3D, no UI or watermark. Keep important objects above the lower quarter that will be covered by dialogue. No large foreground people.",
+    "master": "/workspace/generated_images/exec-a7819692-a281-473f-8579-964e25e5f74b.png",
+    "kind": "background"
+  },
+  {
+    "id": "belgrade-courtyard-morning",
+    "file": "belgrade-courtyard-morning.webp",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer visual novel. An old Belgrade residential courtyard the MORNING AFTER a neighbours' outdoor movie night. Stone arch, leafy vines, quiet cream plaster walls, a folded white screen rolled at side, a few empty mismatched chairs, jacket over one chair, unplugged projector on a small table, coiled cables neatly at side, bright morning sun and dappled leaves. No people. Consistent original semi realistic hand painted style, fine drawn contours, softly textured brushwork, bright natural Balkan summer palette, believable architecture and perspective, no photography, no 3D, no UI or watermark. Keep important objects above the lower quarter that will be covered by dialogue. No large foreground people.",
+    "master": "/workspace/generated_images/exec-5d992048-3e90-472c-9647-7a550b9a23bd.png",
+    "kind": "background"
+  },
+  {
+    "id": "belgrade-neighbourhood-bakery",
+    "file": "belgrade-neighbourhood-bakery.webp",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer visual novel. An ordinary Belgrade neighbourhood bakery on a summer morning, warm bread shelves and glass counter filled with kifle crescent rolls, burek trays and pastries, flour-dusted wood, pale wall tiles, open front door to a sunlit leafy street, no airport context. Empty center space for character sprite, no foreground people or readable branding. Consistent original semi realistic hand painted style, fine drawn contours, softly textured brushwork, bright natural Balkan summer palette, believable architecture and perspective, no photography, no 3D, no UI or watermark. Keep important objects above the lower quarter that will be covered by dialogue. No large foreground people.",
+    "master": "/workspace/generated_images/exec-694a0952-8d77-4088-b5de-5e6583a754c8.png",
+    "kind": "background"
+  },
+  {
+    "id": "rain-cafe-window-detail",
+    "file": "rain-cafe-window-detail.webp",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer visual novel. A close atmospheric view from INSIDE a small Belgrade cafe through a rain-streaked window, summer rain darkening a cobbled street outside, blurred cream facades and tiny distant umbrellas, near corner of wooden table with THREE ceramic coffee cups and one folded umbrella leaning nearby. Cool slate blue outside and warm gold inside, no foreground people. Consistent original semi realistic hand painted style, fine drawn contours, softly textured brushwork, bright natural Balkan summer palette, believable architecture and perspective, no photography, no 3D, no UI or watermark. Keep important objects above the lower quarter that will be covered by dialogue. No large foreground people.",
+    "master": "/workspace/generated_images/exec-8e1f946b-e420-4958-9d52-63449b21226f.png",
+    "kind": "background"
+  },
+  {
+    "id": "translation-papers-detail",
+    "file": "translation-papers-detail.webp",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer visual novel. Close-up of a home desk in Belgrade with closed passport, a stack of plain documents with abstract illegible stamps, labelled tabs without readable text, phone showing generic directory list without legible names, pencil notebook and paper envelope. Summer daylight, calm organised believable preparation for certified document translations, no identifiable personal data. Consistent original semi realistic hand painted style, fine drawn contours, softly textured brushwork, bright natural Balkan summer palette, believable architecture and perspective, no photography, no 3D, no UI or watermark. Keep important objects above the lower quarter that will be covered by dialogue. No large foreground people.",
+    "master": "/workspace/generated_images/exec-ecd96e9a-fe42-44b8-be5b-c978d7b57a01.png",
+    "kind": "background"
+  },
+  {
+    "id": "insurance-workspace-detail",
+    "file": "insurance-workspace-detail.webp",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer visual novel. Close-up of a simple home desk in Belgrade, laptop displaying generic abstract comparison cards with no legible text, blank policy folder, closed passport, pen and water glass, small plant by window. Summer daylight, clean organised realistic arrangement suggesting comparing medical insurance options. No branding, no readable personal data. Consistent original semi realistic hand painted style, fine drawn contours, softly textured brushwork, bright natural Balkan summer palette, believable architecture and perspective, no photography, no 3D, no UI or watermark. Keep important objects above the lower quarter that will be covered by dialogue. No large foreground people.",
+    "master": "/workspace/generated_images/exec-96d2c52d-f3da-4366-9d06-005a1fbb0f6c.png",
+    "kind": "background"
+  },
+  {
+    "id": "budget-desk-detail",
+    "file": "budget-desk-detail.webp",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer visual novel. Close-up of a rented-room wooden desk in Belgrade: open notebook with a hand-drawn budget grid of abstract illegible ink marks, a few Serbian dinar banknotes without readable exact numerals, small coins, calculator, pen, teacup, open laptop with generic empty grid. Warm daylight from left, thoughtful calm composition, realistic items, NO readable private data. Consistent original semi realistic hand painted style, fine drawn contours, softly textured brushwork, bright natural Balkan summer palette, believable architecture and perspective, no photography, no 3D, no UI or watermark. Keep important objects above the lower quarter that will be covered by dialogue. No large foreground people.",
+    "master": "/workspace/generated_images/exec-61545ab1-2c2c-471e-b7b0-8d236aa0911b.png",
+    "kind": "background"
+  },
+  {
+    "id": "airplane-river-view",
+    "file": "airplane-river-view.webp",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer visual novel. View from a passenger airplane window during afternoon climb over Belgrade. Oval window edge frames the great blue Danube and Sava confluence below, small red roof neighbourhoods, patchwork green land, gentle white clouds, silver wing at upper left. Peaceful optimistic farewell, luminous summer light, no people, no text, no logos, believable aerial geography in artistic interpretation. Consistent original semi realistic hand painted style, fine drawn contours, softly textured brushwork, bright natural Balkan summer palette, believable architecture and perspective, no photography, no 3D, no UI or watermark. Keep important objects above the lower quarter that will be covered by dialogue. No large foreground people.",
+    "master": "/workspace/generated_images/exec-4437d9d3-5b78-494c-a8b1-492faf8433c3.png",
+    "kind": "background"
+  },
+  {
+    "id": "belgrade-room-morning",
+    "file": "belgrade-room-morning.webp",
+    "master": "/workspace/generated_images/exec-c91b6c4c-8f2b-4deb-95d8-e2d71ab5e320.png",
+    "prompt": "ONE vertical 9:16 full bleed game background for Serbian Summer. A quiet modest rented room in Belgrade at 10AM summer morning, softly rumpled bed with cream linen at left, folded blue shirt and phone on bedside table, open green shutters admitting dappled sunlight, linen curtain moving gently, red roofs and plane trees outside, small wooden chair and water glass, peaceful just woken up feeling. No people, clear center. Semi realistic hand painted illustration, delicate outlines and subtle brushwork, luminous vivid but natural summer palette, believable perspective, no photography or 3D, no UI, lettering or watermark. Keep key details above lower quarter reserved for dialogue.",
+    "kind": "background"
+  },
+  {
+    "id": "airplane-city-night",
+    "file": "airplane-city-night.webp",
+    "master": "/workspace/generated_images/exec-20019eba-dc52-422b-8a7a-7257bb642f8d.png",
+    "prompt": "ONE vertical 9:16 full bleed game background for Serbian Summer. View through oval passenger airplane window during climb after dusk over Belgrade, deep cobalt sky, silver wing edge near top, glowing ribbons of streets and small warm city lights below, blue black Sava and Danube reflecting light, calm farewell. Believable aerial artistic impression, no logos or people. Semi realistic hand painted illustration, delicate outlines and subtle brushwork, luminous vivid but natural summer palette, believable perspective, no photography or 3D, no UI, lettering or watermark. Keep key details above lower quarter reserved for dialogue.",
+    "kind": "background"
+  }
+]

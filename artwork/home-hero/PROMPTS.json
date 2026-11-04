@@ -1,0 +1,71 @@
+[
+  {
+    "id": "milica",
+    "prompt": "Edit the supplied adult fictional character into ONE separate welcoming home-screen portrait for Serbian Summer. Preserve EXACT mature face identity, age, hairstyle, hair colour, eye colour and body build of this reference person. Clothing: a soft mustard yellow open cardigan over a plain opaque ivory crew neck T shirt, blue jeans. Pose: gentle friendly smile, body turned slightly left, one hand loosely at waist and other at side. This is a casual promotional portrait with no story clues or role-revealing items. Keep the same detailed semi realistic hand painted romantic visual novel style, delicate contours and warm soft daylight, natural adult anatomy. Whole head with clear margin above hair, shoulders elbows and hands fully inside frame, head through mid thighs. TRUE transparent alpha background, clean cutout, no painted environment, no halo, no letters or watermark. Only this one person.",
+    "reference": "milica.webp",
+    "file": "home/milica-casual.webp",
+    "master": "/workspace/generated_images/exec-3b453b61-fea1-45c3-ab53-c2732e6ecf96.png"
+  },
+  {
+    "id": "nikola",
+    "prompt": "Edit the supplied adult fictional character into ONE separate welcoming home-screen portrait for Serbian Summer. Preserve EXACT mature face identity, age, hairstyle, hair colour, eye colour and body build of this reference person. Clothing: a navy blue casual linen overshirt over a plain white crew neck T shirt, sand chinos, no apron or badge. Pose: warm relaxed smile, slightly turned right, one hand casually resting at hip and other open at side. This is a casual promotional portrait with no story clues or role-revealing items. Keep the same detailed semi realistic hand painted romantic visual novel style, delicate contours and warm soft daylight, natural adult anatomy. Whole head with clear margin above hair, shoulders elbows and hands fully inside frame, head through mid thighs. TRUE transparent alpha background, clean cutout, no painted environment, no halo, no letters or watermark. Only this one person.",
+    "reference": "nikola-friendly-buzz-v3.webp",
+    "file": "home/nikola-casual.webp",
+    "master": "/workspace/generated_images/exec-436aa1b7-a549-43f3-99ad-477f39049805.png"
+  },
+  {
+    "id": "dragan",
+    "prompt": "Edit the supplied adult fictional character into ONE separate welcoming home-screen portrait for Serbian Summer. Preserve EXACT mature face identity, age, hairstyle, hair colour, eye colour and body build of this reference person. Clothing: an ecru short sleeve polo shirt and olive linen trousers, no keys or work props. Pose: calm kind smile, shoulders square, one arm loosely across waist and other naturally bent. This is a casual promotional portrait with no story clues or role-revealing items. Keep the same detailed semi realistic hand painted romantic visual novel style, delicate contours and warm soft daylight, natural adult anatomy. Whole head with clear margin above hair, shoulders elbows and hands fully inside frame, head through mid thighs. TRUE transparent alpha background, clean cutout, no painted environment, no halo, no letters or watermark. Only this one person.",
+    "reference": "dragan-v2.webp",
+    "file": "home/dragan-casual.webp",
+    "master": "/workspace/generated_images/exec-947dbf98-6be3-46ee-96c5-429d954f6182.png"
+  },
+  {
+    "id": "asya",
+    "prompt": "Edit the supplied adult fictional character into ONE separate welcoming home-screen portrait for Serbian Summer. Preserve EXACT mature face identity, age, hairstyle, hair colour, eye colour and body build of this reference person. Clothing: an open burgundy casual overshirt over a charcoal crew neck moth print T shirt and black jeans, retain green streak and personal jewellery. Pose: slightly playful warm smile, shoulders angled, one hand at overshirt lapel and other at own waist. This is a casual promotional portrait with no story clues or role-revealing items. Keep the same detailed semi realistic hand painted romantic visual novel style, delicate contours and warm soft daylight, natural adult anatomy. Whole head with clear margin above hair, shoulders elbows and hands fully inside frame, head through mid thighs. TRUE transparent alpha background, clean cutout, no painted environment, no halo, no letters or watermark. Only this one person.",
+    "reference": "asya-friendly.webp",
+    "file": "home/asya-casual.webp",
+    "master": "/workspace/generated_images/exec-d99378f2-2816-4c45-bd7c-74270e5f44a0.png"
+  },
+  {
+    "id": "jelena",
+    "prompt": "Edit the supplied adult fictional character into ONE separate welcoming home-screen portrait for Serbian Summer. Preserve EXACT mature face identity, age, hairstyle, hair colour, eye colour and body build of this reference person. Clothing: a modest fully opaque sage green summer dress with high round neckline and a simple brown belt, no keys. Pose: bright friendly smile, one hand lightly holding her long braid and other at side. This is a casual promotional portrait with no story clues or role-revealing items. Keep the same detailed semi realistic hand painted romantic visual novel style, delicate contours and warm soft daylight, natural adult anatomy. Whole head with clear margin above hair, shoulders elbows and hands fully inside frame, head through mid thighs. TRUE transparent alpha background, clean cutout, no painted environment, no halo, no letters or watermark. Only this one person.",
+    "reference": "jelena-v2.webp",
+    "file": "home/jelena-casual.webp",
+    "master": "/workspace/generated_images/exec-1a6a1219-2268-4ca1-a206-2c36ef4a3374.png"
+  },
+  {
+    "id": "milos",
+    "prompt": "Edit the supplied adult fictional character into ONE separate welcoming home-screen portrait for Serbian Summer. Preserve EXACT mature face identity, age, hairstyle, hair colour, eye colour and body build of this reference person. Clothing: a muted teal crew neck T shirt, open black lightweight casual jacket and dark blue jeans, no uniform, mask, police insignia, weapon or occupational props. Pose: easy warm smile, turned slightly right, one hand resting near jacket pocket and other at side. This is a casual promotional portrait with no story clues or role-revealing items. Keep the same detailed semi realistic hand painted romantic visual novel style, delicate contours and warm soft daylight, natural adult anatomy. Whole head with clear margin above hair, shoulders elbows and hands fully inside frame, head through mid thighs. TRUE transparent alpha background, clean cutout, no painted environment, no halo, no letters or watermark. Only this one person.",
+    "reference": "workshop/milos-casual-friendly-draft.webp",
+    "file": "home/milos-casual.webp",
+    "master": "/workspace/generated_images/exec-4e0220ce-74a0-48d2-a34e-4dc0577884cc.png"
+  },
+  {
+    "id": "luka",
+    "prompt": "Edit the supplied adult fictional character into ONE separate welcoming home-screen portrait for Serbian Summer. Preserve EXACT mature face identity, age, hairstyle, hair colour, eye colour and body build of this reference person. Clothing: a sky blue casual short sleeve polo shirt and charcoal chinos, no office props. Pose: quiet friendly smile, slight turn left, arms loosely folded low at waist. This is a casual promotional portrait with no story clues or role-revealing items. Keep the same detailed semi realistic hand painted romantic visual novel style, delicate contours and warm soft daylight, natural adult anatomy. Whole head with clear margin above hair, shoulders elbows and hands fully inside frame, head through mid thighs. TRUE transparent alpha background, clean cutout, no painted environment, no halo, no letters or watermark. Only this one person.",
+    "reference": "luka-reference-friendly-v3.webp",
+    "file": "home/luka-casual.webp",
+    "master": "/workspace/generated_images/exec-b4a76ae2-153f-41c3-9271-6b80f98e77ee.png"
+  },
+  {
+    "id": "background-day",
+    "file": "home/belgrade-day.webp",
+    "prompt": "Create one portrait 9:16 full bleed illustrated background for Serbian Summer mobile visual novel home screen. A beautiful artistic Belgrade summer panorama: pale historic facades, red tiled roofs, plane trees and flowering balcony plants along a quiet cobbled terrace, a glimpse of the turquoise Sava and Danube and Kalemegdan fortress in the distance, luminous natural afternoon sun. Semi realistic hand painted visual novel illustration with delicate drawn contours and soft brush texture, warm peach stone, teal river and golden summer palette, believable architecture. The upper quarter is a quiet softly lit pale blue sky for a title; middle and lower area have an open empty walkway for four to five character layers to be placed by code. No people, no lettering, no UI or logos, no watermark.",
+    "master": "/workspace/generated_images/exec-9ca93d8b-7350-42d4-b345-a42e3fee38ae.png"
+  },
+  {
+    "id": "background-morning",
+    "file": "home/belgrade-morning.webp",
+    "light": "Early summer MORNING, soft peach sunrise light, a few pale pink clouds and cool lavender shadows, bright welcoming fresh air.",
+    "prompt": "Edit ONLY the time of day and lighting of the supplied Belgrade home-screen BACKGROUND. Preserve the exact architecture, perspective, river, terrace, flowers and empty foreground composition, with the same original semi realistic hand painted style. Early summer MORNING, soft peach sunrise light, a few pale pink clouds and cool lavender shadows, bright welcoming fresh air. Keep upper sky quiet for overlaid title and leave empty walkway for separate character layers. No people, no lettering, UI or watermark. Vertical 9:16 full bleed opaque background.",
+    "master": "/workspace/generated_images/exec-3210996a-5922-4903-a5b3-345b3d5fab01.png"
+  },
+  {
+    "id": "background-evening",
+    "file": "home/belgrade-evening.webp",
+    "light": "Summer BLUE HOUR after sunset, soft deep cobalt and lavender sky, warm lamps and glowing windows along the terrace and river, a peaceful luminous evening with readable architecture, not a dark black scene.",
+    "prompt": "Edit ONLY the time of day and lighting of the supplied Belgrade home-screen BACKGROUND. Preserve the exact architecture, perspective, river, terrace, flowers and empty foreground composition, with the same original semi realistic hand painted style. Summer BLUE HOUR after sunset, soft deep cobalt and lavender sky, warm lamps and glowing windows along the terrace and river, a peaceful luminous evening with readable architecture, not a dark black scene. Keep upper sky quiet for overlaid title and leave empty walkway for separate character layers. No people, no lettering, UI or watermark. Vertical 9:16 full bleed opaque background.",
+    "master": "/workspace/generated_images/exec-ed007bbe-5998-4688-8227-7fd75fc0c4c3.png"
+  }
+]

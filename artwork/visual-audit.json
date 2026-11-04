@@ -1,0 +1,277 @@
+{
+  "interactiveAssets": [
+    "baggage/search-carousel.webp",
+    "baggage/blue-yellow.webp",
+    "baggage/blue-plain.webp",
+    "baggage/red-yellow.webp",
+    "baggage/blue-white.webp",
+    "baggage/olive.webp",
+    "baggage/burgundy.webp"
+  ],
+  "homeAssets": [
+    "home/milica-casual.webp",
+    "home/nikola-casual.webp",
+    "home/dragan-casual.webp",
+    "home/jelena-casual.webp",
+    "home/asya-casual.webp",
+    "home/luka-casual.webp",
+    "home/milos-casual.webp",
+    "home/belgrade-morning.webp",
+    "home/belgrade-day.webp",
+    "home/belgrade-evening.webp"
+  ],
+  "scenes": 548,
+  "backgrounds": 74,
+  "stagedBackgrounds": 74,
+  "registeredPortraits": 132,
+  "stagedPortraits": 88,
+  "regularEmotions": [
+    "friendly",
+    "thoughtful",
+    "laughing",
+    "flirty",
+    "shy",
+    "surprised",
+    "confident",
+    "worried"
+  ],
+  "outfits": [
+    {
+      "person": "milica",
+      "look": "Основной образ",
+      "available": 8,
+      "registered": 8,
+      "missing": [],
+      "notRegistered": []
+    },
+    {
+      "person": "nikola",
+      "look": "Основной образ",
+      "available": 8,
+      "registered": 8,
+      "missing": [],
+      "notRegistered": []
+    },
+    {
+      "person": "nikola",
+      "look": "После смены",
+      "available": 8,
+      "registered": 8,
+      "missing": [],
+      "notRegistered": []
+    },
+    {
+      "person": "dragan",
+      "look": "Основной образ",
+      "available": 8,
+      "registered": 8,
+      "missing": [],
+      "notRegistered": []
+    },
+    {
+      "person": "jelena",
+      "look": "Основной образ",
+      "available": 8,
+      "registered": 8,
+      "missing": [],
+      "notRegistered": []
+    },
+    {
+      "person": "asya",
+      "look": "Основной образ",
+      "available": 8,
+      "registered": 8,
+      "missing": [],
+      "notRegistered": []
+    },
+    {
+      "person": "luka",
+      "look": "Основной образ",
+      "available": 8,
+      "registered": 8,
+      "missing": [],
+      "notRegistered": []
+    },
+    {
+      "person": "lazar",
+      "look": "Основной образ",
+      "available": 8,
+      "registered": 8,
+      "missing": [],
+      "notRegistered": []
+    },
+    {
+      "person": "teodora",
+      "look": "Основной образ",
+      "available": 8,
+      "registered": 8,
+      "missing": [],
+      "notRegistered": []
+    },
+    {
+      "person": "ivana",
+      "look": "Основной образ",
+      "available": 8,
+      "registered": 8,
+      "missing": [],
+      "notRegistered": []
+    },
+    {
+      "person": "strahinja",
+      "look": "Основной образ",
+      "available": 8,
+      "registered": 8,
+      "missing": [],
+      "notRegistered": []
+    },
+    {
+      "person": "milos",
+      "look": "Без формы",
+      "available": 8,
+      "registered": 8,
+      "missing": [],
+      "notRegistered": []
+    },
+    {
+      "person": "milos",
+      "look": "На службе · riot-экипировка",
+      "available": 8,
+      "registered": 8,
+      "missing": [],
+      "notRegistered": []
+    },
+    {
+      "person": "milos",
+      "look": "В форме без балаклавы",
+      "available": 8,
+      "registered": 8,
+      "missing": [],
+      "notRegistered": []
+    }
+  ],
+  "supporting": [
+    {
+      "person": "guest-mom",
+      "file": "guest-mom-friendly.webp",
+      "missing": []
+    },
+    {
+      "person": "guest-bank-staff",
+      "file": "guest-bank-staff-friendly.webp",
+      "missing": []
+    },
+    {
+      "person": "guest-mobile-staff",
+      "file": "guest-mobile-staff-friendly.webp",
+      "missing": []
+    },
+    {
+      "person": "guest-kiosk-seller",
+      "file": "guest-kiosk-seller-friendly.webp",
+      "missing": []
+    },
+    {
+      "person": "guest-translator",
+      "file": "guest-translator-friendly.webp",
+      "missing": []
+    },
+    {
+      "person": "guest-support-operator",
+      "file": "guest-support-operator-friendly.webp",
+      "missing": []
+    },
+    {
+      "person": "guest-client",
+      "file": "guest-client-friendly.webp",
+      "missing": []
+    },
+    {
+      "person": "guest-market-seller",
+      "file": "guest-market-seller-friendly.webp",
+      "missing": []
+    },
+    {
+      "person": "guest-bakery-seller",
+      "file": "guest-bakery-seller-friendly.webp",
+      "missing": []
+    },
+    {
+      "person": "guest-passerby",
+      "file": "guest-passerby-friendly.webp",
+      "missing": []
+    },
+    {
+      "person": "guest-driver",
+      "file": "guest-driver-friendly.webp",
+      "missing": []
+    },
+    {
+      "person": "guest-waiter",
+      "file": "guest-waiter-friendly.webp",
+      "missing": []
+    },
+    {
+      "person": "guest-neighbour",
+      "file": "guest-neighbour-friendly.webp",
+      "missing": []
+    },
+    {
+      "person": "guest-elder-customer",
+      "file": "guest-elder-customer-friendly.webp",
+      "missing": []
+    },
+    {
+      "person": "guest-documents-adviser",
+      "file": "guest-documents-adviser-friendly.webp",
+      "missing": []
+    }
+  ],
+  "underwear": [
+    {
+      "person": "milica",
+      "file": null
+    },
+    {
+      "person": "nikola",
+      "file": null
+    },
+    {
+      "person": "dragan",
+      "file": null
+    },
+    {
+      "person": "jelena",
+      "file": "workshop/jelena-dream-underwear-friendly-draft.webp"
+    },
+    {
+      "person": "asya",
+      "file": "workshop/asya-dream-underwear-friendly-draft.webp"
+    },
+    {
+      "person": "luka",
+      "file": "workshop/luka-dream-underwear-friendly-draft.webp"
+    },
+    {
+      "person": "lazar",
+      "file": null
+    },
+    {
+      "person": "teodora",
+      "file": null
+    },
+    {
+      "person": "ivana",
+      "file": null
+    },
+    {
+      "person": "strahinja",
+      "file": null
+    },
+    {
+      "person": "milos",
+      "file": null
+    }
+  ],
+  "missingAssets": [],
+  "unstagedBackgrounds": []
+}

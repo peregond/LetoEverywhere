@@ -1,0 +1,10 @@
+.scene-quest.meal-menu{position:relative;display:block;padding:0;overflow:hidden;background:#142f37}
+.meal-menu::after{display:none}
+.meal-menu .meal-menu-header{position:absolute;z-index:4;inset:calc(var(--safe-top,0px) + 8px) 12px auto;filter:drop-shadow(0 2px 5px #0008)}
+.meal-menu-body,.meal-menu-art{position:absolute;inset:0;overflow:hidden}
+.meal-menu-image{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.meal-option{position:absolute;left:50%;width:max-content;max-width:calc(100% - 32px);min-height:44px;padding:8px 18px;transform:translate(-50%,-50%);border:2px solid #fff8;border-radius:999px;background:#173b46e8;color:#fff;font-weight:700;line-height:1.2;box-shadow:0 3px 12px #0008}
+.meal-option[data-index="0"]{top:24%}.meal-option[data-index="1"]{top:53%}.meal-option[data-index="2"]{top:80%}
+.meal-option[aria-pressed=true]{background:#85d8b8;color:#12363a;border-color:#fff;box-shadow:0 0 0 4px #85d8b877}
+.meal-menu-order{position:absolute;z-index:4;left:16px;right:16px;bottom:calc(var(--safe-bottom,0px) + 14px);width:calc(100% - 32px);min-height:50px;border-radius:999px;background:#83d7b8;color:#12323a;font-weight:700;font-size:16px;box-shadow:0 4px 20px #0007}
+.meal-menu-order:disabled{opacity:.7}

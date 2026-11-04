@@ -1,0 +1,9 @@
+{
+  "tool": "cursor GenerateImage",
+  "style": "Semi-realistic hand-painted visual novel, portrait 9:16, matching existing Belgrade backgrounds. No large foreground people, no readable signs, no logos. TV-safe street scenery only.",
+  "assets": [
+    {"id": "zemun-cobbles-v1", "file": "public/assets/zemun-cobbles-v1.webp", "scenes": ["zemun_cobbles"], "prompt": "Old Zemun cobbled street: low pastel houses, red tile roofs, a small church dome on the hill. Empty center for a sprite."},
+    {"id": "zemun-gardos-v1", "file": "public/assets/zemun-gardos-v1.webp", "scenes": ["zemun_gardos"], "prompt": "The Millennium Tower on Gardoš hill in Zemun: beige stone lookout above red roofs, the Danube beyond. Empty path in front."},
+    {"id": "zemun-quay-v1", "file": "public/assets/zemun-quay-v1.webp", "scenes": ["zemun_quay"], "prompt": "Zemun quay on the Danube: promenade, restaurant barges with plain umbrellas, the hill and tower in the distance. No splav nightclub boats."}
+  ]
+}

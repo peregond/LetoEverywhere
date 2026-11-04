@@ -1,0 +1,62 @@
+/* Hero creation (gender and look, then name): same icon buttons and cards as the settings. */
+.creation-header{min-height:68px}
+.creation-header .icon-button{width:var(--tap);height:var(--tap);display:grid;place-items:center;padding:0;border:1px solid var(--line);border-radius:var(--radius-s);background:transparent;color:var(--ink)}
+.creation-header .icon-button:active{background:var(--sea);border-color:var(--sea);color:var(--paper)}
+.creation-steps{display:flex;align-items:center;gap:10px}
+.creation-steps #step-label{font-size:11px;letter-spacing:1.2px;color:var(--muted)}
+.step-bar{display:flex;gap:5px}
+.step-bar i{display:block;width:26px;height:5px;border-radius:3px;background:var(--line)}
+.step-bar i.on{background:var(--sea)}
+.creation-footer{padding-top:14px}
+.creation-footer p{display:none}
+/* step 1: gender cards side by side, then the looks */
+.hero-setup{margin-top:22px}
+.hero-setup .gender-options{grid-template-columns:1fr 1fr;gap:12px;margin-top:0}
+.hero-setup .gender-option{min-height:0;padding:16px 14px 14px;display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.hero-setup .gender-option strong{font-size:23px;margin:0}
+.hero-setup .gender-option small{line-height:1.35}
+.hero-setup .gender-option:after{top:14px!important;right:14px!important}
+.gender-icon{width:34px;height:34px;color:var(--sea)}
+.gender-option[aria-pressed=true] .gender-icon{color:var(--paper)}
+.look-section{margin-top:24px}
+.look-title{font-size:12px;letter-spacing:1.3px;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+.look-options{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.look-option{position:relative;padding:0;border:2px solid transparent;border-radius:50%;background:transparent;aspect-ratio:1}
+.look-option .hero-avatar{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover}
+.look-option[aria-checked=true]{border-color:var(--sea);box-shadow:0 0 0 3px #08786f33}
+.look-hint{font-size:12px;color:var(--muted);margin:10px 0 0;min-height:1.4em}
+/* step 2: type a name */
+.name-step{margin-top:22px}
+.name-field{display:flex;align-items:center;gap:12px;padding:8px 10px 8px 8px;border:1px solid var(--line);border-radius:var(--radius-m);background:#fffaf0}
+.name-field:focus-within{border-color:var(--sea);box-shadow:0 0 0 3px #08786f33}
+.name-avatar{flex:none;width:52px;height:52px}
+.name-avatar .hero-avatar{width:52px;height:52px;border-radius:50%}
+.name-field input{flex:1;min-width:0;height:52px;border:0;outline:0;background:transparent;color:var(--ink);font:500 22px/1.2 'Lora',Georgia,serif}
+.name-field input::placeholder{color:var(--muted);opacity:.75}
+.name-suggestions{list-style:none;margin:8px 0 0;padding:4px;border:1px solid var(--line);border-radius:var(--radius-m);background:#fffaf0;max-height:260px;overflow-y:auto}
+.name-suggestions li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;min-height:48px;padding:10px 14px;border-radius:var(--radius-s);font-size:17px}
+.name-suggestions li small{color:var(--muted);font-size:13px}
+.name-suggestions li[aria-selected=true]{background:var(--sea);color:var(--paper)}
+.name-suggestions li[aria-selected=true] small{color:var(--paper)}
+.name-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.name-chip{min-height:var(--tap);padding:8px 16px;border:1px solid var(--line);border-radius:22px;background:transparent;color:var(--ink);font-size:15px}
+.name-chip[aria-pressed=true]{background:var(--sea);border-color:var(--sea);color:var(--paper)}
+:root[data-theme=dark] .name-field,:root[data-theme=dark] .name-suggestions{background:#1d2f33}
+/* motion: cards rise in when a step opens, the picked look pops; nothing moves for people who ask for less */
+@media (prefers-reduced-motion:no-preference){
+ @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+ @keyframes pop{0%{transform:scale(.88)}60%{transform:scale(1.08)}100%{transform:scale(1)}}
+ .creation.animate .creation-content>*{animation:rise .45s cubic-bezier(.2,.7,.2,1) both}
+ .creation.animate .creation-content>:nth-child(2){animation-delay:.05s}
+ .creation.animate .creation-content>:nth-child(3){animation-delay:.1s}
+ .creation.animate .creation-content>:nth-child(4){animation-delay:.16s}
+ .creation.animate .creation-content>:nth-child(5){animation-delay:.22s}
+ .creation.animate .creation-footer{animation:rise .45s .3s both}
+ .gender-option,.look-option,.name-chip{transition:background-color .15s,border-color .15s,box-shadow .15s,transform .12s}
+ .gender-option:active,.look-option:active,.name-chip:active{transform:scale(.97)}
+ .look-option[aria-checked=true]{animation:pop .3s}
+ .name-suggestions:not([hidden]){animation:rise .18s both}
+ .step-bar i{transition:background-color .25s}
+}
+.name-step+.name-preview{margin-bottom:18px}
+.creation .adult-choice{margin-top:24px}

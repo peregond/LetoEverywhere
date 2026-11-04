@@ -1,0 +1,30 @@
+{
+  "tool": "cursor GenerateImage",
+  "style": "Semi-realistic hand-painted visual novel matching Serbian Summer buzz-v3 portraits. Soft warm light, soft blended shadows, thin delicate contours, natural matte skin. Magenta #FF00FF (or hot pink) flat background for cutout. Mid-thigh crop, full head in frame.",
+  "bodyCanonNikola": "public/assets/nikola-dream-bare-buzz-v3.webp",
+  "assets": [
+    {
+      "id": "nikola-evening-wave-buzz-v3",
+      "file": "public/assets/nikola-evening-wave-buzz-v3.webp",
+      "refs": [
+        "public/assets/nikola-dream-bare-buzz-v3.webp",
+        "public/assets/nikola-evening-friendly-buzz-v3.webp"
+      ],
+      "source": "artwork/style-consistency/sources/nikola-wave-body-match-v4.jpg",
+      "prompt": "Adult Serbian man visual novel sprite, mid-thigh crop, full head in frame. Same man and EXACT same body mass as the bare-chest airport reference under the clothes: extremely broad powerful shoulders, massive rounded pecs, thick arms, deep torso — the shirt must look stretched across that same powerful chest, not a leaner body. Same face: short dark buzz cut, thick dark eyebrows, warm brown eyes, square jaw with light stubble, small thin scar on right temple/eyebrow, warm friendly smile showing teeth. Pose: friendly wave — right hand raised palm forward waving, left arm down at side. Outfit: pale off-white linen long-sleeve button shirt sleeves rolled to elbows, top three buttons open revealing the SAME light dark chest hair and upper pecs as the bare reference, dark blue denim jeans. Soft painterly visual novel style matching buzz-v3 portraits, soft warm light, soft blended shadows, matte natural skin, thin delicate contours, NO plastic shine. Flat solid hot magenta #FF00FF background for cutout. No props, no watermark, no text."
+    },
+    {
+      "id": "nikola-swim-short-buzz-v3",
+      "file": "public/assets/nikola-swim-short-buzz-v3.webp",
+      "refs": ["public/assets/nikola-dream-bare-buzz-v3.webp"],
+      "source": "artwork/style-consistency/sources/nikola-swim-body-match-v4.jpg",
+      "prompt": "Adult Serbian man visual novel sprite, mid-thigh crop, full head in frame. COPY the EXACT same physique as the bare-chest airport reference: extremely broad powerful shoulders, massive rounded pectorals with the same light dark chest hair in the center, deeply etched six-pack abs with the same happy trail of dark hair down to the waistband, thick muscular arms with bulging biceps and defined forearms, same warm natural tan skin tone not orange, same Adonis belt. Same face: short dark buzz cut, thick dark eyebrows, warm brown eyes, square jaw with light stubble, small thin scar on right temple/eyebrow, friendly confident slight smile. Pose: right hand resting on hip, left arm hanging at side, body angled slightly (same stance energy as bare reference). Outfit ONLY change: loose navy blue mid-thigh swim shorts with simple white drawstring bow — NO jeans. Soft painterly visual novel style, soft warm light, soft blended shadows, matte natural skin, thin delicate contours, NO plastic shine, NO glossy skin. Flat solid hot magenta #FF00FF background for cutout. No props, no watermark, no text."
+    },
+    {
+      "id": "ana-swim-v1",
+      "file": "public/assets/ana-swim-v1.webp",
+      "refs": ["public/assets/ana-camera-v1.webp"],
+      "prompt": "Same adult woman and face as ana-camera reference. Light blue sleeveless scoop tank, navy mid shorts, arms at sides, warm smile. Match camera portrait painterly style: soft warm rim light, soft shadows, fine contours. Magenta cutout background. No camera."
+    }
+  ]
+}

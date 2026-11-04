@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "Serbian Summer",
+  "short_name": "Serbian Summer",
+  "lang": "en",
+  "start_url": "./?source=homescreen",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#102b46",
+  "theme_color": "#102b46",
+  "icons": [
+    {
+      "src": "./assets/nikola-icon-192-buzz-v3.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/nikola-icon-512-buzz-v3.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/nikola-icon-maskable-buzz-v3.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

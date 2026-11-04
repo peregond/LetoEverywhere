@@ -1,0 +1,19 @@
+{
+  "tool": "cursor GenerateImage",
+  "style": "Semi-realistic hand-painted visual novel, matching existing Serbian Summer art. TV-safe summer clothes only: knee-length board shorts, athletic tanks and shorts, a red lifeguard uniform. No nudity, no lingerie, no groin focus, no sexual poses, no readable text or logos.",
+  "assets": [
+    {"id": "ada-lake-v1", "file": "public/assets/ada-lake-v1.webp", "prompt": "Ada Ciganlija lake beach in Belgrade: pebbles, bicycles, wide water, a distant bridge and fortress, sunset, no large people."},
+    {"id": "ada-promenade-v1", "file": "public/assets/ada-promenade-v1.webp", "prompt": "Tree-lined promenade beside the Sava lake, benches, a cafe umbrella, summer afternoon, no readable signs."},
+    {"id": "ada-lana-tower-v1", "file": "public/assets/ada-lana-tower-v1.webp", "prompt": "Wooden lifeguard tower on a pebble shore. Adult woman lifeguard in a red athletic tank, red shorts, whistle and rescue buoy, standing calmly. Full head in frame."},
+    {"id": "ada-nenad-bridge-v1", "file": "public/assets/ada-nenad-bridge-v1.webp", "prompt": "Shirtless adult lifeguard with a natural athletic torso, loose red knee-length board shorts and a whistle, on wooden tower steps by a lake bridge. No bulge, no flexing pose."},
+    {"id": "ada-melon-cafe-v1", "file": "public/assets/ada-melon-cafe-v1.webp", "prompt": "Beach cafe table, umbrella and a cooler of cut watermelon beside the lake. No people, no text."},
+    {"id": "nikola-swim-short-buzz-v3", "file": "public/assets/nikola-swim-short-buzz-v3.webp", "prompt": "Nikola, same face and buzz cut, shirtless in loose navy swim shorts with the hem at mid-thigh, arms at his sides, magenta background for cutout. Shorter than knee-length board shorts, still loose, not briefs."},
+    {"id": "milica-swim-v1", "file": "public/assets/milica-swim-v1.webp", "prompt": "Milica, same face, burgundy swim tank and blue shorts, tote bag, waving, magenta background."},
+    {"id": "dragan-swim-v1", "file": "public/assets/dragan-swim-v1.webp", "prompt": "Dragan, same face and greying temples, shirtless in dark green board shorts, relaxed, magenta background."},
+    {"id": "jelena-swim-v1", "file": "public/assets/jelena-swim-v1.webp", "prompt": "Jelena, red braid, teal swim tank and shorts, standing relaxed, magenta background."},
+    {"id": "ana-swim-v1", "file": "public/assets/ana-swim-v1.webp", "prompt": "Adult woman with long brown hair, loose blue sleeveless top and navy shorts, magenta background."},
+    {"id": "stefan-swim-v1", "file": "public/assets/stefan-swim-v1.webp", "prompt": "Stefan, same face and beard, shirtless, olive board shorts, towel on the shoulder, magenta background."},
+    {"id": "marko-swim-v1", "file": "public/assets/marko-swim-v1.webp", "prompt": "Marko, buzz cut and beard, shirtless, black board shorts, hand on a railing, magenta background."},
+    {"id": "vuk-swim-v1", "file": "public/assets/vuk-swim-v1.webp", "prompt": "Vuk, same face, shirtless, navy board shorts, headphones around his neck, magenta background."}
+  ]
+}

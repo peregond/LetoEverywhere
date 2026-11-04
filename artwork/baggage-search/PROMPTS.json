@@ -1,0 +1,53 @@
+[
+  {
+    "id": "carousel",
+    "file": "baggage/search-carousel.webp",
+    "prompt": "Edit this illustrated Belgrade airport baggage reclaim scene for a mobile hidden object minigame. Preserve the warm golden light, realistic hand painted visual novel art style, grid ceiling, grey column marked 05 and airport architecture. Remove ALL luggage including the blue suitcase and distant bags. Recompose with a much broader black rubber baggage carousel platform filling the middle to lower area from 42 percent to 83 percent of the image height; its broad visible dark surface should provide room for six separately composited upright suitcases in two shallow rows. Keep upper quarter quiet for interface text. Believable continuous conveyor surface and brushed steel front edge, clean perspective, no people, no arrows or hotspots or UI. Vertical 9:16 opaque background.",
+    "reference": "/workspace/SerbianSummer/public/assets/baggage-interaction.webp",
+    "master": "/workspace/generated_images/exec-058a0317-1a60-44d2-8b9c-e17acf5b1966.png",
+    "previousMaster": "/workspace/generated_images/exec-05c40dd1-9c7e-473d-99ed-5edf3101b3cf.png",
+    "correctionPrompt": "Remove every suitcase and all luggage from this airport illustration. There are six large suitcases standing on the conveyor: remove ALL SIX completely, including their wheels, handles, tags, shadows and reflections. Reconstruct the uninterrupted empty black rubber conveyor slats and their light reflections in those places. The baggage belt must be entirely EMPTY. Keep all airport architecture, column 05, lighting, perspective, steel carousel edging, ceiling and composition exactly unchanged. Do not add any objects. No luggage anywhere. Preserve the original hand painted visual novel style. Opaque background, same portrait format."
+  },
+  {
+    "id": "blue-yellow",
+    "file": "baggage/blue-yellow.webp",
+    "prompt": "ONE isolated luggage item for a Serbian Summer hidden object game: a medium navy BLUE hard shell suitcase with a small vivid YELLOW fabric ribbon tied to its top handle. Upright on four short wheels, telescoping handle RETRACTED, chunky carry handle visible at top, three quarter front view with left side slightly visible. Complete suitcase including wheels and handles with a small clear margin, centered filling about 90 percent of the image. Warm light from upper left. Detailed semi realistic hand painted romantic visual novel illustration, subtle drawn outlines, matching the reference illustration style. No logos, letters, numbers, people, separate props or surface. TRUE transparent alpha background. Single object only.",
+    "reference": "/workspace/SerbianSummer/public/assets/baggage-interaction.webp",
+    "master": "/workspace/generated_images/exec-b68a902b-bc4a-4d60-b1cb-67e3957c7c78.png"
+  },
+  {
+    "id": "blue-plain",
+    "file": "baggage/blue-plain.webp",
+    "prompt": "ONE isolated luggage item for a Serbian Summer hidden object game: a medium navy BLUE hard shell suitcase with NO ribbon and NO yellow details. Upright on four short wheels, telescoping handle RETRACTED, chunky carry handle visible at top, three quarter front view with left side slightly visible. Complete suitcase including wheels and handles with a small clear margin, centered filling about 90 percent of the image. Warm light from upper left. Detailed semi realistic hand painted romantic visual novel illustration, subtle drawn outlines, matching the reference illustration style. No logos, letters, numbers, people, separate props or surface. TRUE transparent alpha background. Single object only.",
+    "reference": "/workspace/SerbianSummer/public/assets/baggage-interaction.webp",
+    "master": "/workspace/generated_images/exec-09279c33-fd9b-403a-b99f-ffc2ee21fe45.png"
+  },
+  {
+    "id": "red-yellow",
+    "file": "baggage/red-yellow.webp",
+    "prompt": "ONE isolated luggage item for a Serbian Summer hidden object game: a brick RED hard shell suitcase with a small vivid YELLOW fabric ribbon tied to its top handle. Upright on four short wheels, telescoping handle RETRACTED, chunky carry handle visible at top, three quarter front view with left side slightly visible. Complete suitcase including wheels and handles with a small clear margin, centered filling about 90 percent of the image. Warm light from upper left. Detailed semi realistic hand painted romantic visual novel illustration, subtle drawn outlines, matching the reference illustration style. No logos, letters, numbers, people, separate props or surface. TRUE transparent alpha background. Single object only.",
+    "reference": "/workspace/SerbianSummer/public/assets/baggage-interaction.webp",
+    "master": "/workspace/generated_images/exec-ec0b101f-f3db-4d68-9d09-dadbb4a07352.png"
+  },
+  {
+    "id": "blue-white",
+    "file": "baggage/blue-white.webp",
+    "prompt": "ONE isolated luggage item for a Serbian Summer hidden object game: a medium navy BLUE hard shell suitcase with a WHITE fabric ribbon tied to its top handle. Upright on four short wheels, telescoping handle RETRACTED, chunky carry handle visible at top, three quarter front view with left side slightly visible. Complete suitcase including wheels and handles with a small clear margin, centered filling about 90 percent of the image. Warm light from upper left. Detailed semi realistic hand painted romantic visual novel illustration, subtle drawn outlines, matching the reference illustration style. No logos, letters, numbers, people, separate props or surface. TRUE transparent alpha background. Single object only.",
+    "reference": "/workspace/SerbianSummer/public/assets/baggage-interaction.webp",
+    "master": "/workspace/generated_images/exec-dc5d2126-f23e-488c-bdbb-199a82c54d2f.png"
+  },
+  {
+    "id": "olive",
+    "file": "baggage/olive.webp",
+    "prompt": "ONE isolated luggage item for a Serbian Summer hidden object game: an OLIVE GREEN soft fabric suitcase with a brown leather luggage tag and no ribbons. Upright on four short wheels, telescoping handle RETRACTED, chunky carry handle visible at top, three quarter front view with left side slightly visible. Complete suitcase including wheels and handles with a small clear margin, centered filling about 90 percent of the image. Warm light from upper left. Detailed semi realistic hand painted romantic visual novel illustration, subtle drawn outlines, matching the reference illustration style. No logos, letters, numbers, people, separate props or surface. TRUE transparent alpha background. Single object only.",
+    "reference": "/workspace/SerbianSummer/public/assets/baggage-interaction.webp",
+    "master": "/workspace/generated_images/exec-09f508f2-deff-497e-b642-61037215f9dc.png"
+  },
+  {
+    "id": "burgundy",
+    "file": "baggage/burgundy.webp",
+    "prompt": "ONE isolated luggage item for a Serbian Summer hidden object game: a BURGUNDY hard shell suitcase with a dark grey luggage strap and no ribbons. Upright on four short wheels, telescoping handle RETRACTED, chunky carry handle visible at top, three quarter front view with left side slightly visible. Complete suitcase including wheels and handles with a small clear margin, centered filling about 90 percent of the image. Warm light from upper left. Detailed semi realistic hand painted romantic visual novel illustration, subtle drawn outlines, matching the reference illustration style. No logos, letters, numbers, people, separate props or surface. TRUE transparent alpha background. Single object only.",
+    "reference": "/workspace/SerbianSummer/public/assets/baggage-interaction.webp",
+    "master": "/workspace/generated_images/exec-f0bc77bf-8fd2-4b60-9a36-4c70c1be562b.png"
+  }
+]

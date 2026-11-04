@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {isNewerVersion,latestVersion,startUpdateChecks} from '../public/update-check.js';
+assert.equal(isNewerVersion('0.18.0','0.17.9'),true);
+assert.equal(isNewerVersion('0.17.5','0.17.6'),false);
+assert.equal(isNewerVersion('0.17.6','0.17.6'),false);
+assert.equal(isNewerVersion('oops','0.17.6'),false);
+let requested;
+assert.equal(await latestVersion(async(url,options)=>{requested={url,options};return {ok:true,text:async()=>"export const APP_VERSION='0.18.0';"};},()=>123),'0.18.0');
+assert.equal(requested.options.cache,'no-store');assert.match(requested.url,/123/);
+assert.equal(await latestVersion(async()=>{throw Error('offline');}),null);
+assert.equal(await latestVersion(async()=>({ok:false})),null);
+const handlers={};let callback,offered=[];
+const doc={hidden:false,addEventListener:(k,v)=>handlers[k]=v,removeEventListener:()=>{}};
+const win={addEventListener:(k,v)=>handlers[k]=v,removeEventListener:()=>{},setInterval:fn=>(callback=fn,1),clearInterval:()=>{}};
+const stop=startUpdateChecks({current:'0.17.6',onUpdate:v=>offered.push(v),document:doc,window:win,fetcher:async()=>({ok:true,text:async()=>"export const APP_VERSION='0.18.0';"})});
+await new Promise(resolve=>setTimeout(resolve,0));assert.deepEqual(offered,['0.18.0']);
+await callback();assert.deepEqual(offered,['0.18.0'],'The same update is not shown repeatedly');
+stop();console.log('Update detection, no-cache fetching, offline behavior and deduplication passed.');

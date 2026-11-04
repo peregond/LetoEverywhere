@@ -1,0 +1,16 @@
+{
+  "purpose": "Portraits for the hero presets in public/hero-looks.js. Until a file exists the look is drawn as a vector placeholder. To switch a look to its illustration, save it in public/assets/heroes/ and set that look's `image` to the file name.",
+  "format": "Square 512x512 WebP, head and shoulders, centred, neutral light background (the game tints a circle behind it), no text. Soft illustrated style matching the other character portraits. The face is calm and friendly; same framing for all ten so they sit well in a row of small circles.",
+  "looks": [
+    {"id": "m1", "file": "hero-m1.webp", "prompt": "Young man in his late twenties, short dark hair, light skin, blue shirt"},
+    {"id": "m2", "file": "hero-m2.webp", "prompt": "Man in his late twenties, wavy brown hair, tanned skin, green sweater"},
+    {"id": "m3", "file": "hero-m3.webp", "prompt": "Man in his late twenties, short blond hair, fair skin, red shirt"},
+    {"id": "m4", "file": "hero-m4.webp", "prompt": "Man in his thirties, short dark hair and a neat dark beard, olive skin, purple shirt"},
+    {"id": "m5", "file": "hero-m5.webp", "prompt": "Man in his late twenties, black curly hair, dark brown skin, mustard-yellow shirt"},
+    {"id": "f1", "file": "hero-f1.webp", "prompt": "Young woman in her late twenties, long dark hair, light skin, red top"},
+    {"id": "f2", "file": "hero-f2.webp", "prompt": "Woman in her late twenties, chin-length auburn bob, light-medium skin, blue top"},
+    {"id": "f3", "file": "hero-f3.webp", "prompt": "Woman in her late twenties, blond hair in a bun, fair skin, green top"},
+    {"id": "f4", "file": "hero-f4.webp", "prompt": "Woman in her late twenties, black curly hair, dark brown skin, purple top"},
+    {"id": "f5", "file": "hero-f5.webp", "prompt": "Woman in her late twenties, brown hair in a ponytail, tanned skin, orange top"}
+  ]
+}

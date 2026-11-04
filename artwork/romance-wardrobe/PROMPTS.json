@@ -1,0 +1,29 @@
+[
+  {
+    "id": "asya",
+    "file": "workshop/asya-dream-underwear-friendly-draft.webp",
+    "reference": "public/assets/asya-friendly.webp",
+    "prompt": "Create ONE alternate wardrobe illustration of the supplied FICTIONAL ADULT visual novel character, age 27 or older, preserving this character's individual face, hairstyle, mature age, natural body build and identity. This is a modest neutral underwear fashion catalogue pose, not an action scene. Outfit: a fully opaque black cotton bralette and matching high-waisted full-coverage briefs. Pose: stand with a gently tilted shoulder, one hand resting at her waist and other touching her own hair, friendly small smile. Maintain natural adult anatomy without exaggeration. Remove the original everyday uniform, outerwear, badge and props unless explicitly listed in the pose. Ordinary full-coverage fabric, no transparency, no exposed intimate areas, no emphasis on crotch or chest, no touching intimate areas, no bed or other people. Match the existing semi realistic hand painted game art with fine contours and warm soft even light. One standing person, entire head with clear margin to BELOW KNEES so underwear and complete hands are visible; no feet required. Genuine transparent alpha background with clean edges, no halo, no scenery, no lettering or watermark.",
+    "master": "/workspace/generated_images/exec-75c618dd-cce7-465e-87f3-76a2bb0ba52c.png"
+  },
+  {
+    "id": "luka",
+    "file": "workshop/luka-dream-underwear-friendly-draft.webp",
+    "reference": "public/assets/luka-reference-friendly-v3.webp",
+    "prompt": "Create ONE alternate wardrobe illustration of the supplied FICTIONAL ADULT visual novel character, age 27 or older, preserving this character's individual face, hairstyle, mature age, natural body build and identity. This is a modest neutral underwear fashion catalogue pose, not an action scene. Outfit: plain opaque navy blue mid-thigh cotton boxer briefs, bare upper torso. Pose: stand with both hands casually joined low in front of abdomen, shoulders relaxed, calm friendly smile. Maintain natural adult anatomy without exaggeration. Remove the original everyday uniform, outerwear, badge and props unless explicitly listed in the pose. Ordinary full-coverage fabric, no transparency, no exposed intimate areas, no emphasis on crotch or chest, no touching intimate areas, no bed or other people. Match the existing semi realistic hand painted game art with fine contours and warm soft even light. One standing person, entire head with clear margin to BELOW KNEES so underwear and complete hands are visible; no feet required. Genuine transparent alpha background with clean edges, no halo, no scenery, no lettering or watermark.",
+    "master": "/workspace/generated_images/exec-6cd5947a-b8a5-422e-b8d0-6bcf42b48ed1.png"
+  },
+  {
+    "id": "jelena",
+    "file": "workshop/jelena-dream-underwear-friendly-draft.webp",
+    "reference": "public/assets/jelena-v2.webp",
+    "prompt": "Create ONE alternate wardrobe illustration of the supplied FICTIONAL ADULT visual novel character, age 27 or older, preserving this character's individual face, hairstyle, mature age, natural body build and identity. This is a modest neutral underwear fashion catalogue pose, not an action scene. Outfit: a fully opaque cream cotton bralette with broad straps and matching high-waisted full-coverage briefs. Pose: stand with one hand lightly arranging her long red braid over shoulder, other resting by side, friendly small smile. Maintain natural adult anatomy without exaggeration. Remove the original everyday uniform, outerwear, badge and props unless explicitly listed in the pose. Ordinary full-coverage fabric, no transparency, no exposed intimate areas, no emphasis on crotch or chest, no touching intimate areas, no bed or other people. Match the existing semi realistic hand painted game art with fine contours and warm soft even light. One standing person, entire head with clear margin to BELOW KNEES so underwear and complete hands are visible; no feet required. Genuine transparent alpha background with clean edges, no halo, no scenery, no lettering or watermark.",
+    "master": "/workspace/generated_images/exec-ae84b19f-fadc-4196-bf3a-e7f05064528a.png"
+  },
+  {
+    "file": "belgrade-desk-night.webp",
+    "prompt": "Create ONE vertical 9:16 full bleed background for Serbian Summer visual novel. A close view of a modest Belgrade work desk at NIGHT: warm amber desk lamp shining onto an open notebook with abstract unreadable planning marks, a closed document folder, a pen, a phone lying face down, a closed laptop and ceramic tea cup. Behind the desk an open window shows deep blue summer night, softly glowing distant red-roofed Belgrade buildings, a few tree leaves. The desk could be in a home or small shared office; no bed and no identifying workplace signage. An atmosphere of finishing the day's paperwork, thoughtful and peaceful. Semi realistic hand painted illustration, fine drawn outlines and subtle painterly texture, natural rich warm gold and cobalt blue palette, believable perspective. No people, no readable text or private data, no UI, no logos or watermark. Main notebook and light occupy the upper two thirds, lower quarter quieter for dialogue.",
+    "master": "/workspace/generated_images/exec-61e769b9-4e2f-44cb-bc4b-496409504f8c.png",
+    "kind": "background"
+  }
+]

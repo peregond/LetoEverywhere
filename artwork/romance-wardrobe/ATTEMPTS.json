@@ -1,0 +1,57 @@
+[
+  {
+    "id": "milica",
+    "outcome": "blocked",
+    "reason": "Image generation safety system: sexual content"
+  },
+  {
+    "id": "nikola",
+    "outcome": "blocked",
+    "reason": "Image generation safety system: sexual content"
+  },
+  {
+    "id": "dragan",
+    "outcome": "blocked",
+    "reason": "Image generation safety system: sexual content"
+  },
+  {
+    "id": "jelena",
+    "outcome": "generated",
+    "file": "workshop/jelena-dream-underwear-friendly-draft.webp"
+  },
+  {
+    "id": "asya",
+    "outcome": "generated",
+    "file": "workshop/asya-dream-underwear-friendly-draft.webp"
+  },
+  {
+    "id": "luka",
+    "outcome": "generated",
+    "file": "workshop/luka-dream-underwear-friendly-draft.webp"
+  },
+  {
+    "id": "lazar",
+    "outcome": "blocked",
+    "reason": "Image generation safety system: sexual content"
+  },
+  {
+    "id": "teodora",
+    "outcome": "blocked",
+    "reason": "Image generation safety system: sexual content"
+  },
+  {
+    "id": "ivana",
+    "outcome": "blocked",
+    "reason": "Image generation safety system: sexual content"
+  },
+  {
+    "id": "strahinja",
+    "outcome": "blocked",
+    "reason": "Image generation safety system: sexual content"
+  },
+  {
+    "id": "milos",
+    "outcome": "blocked",
+    "reason": "Image generation safety system: sexual content"
+  }
+]

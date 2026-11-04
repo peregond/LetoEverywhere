@@ -1,0 +1,42 @@
+/* Artwork keeps its own light; the reading surface follows the phone. */
+.theme-setting{display:block}.theme-options{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:12px}.theme-options button{min-height:44px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--ink);font-size:12px;font-weight:600}.theme-options button[aria-pressed=true]{background:var(--sea);border-color:var(--sea);color:var(--paper)}
+:root[data-theme=dark]{color-scheme:dark;--paper:#16272e;--ink:#edf1e7;--muted:#b1beb9;--wine:#ff9b80;--wine-dark:#f5876d;--sea:#82d8bd;--sea-dark:#285348;--gold:#e8c66e;--line:#42575b;background:var(--paper)}
+:root[data-theme=dark] body{background:#101e24}
+:root[data-theme=dark] .home,:root[data-theme=dark] .ending{color:#fff7e6}
+:root[data-theme=dark] .home #new-game.secondary-light,:root[data-theme=dark] .ending .secondary{color:#fff7e6}
+:root[data-theme=dark] .home #resume{color:#16272e}
+:root[data-theme=dark] .dialogue{background:linear-gradient(135deg,#1d3037,#182a31)}
+:root[data-theme=dark] .dialogue-text{color:var(--ink)}
+:root[data-theme=dark] .game-footer{background:#182a31;color:#bdc7bc}
+:root[data-theme=dark] .creation{background:radial-gradient(ellipse at 100% 0%,#1b4e4338,transparent 55%),var(--paper)}
+:root[data-theme=dark] .gender-option{background:#23353b;border-color:var(--line)}
+:root[data-theme=dark] .gender-option[aria-pressed=true],:root[data-theme=dark] .name-option[aria-pressed=true]{background:var(--sea);color:var(--paper)}
+:root[data-theme=dark] .name-preview{background:#423b29;color:#fff0c1}
+:root[data-theme=dark] .name-preview small{color:#d5c9a6}
+:root[data-theme=dark] .choice{background:#23353b;border-color:var(--line);border-left-color:var(--sea);color:var(--ink)}
+:root[data-theme=dark] .choice:hover{background:#2b4548}
+:root[data-theme=dark] .choice-tone{background:#254b40;color:#c3f5df}
+:root[data-theme=dark] .choice[data-tone=romance]{background:#3b2935;border-left-color:#ef9db6}
+:root[data-theme=dark] .choice[data-tone=romance] .choice-tone{background:#573044;color:#ffd0df}
+:root[data-theme=dark] .choice[data-tone=friendship] .choice-tone{background:#4a4026;color:#ffe5a7}
+:root[data-theme=dark] .choice[data-tone=explore] .choice-tone{background:#293f5a;color:#d0e3ff}
+:root[data-theme=dark] .choice[data-tone=personal] .choice-tone{background:#403931;color:#eedbc8}
+:root[data-theme=dark] .choice[data-tone=dream] .choice-tone{background:#49344e;color:#f2cdf7}
+:root[data-theme=dark] .beat-checklist button{background:#23353b;border-color:var(--line);color:var(--ink)}
+:root[data-theme=dark] .beat-checklist button[aria-pressed=true]{background:#254b40;color:#c3f5df;border-color:var(--sea)}
+:root[data-theme=dark] .game-tools button{color:#fff7e6}
+:root[data-theme=dark] .scene.is-daydream .scene-shade{background:linear-gradient(135deg,#a867851a,#d5b4670d);box-shadow:inset 0 0 60px 15px #68446277}
+:root[data-theme=dark] .auth-label input,:root[data-theme=dark] .recovery-box input{background:#21343c;border-color:var(--line);color:var(--ink)}
+:root[data-theme=dark] .auth-error{color:#ffabc0}
+:root[data-theme=dark] .recovery-box{background:#403925;border-color:#82724b;color:#fff0c1}
+:root[data-theme=dark] .account-milestones li{background:#36433f;color:#c5ccbf}
+:root[data-theme=dark] .account-milestones .complete{background:#254b40;color:#c3f5df}
+:root[data-theme=dark] .save-warning{color:#ffd696!important}
+:root[data-theme=dark] .district-map svg>rect:first-of-type{fill:#1b2d34}
+:root[data-theme=dark] .district-map pattern path{stroke:#3b4e53}
+:root[data-theme=dark] .district-map svg>path[stroke="#75b9c5"]{stroke:#376f80}
+:root[data-theme=dark] .district-map svg>path[fill="#eac391"]{fill:#66533c}
+:root[data-theme=dark] .district-map svg>path[fill="#d6b7a7"]{fill:#674c54}
+:root[data-theme=dark] .district-map svg>path[fill="#a9ccb4"]{fill:#35604c}
+:root[data-theme=dark] .district-map text{fill:#c2dce1!important}
+:root[data-theme=dark] .district-pin{border-color:#20343c;color:#16272e}

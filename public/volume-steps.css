@@ -1,0 +1,17 @@
+.stepper-group[hidden]{display:none}
+.stepper-setting{align-items:center}
+.stepper{display:flex;align-items:center;gap:8px;flex:none}
+.stepper button{width:48px;height:48px;border:1px solid var(--line);border-radius:var(--radius-s);background:transparent;color:var(--ink);font-size:24px;font-weight:600;line-height:1;padding:0}
+.stepper button:active:not(:disabled){background:var(--sea);border-color:var(--sea);color:var(--paper)}
+.stepper-bars{display:flex;align-items:flex-end;gap:3px;height:24px}
+.stepper-bars i{display:block;width:5px;height:10px;border-radius:2px;background:var(--line)}
+.stepper-bars i:nth-child(n+4){height:14px}.stepper-bars i:nth-child(n+7){height:19px}.stepper-bars i:nth-child(n+10){height:24px}
+.stepper-bars i.on{background:var(--sea)}
+@media (prefers-reduced-motion:no-preference){.stepper-bars i{transition:background-color .12s}}
+
+.theme-options button{display:flex;align-items:center;justify-content:center;gap:6px}
+.theme-options svg{flex:none}
+.text-preview{margin:2px 0 14px;padding:12px 14px;border:1px solid var(--line);border-radius:var(--radius-m)}
+.text-preview .speaker-name{margin:0}
+.text-preview .dialogue-text{min-height:0;margin:6px 0 0}
+.text-preview{padding:8px 14px}.text-preview .speaker-name h2{font-size:calc(var(--text-size) + 2px);line-height:1.25}.text-preview .dialogue-text{line-height:1.45;margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}

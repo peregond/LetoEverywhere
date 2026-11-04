@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+const made=[],callbacks=[];
+globalThis.setInterval=fn=>(callbacks.push(fn),callbacks.length);globalThis.clearInterval=()=>{};
+globalThis.Audio=class{paused=true;volume=0;constructor(src){this.src=src;made.push(this);}play(){return new Promise(resolve=>{this.finish=()=>{this.paused=false;resolve();};});}pause(){this.paused=true;}};
+const {syncSfx,setAmbience}=await import('../public/sfx.js?pending-transition');
+syncSfx({enabled:true});setAmbience('river');const river=made[0];
+setAmbience('cafe');river.finish();await Promise.resolve();await Promise.resolve();
+assert.equal(river.paused,true,'A delayed water playback cannot start after leaving the river');
+setAmbience(null);made[1].finish();await Promise.resolve();await Promise.resolve();
+assert.equal(made[1].paused,true,'A delayed ambience cannot start after leaving all ambient locations');
+syncSfx({enabled:false});
+console.log('Delayed ambience playback cannot leak into later scenes.');

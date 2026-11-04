@@ -1,0 +1,40 @@
+{
+  "style": "semi-realistic hand-painted visual novel, delicate contours, warm bedroom lamp, adult fictional characters from Serbian Summer, natural adult proportions, no UI no watermark, TRUE transparent or bedroom set as noted",
+  "note": "Cursor GenerateImage rejects explicit sexual content and often blocks 'briefs'/'speedo'. Use storyboard WebP stubs (black bars) + local ComfyUI / inpaint like artwork/nikola-early-night/. Nikola reuses existing nikola-*-v1 riverside-night CGs. Frame for mobile UI: head below top ~10% tools band; torso and waist/speedo above lower ~35% dialogue cover-crop; canvas always 1080×1920; BACKGROUND position 50% 35%.",
+  "ui_safe": {
+    "canvas": "1080x1920",
+    "position": "50% 35%",
+    "keep_above": "face, torso, waistband / speedo pouch — end critical detail by ~65% of frame height",
+    "bottom_band": "bed sheet / ambient only — dialogue panel + cover crop eat the lower third"
+  },
+  "beats": {
+    "seductive": "Partner alone on bed, underwear/lingerie only, seductive look at viewer, head fully in frame above tools band",
+    "door": "Partner pinned/leaning at bedroom door in underwear, flushed, wanting; waist above lower crop line",
+    "briefs": "On bed in named underwear (males: opaque speedos), clear outline through fabric, smile; pouch above dialogue crop",
+    "touch": "Eyes closed or biting lip while bulge/lingerie is touched (hand optional); detail above 65%",
+    "ready": "Male: all fours or kneeling in speedos pulled under ass looking back. Female: on back, lingerie aside, inviting",
+    "sex": "During sex, moan, head back — black-bar storyboard until inpaint; face stays in upper safe band",
+    "climax": "Close-up face at climax (face fills upper-middle safe band)",
+    "cum-inside": "Afterglow bliss after finish inside",
+    "cum-cloth": "Finish on underwear/lingerie (males: on speedos), laughing",
+    "cum-chest": "Finish on chest, tender look — chest above crop line",
+    "afterglow": "Soft smile after, underwear, under sheet"
+  },
+  "people": {
+    "milica": "adult woman 27, warm brown eyes, dark chestnut hair, burgundy lace set",
+    "dragan": "adult man late 40s, salt-and-pepper, dark beard, dark grey opaque speedos",
+    "jelena": "adult woman late 30s, green eyes, auburn braid, freckles, cream silk lingerie",
+    "asya": "adult woman 29, black shag with green streak, black lace set",
+    "luka": "adult man, athletic, very short dark hair, short beard, dark blue opaque speedos",
+    "ana": "adult woman, calm photographer, soft beige lingerie",
+    "stefan": "adult man craftsman hands, plain black opaque speedos",
+    "marko": "adult man composed, grey opaque speedos",
+    "vuk": "adult tall man, black opaque speedos",
+    "lazar": "adult man, black opaque speedos",
+    "teodora": "adult woman, light lace set",
+    "ivana": "adult woman freckles, soft cotton lingerie",
+    "strahinya": "adult man, dark opaque speedos",
+    "milos": "adult man open face without balaclava, dark opaque speedos"
+  },
+  "inpaint_template": "Replace ONLY the black rectangle with {beat detail}. Keep exact face identity from reference portrait, warm lamp light, semi-realistic VN style, no text, no watermark. Keep face and waistband above the lower guide line (~65% frame height)."
+}

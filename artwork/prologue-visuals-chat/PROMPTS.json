@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "id": "nikola-daydream-pastries-v1",
+      "prompt": "Use case: illustration-story. Asset type: background-only illustration for a romantic visual-novel daydream, portrait 9:16. Create a refined dreamy dark backdrop, hand-painted semi-realistic anime illustration with soft painterly texture. Deep midnight plum, dark chocolate and muted navy in the large calm center; low-contrast warm amber and dusty rose glow around the outside. A few beautifully illustrated floating buttery croissants, soft golden bread rolls and small understated pink heart shapes distributed only along outer side edges and corners, like an elegant daydream about a bakery worker. Keep the middle 60% almost empty and dark so a separate brightly lit male character sprite is clearly readable over it. The shapes are recognizable pastries and tiny hearts, not text or symbols that look like interface. Cohesive artistic depth with subtle bokeh, no busy wallpaper repetition, no pale haze or white vignette. No people, no bodies, no lettering, no watermark, no UI. Whole frame is richly painted, no black bars.",
+      "refs": null,
+      "source": "/Users/peregon/.codex/generated_images/01a16db9-c523-71b2-bf9c-7eb58785cb7d/exec-0bad1c86-93d7-41e8-bc47-dfcc788b1a6b.png"
+    },
+    {
+      "id": "nikola-elder-bread-handover-v1",
+      "prompt": "Use case: compositing. Asset type: a complete story illustration for a mobile visual novel, portrait 9:16, no transparency. Image 1 defines young adult Nikola's exact face, very short buzz haircut, muscular build and black bakery polo/apron; image 2 defines the elderly regular customer with white moustache, straw hat, pale blue shirt and beige vest; image 3 defines the warm sunlit airport bakery setting. Show BOTH men naturally interacting at the same counter: Nikola behind the pastry counter on the right, handing a brown paper bag containing fresh bread across the counter to the elderly customer on the left. The customer's hand is accepting the same bag; their hands and bag clearly meet in the center. They turn toward each other, exchange friendly familiar smiles, neither poses toward the camera. Clear visual storytelling: a bakery employee serving his regular customer. Preserve the identities and clothing of both reference characters, semi-realistic hand-painted anime visual-novel style matching the references. Warm late-afternoon window light, softly detailed pastry display, coffee machine and muted green wood panels, airport windows in background. Both entire heads including hat and hair fully visible with about 12% clear space above; both faces and the handover sit comfortably inside the central 80% width, upper two-thirds of image, so mobile cropping keeps both people. View around waist-up, counter and pastries below. Hands anatomically natural, no duplicate people or extra arms. No foreground solo sprite, no dialogue, no interface, no watermark. Existing apron lettering may be simple/subtle rather than prominent.",
+      "refs": [
+        "/Users/peregon/Documents/ChatGPT/Сербское лето/game/public/assets/nikola-friendly-buzz-v3.webp",
+        "/Users/peregon/Documents/ChatGPT/Сербское лето/game/public/assets/guest-elder-customer-friendly.webp",
+        "/Users/peregon/Documents/ChatGPT/Сербское лето/game/public/assets/bakery-corner.webp"
+      ],
+      "source": "/Users/peregon/.codex/generated_images/01a16db9-c523-71b2-bf9c-7eb58785cb7d/exec-b2c3f98a-319e-473f-8814-b609d6cd13bf.png"
+    },
+    {
+      "id": "nikola-bakery-lookback-v1",
+      "prompt": "Use case: compositing. Asset type: full background story illustration for a mobile visual novel, portrait 9:16. Use image 1 as Nikola's identity and work-clothes reference (adult athletic man, very short dark buzz cut, black polo and dark bakery apron); use image 2 as bakery architecture/style reference. View from the public airport concourse several metres away: the player has walked away and is looking back at the warmly lit bakery through its broad open storefront. Nikola is a SMALL but recognizable mid-distance figure behind the pastry counter, serving another adult customer seen in profile or from behind, while turning his head to catch the viewer's eye with a slight smile. This is a distant environmental shot, NOT a close-up character portrait. Bread shelves, warm pastry display, green panels, coffee equipment and terminal architecture create continuity. Large open concourse foreground, bakery counter and Nikola around the central upper-middle zone; keep his full head away from edges and no cropped faces. Painterly semi-realistic anime visual novel illustration, golden afternoon airport light, richly drawn architecture, realistic perspective. No taxi, no street exterior, no giant foreground person, no text, no dialogue, no interface, no watermark.",
+      "refs": [
+        "/Users/peregon/Documents/ChatGPT/Сербское лето/game/public/assets/nikola-friendly-buzz-v3.webp",
+        "/Users/peregon/Documents/ChatGPT/Сербское лето/game/public/assets/bakery-corner.webp"
+      ],
+      "source": "/Users/peregon/.codex/generated_images/01a16db9-c523-71b2-bf9c-7eb58785cb7d/exec-2011cbd6-5351-41bf-94c2-28ff0d21829a.png"
+    }
+  ]
+}

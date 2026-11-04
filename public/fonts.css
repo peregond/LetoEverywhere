@@ -1,0 +1,4 @@
+/* Local variable fonts; full Cyrillic and Latin coverage. Licenses: assets/fonts/*-LICENSE.txt. */
+@font-face{font-family:'Onest';font-style:normal;font-weight:100 900;font-display:swap;src:url('./assets/fonts/onest-variable.ttf') format('truetype')}
+@font-face{font-family:'Lora';font-style:normal;font-weight:400 700;font-display:swap;src:url('./assets/fonts/lora-variable.ttf') format('truetype')}
+@font-face{font-family:'Lora';font-style:italic;font-weight:400 700;font-display:swap;src:url('./assets/fonts/lora-italic-variable.ttf') format('truetype')}

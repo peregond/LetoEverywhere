@@ -1,0 +1,166 @@
+[
+  {
+    "id": "belgrade-chapter-map",
+    "kind": "background",
+    "master": "/workspace/generated_images/exec-edfc73f1-0fc0-4a4d-ad93-04a8696d0542.png",
+    "file": "public/assets/belgrade-chapter-map.webp",
+    "prompt": "Create ONE beautiful portrait 9:16 full bleed illustrated mobile game chapter-map background for Serbian Summer romantic visual novel. Belgrade Serbia in brilliant warm summer light, charming sophisticated hand painted semi realistic illustration, aerial oblique miniature city view, Sava and Danube confluence turquoise water in upper third, Kalemegdan fortress and park, old Dorcol cream facades red roofs, recognizable Saint Sava dome lower right, small tram lower left, flowering trees, sunlit terraces and river boats, rich peach coral warm gold teal palette, crisp fine details, beautifully inviting atmosphere. A winding broad quiet pale stone pedestrian path snakes vertically from bottom center toward top center THROUGH the city with roomy central clearing for HTML level buttons. Balanced atmospheric painting suitable as scrollable chapter map background, no people in foreground, no lettering, no numbers, no UI, no drawn buttons, no watermarks. Keep light areas so dark UI labels readable. This is conceptual artistic Belgrade, not navigation map."
+  },
+  {
+    "id": "belgrade-green-market",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer romantic visual novel. A leafy Belgrade outdoor green market inspired by Kalenic pijaca: shaded green metal stalls with fresh tomatoes peppers herbs honey jars cheese, striped canvas awnings, weathered cream residential facades red tiled roofs, summer morning sun. No foreground people, distant tiny natural market customers allowed. Center walkway clear. Original semi realistic hand painted illustration, fine delicate drawn outlines, painterly texture, luminous warm Balkan summer palette, vibrant but natural teal blue green gold coral, consistent visual novel art, believable architecture and perspective. Keep key features in upper two thirds, lower quarter quieter beneath dialogue overlay. No UI, no text, no watermark, no foreground characters, no photography or 3D.",
+    "kind": "background",
+    "master": "/workspace/generated_images/exec-ca122080-38b3-4710-b371-303eb24e7f1e.png",
+    "file": "public/assets/belgrade-green-market.webp"
+  },
+  {
+    "id": "luka-sunlit-office",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer romantic visual novel. A small independent accountant office in an old Belgrade apartment, warm wooden desk at side with closed laptop, folders, a notebook and plain teacups, two guest chairs, tall open window with tree leaves and cream Balkan facades beyond, green shutters, sunlight, lived in stylish but modest, center clear for character layer. No readable document text or logos. Original semi realistic hand painted illustration, fine delicate drawn outlines, painterly texture, luminous warm Balkan summer palette, vibrant but natural teal blue green gold coral, consistent visual novel art, believable architecture and perspective. Keep key features in upper two thirds, lower quarter quieter beneath dialogue overlay. No UI, no text, no watermark, no foreground characters, no photography or 3D.",
+    "kind": "background",
+    "master": "/workspace/generated_images/exec-bf5ecea1-ecfc-4eeb-be12-24eb246d6d9a.png",
+    "file": "public/assets/luka-sunlit-office.webp"
+  },
+  {
+    "id": "belgrade-river-noon",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer romantic visual novel. Quiet Belgrade Sava riverside at NOON, bright turquoise river, plane trees making thick cool shadows on pale stone path, simple wooden riverside bench under trees, reeds and distant boats, far low city skyline and bridge, warm vibrant summer sun, natural blue sky, viewpoint standing on promenade. Clear central space for character overlay. No foreground people. Original semi realistic hand painted illustration, fine delicate drawn outlines, painterly texture, luminous warm Balkan summer palette, vibrant but natural teal blue green gold coral, consistent visual novel art, believable architecture and perspective. Keep key features in upper two thirds, lower quarter quieter beneath dialogue overlay. No UI, no text, no watermark, no foreground characters, no photography or 3D.",
+    "kind": "background",
+    "master": "/workspace/generated_images/exec-eaf74ee5-f7b2-4a1e-9218-87471b11494d.png",
+    "file": "public/assets/belgrade-river-noon.webp"
+  },
+  {
+    "id": "belgrade-home-workspace",
+    "prompt": "ONE portrait 9:16 full bleed background illustration for Serbian Summer romantic visual novel. Modest cosy rented Belgrade apartment work corner in warm summer morning light. Desk with laptop showing blank softly glowing screen, notebook pen water glass and small plant, open cream shuttered window shows red roofs and leafy courtyard, wooden chair, linen curtain, small rug. A believable personal home workspace, quiet inviting, clear middle for character layer, no people. Original semi realistic hand painted illustration, fine delicate drawn outlines, painterly texture, luminous warm Balkan summer palette, vibrant but natural teal blue green gold coral, consistent visual novel art, believable architecture and perspective. Keep key features in upper two thirds, lower quarter quieter beneath dialogue overlay. No UI, no text, no watermark, no foreground characters, no photography or 3D.",
+    "kind": "background",
+    "master": "/workspace/generated_images/exec-6d0c671c-6b68-47c5-8551-db5ce415062b.png",
+    "file": "public/assets/belgrade-home-workspace.webp"
+  },
+  {
+    "id": "milica",
+    "kind": "portrait",
+    "reference": "public/assets/milica.webp",
+    "file": "public/assets/milica-confident.webp",
+    "master": "/workspace/generated_images/exec-072c0977-5016-424c-8177-dc83f7e62d4a.png",
+    "prompt": "Edit the supplied adult fictional character into ONE new CONFIDENT emotional sprite. Preserve EXACT face identity, age, hair, body type and fully clothed everyday outfit from reference. Confident playful half smile, stand with sketchbook tucked beneath one arm and free hand on hip. All characters must retain their own distinctive face, no generic replacement. Semi realistic hand painted romantic visual novel, fine outlines and soft warm natural shading matching reference. Entire head including hair with clear 6% margin above, shoulders, elbows and hands completely inside portrait frame; head to mid thighs. Natural adult anatomy. TRUE transparent alpha background, no scenery, no watermark, no added text. Remove props not specified in pose."
+  },
+  {
+    "id": "nikola",
+    "kind": "portrait",
+    "reference": "public/assets/nikola-friendly-buzz-v3.webp",
+    "file": "public/assets/nikola-confident-buzz-v3.webp",
+    "master": "/workspace/generated_images/exec-209f6170-c13b-4c16-903d-31ad135e7ac9.png",
+    "prompt": "Edit the supplied adult fictional character into ONE new CONFIDENT emotional sprite. Preserve EXACT face identity, age, hair, body type and fully clothed everyday outfit from reference. Confident relaxed grin, one thumb pointing toward his chest and other hand holding bakery bag low. All characters must retain their own distinctive face, no generic replacement. Semi realistic hand painted romantic visual novel, fine outlines and soft warm natural shading matching reference. Entire head including hair with clear 6% margin above, shoulders, elbows and hands completely inside portrait frame; head to mid thighs. Natural adult anatomy. TRUE transparent alpha background, no scenery, no watermark, no added text. Remove props not specified in pose."
+  },
+  {
+    "id": "dragan",
+    "kind": "portrait",
+    "reference": "public/assets/dragan-v2.webp",
+    "file": "public/assets/dragan-confident.webp",
+    "master": "/workspace/generated_images/exec-311e053e-a71f-41eb-b3d4-c170c305bf52.png",
+    "prompt": "Edit the supplied adult fictional character into ONE new CONFIDENT emotional sprite. Preserve EXACT face identity, age, hair, body type and fully clothed everyday outfit from reference. Calm confident expression, arms loosely folded, shoulders square. All characters must retain their own distinctive face, no generic replacement. Semi realistic hand painted romantic visual novel, fine outlines and soft warm natural shading matching reference. Entire head including hair with clear 6% margin above, shoulders, elbows and hands completely inside portrait frame; head to mid thighs. Natural adult anatomy. TRUE transparent alpha background, no scenery, no watermark, no added text. Remove props not specified in pose."
+  },
+  {
+    "id": "jelena",
+    "kind": "portrait",
+    "reference": "public/assets/jelena-v2.webp",
+    "file": "public/assets/jelena-confident.webp",
+    "master": "/workspace/generated_images/exec-f1514dfc-6aa5-4b0c-bc13-a40f5f043a08.png",
+    "prompt": "Create one transparent game character portrait of the adult in this reference, in normal everyday clothing. Preserve the distinctive face, hair, age and build of this specific person, and the existing outfit except the explicitly specified added shirt. Pose and emotion: standing upright, calm assured smile, one hand resting on her braid, other on hip. Add a loose fully buttoned ivory linen shirt with sleeves rolled to elbows over her existing outfit. Friendly everyday scene, conservative fully covered clothing, no romance pose. Match the detailed semi realistic painted visual novel style. Portrait from entire head with generous margin to mid thighs, both hands completely inside image. True transparent alpha background. Only one person, no text or scenery."
+  },
+  {
+    "id": "asya",
+    "kind": "portrait",
+    "reference": "public/assets/asya-friendly.webp",
+    "file": "public/assets/asya-confident.webp",
+    "master": "/workspace/generated_images/exec-64efadf6-d94d-4a37-bb95-2496e79cd977.png",
+    "prompt": "Create one transparent game character portrait of the adult in this reference, in normal everyday clothing. Preserve the distinctive face, hair, age and build of this specific person, and the existing outfit except the explicitly specified added shirt. Pose and emotion: assured raised eyebrow, relaxed half smile, both thumbs at her belt. Friendly everyday scene, conservative fully covered clothing, no romance pose. Match the detailed semi realistic painted visual novel style. Portrait from entire head with generous margin to mid thighs, both hands completely inside image. True transparent alpha background. Only one person, no text or scenery."
+  },
+  {
+    "id": "luka",
+    "kind": "portrait",
+    "reference": "public/assets/luka-reference-friendly-v3.webp",
+    "file": "public/assets/luka-confident.webp",
+    "master": "/workspace/generated_images/exec-3053ad04-d218-4fc8-85d2-a45c6e3764d4.png",
+    "prompt": "Create one transparent game character portrait of the adult in this reference, in normal everyday clothing. Preserve the distinctive face, hair, age and build of this specific person, and the existing outfit except the explicitly specified added shirt. Pose and emotion: calm assured smile, one hand adjusting wristwatch and other at side. Friendly everyday scene, conservative fully covered clothing, no romance pose. Match the detailed semi realistic painted visual novel style. Portrait from entire head with generous margin to mid thighs, both hands completely inside image. True transparent alpha background. Only one person, no text or scenery."
+  },
+  {
+    "id": "lazar",
+    "kind": "portrait",
+    "reference": "public/assets/workshop/lazar-draft.webp",
+    "file": "public/assets/lazar-confident.webp",
+    "master": "/workspace/generated_images/exec-9e2cd826-e951-43e9-9e8f-2ed515dca508.png",
+    "prompt": "Create one transparent game character portrait of the adult in this reference, in normal everyday clothing. Preserve the distinctive face, hair, age and build of this specific person, and the existing outfit except the explicitly specified added shirt. Pose and emotion: assured reassuring smile, closed folder under one arm and free hand gesturing outward. Friendly everyday scene, conservative fully covered clothing, no romance pose. Match the detailed semi realistic painted visual novel style. Portrait from entire head with generous margin to mid thighs, both hands completely inside image. True transparent alpha background. Only one person, no text or scenery."
+  },
+  {
+    "id": "ivana",
+    "kind": "portrait",
+    "reference": "public/assets/workshop/ivana-draft.webp",
+    "file": "public/assets/ivana-confident.webp",
+    "master": "/workspace/generated_images/exec-98962c42-c17b-4d38-855f-6358689805f1.png",
+    "prompt": "Create one transparent game character portrait of the adult in this reference, in normal everyday clothing. Preserve the distinctive face, hair, age and build of this specific person, and the existing outfit except the explicitly specified added shirt. Pose and emotion: assured calm smile, hands clasped loosely behind back, body at three quarters. Friendly everyday scene, conservative fully covered clothing, no romance pose. Match the detailed semi realistic painted visual novel style. Portrait from entire head with generous margin to mid thighs, both hands completely inside image. True transparent alpha background. Only one person, no text or scenery."
+  },
+  {
+    "id": "strahinja",
+    "kind": "portrait",
+    "reference": "public/assets/workshop/strahinja-draft.webp",
+    "file": "public/assets/strahinja-confident.webp",
+    "master": "/workspace/generated_images/exec-523e6bae-ce3e-4d85-b4f0-4da30f555036.png",
+    "prompt": "Create one transparent game character portrait of the adult in this reference, in normal everyday clothing. Preserve the distinctive face, hair, age and build of this specific person, and the existing outfit except the explicitly specified added shirt. Pose and emotion: assured easy grin, hand rubbing back of neck, other on belt. Friendly everyday scene, conservative fully covered clothing, no romance pose. Match the detailed semi realistic painted visual novel style. Portrait from entire head with generous margin to mid thighs, both hands completely inside image. True transparent alpha background. Only one person, no text or scenery."
+  },
+  {
+    "id": "milos",
+    "kind": "portrait",
+    "reference": "public/assets/workshop/milos-casual-friendly-draft.webp",
+    "file": "public/assets/milos-confident.webp",
+    "master": "/workspace/generated_images/exec-297cf2d8-b084-42d9-bafd-cdfe1993b712.png",
+    "prompt": "Create one transparent game character portrait of the adult in this reference, in normal everyday clothing. Preserve the distinctive face, hair, age and build of this specific person, and the existing outfit except the explicitly specified added shirt. Pose and emotion: assured relaxed smile, holding coffee low with one hand and other hooked in pocket. Friendly everyday scene, conservative fully covered clothing, no romance pose. Match the detailed semi realistic painted visual novel style. Portrait from entire head with generous margin to mid thighs, both hands completely inside image. True transparent alpha background. Only one person, no text or scenery."
+  },
+  {
+    "id": "teodora",
+    "kind": "portrait",
+    "reference": "public/assets/workshop/teodora-draft.webp",
+    "file": "public/assets/teodora-confident.webp",
+    "master": "/workspace/generated_images/exec-b15b8035-cfb8-4f13-aa44-14df68a90e1e.png",
+    "prompt": "Create one transparent game character portrait of the adult in this reference, in normal everyday clothing. Preserve the distinctive face, hair, age and build of this specific person, and the existing outfit except the explicitly specified added shirt. Pose and emotion: professional assured smile, holding folder by hip and adjusting blazer lapel. Friendly everyday scene, conservative fully covered clothing, no romance pose. Match the detailed semi realistic painted visual novel style. Portrait from entire head with generous margin to mid thighs, both hands completely inside image. True transparent alpha background. Only one person, no text or scenery."
+  },
+  {
+    "id": "nikola-evening-shy",
+    "prompt": "Edit adult fictional game character reference into ONE new fully clothed everyday portrait. Preserve exact adult face identity, hair, build and clothing from first reference, except where explicitly directed. shy small smile, eyes looking slightly aside, one hand rubbing back of neck, other held down. Match hand painted semi realistic visual novel style and fine contours. Framing from whole head with generous transparent margin to mid thighs, all hands elbows inside frame. True transparent alpha background, no scene, no text or watermarks.",
+    "reference": [
+      "nikola-evening-friendly-buzz-v3"
+    ],
+    "kind": "portrait",
+    "file": "public/assets/nikola-evening-shy-buzz-v3.webp",
+    "master": "/workspace/generated_images/exec-23b12bbf-f355-41b5-8183-75fedca19111.png"
+  },
+  {
+    "id": "nikola-evening-surprised",
+    "prompt": "Edit adult fictional game character reference into ONE new fully clothed everyday portrait. Preserve exact adult face identity, hair, build and clothing from first reference, except where explicitly directed. surprised raised eyebrows and gently parted lips, open palm near chest, other hand held low. Match hand painted semi realistic visual novel style and fine contours. Framing from whole head with generous transparent margin to mid thighs, all hands elbows inside frame. True transparent alpha background, no scene, no text or watermarks.",
+    "reference": [
+      "nikola-evening-friendly-buzz-v3"
+    ],
+    "kind": "portrait",
+    "file": "public/assets/nikola-evening-surprised-buzz-v3.webp",
+    "master": "/workspace/generated_images/exec-6147c315-e57a-4ac9-b960-7833119a8312.png"
+  },
+  {
+    "id": "nikola-evening-confident",
+    "prompt": "Edit adult fictional game character reference into ONE new fully clothed everyday portrait. Preserve exact adult face identity, hair, build and clothing from first reference, except where explicitly directed. confident assured smile, arms loosely folded, shoulders squared. Match hand painted semi realistic visual novel style and fine contours. Framing from whole head with generous transparent margin to mid thighs, all hands elbows inside frame. True transparent alpha background, no scene, no text or watermarks.",
+    "reference": [
+      "nikola-evening-friendly-buzz-v3"
+    ],
+    "kind": "portrait",
+    "file": "public/assets/nikola-evening-confident-buzz-v3.webp",
+    "master": "/workspace/generated_images/exec-e03b36a5-3acb-4181-bc98-0716196be70b.png"
+  },
+  {
+    "id": "milos-uniform-friendly",
+    "prompt": "Edit adult fictional game character reference into ONE new fully clothed everyday portrait. Preserve exact adult face identity, hair, build and clothing from first reference, except where explicitly directed. warm friendly small smile, unmasked head and face from FIRST reference, wearing the navy Serbian police uniform of SECOND reference but WITHOUT balaclava or armor or helmet. Plain summer navy short sleeve police shirt, navy trousers, sleeves and chest fully covered, standing calmly holding ordinary ceramic coffee mug low. His entire face remains clearly visible. Match hand painted semi realistic visual novel style and fine contours. Framing from whole head with generous transparent margin to mid thighs, all hands elbows inside frame. True transparent alpha background, no scene, no text or watermarks.",
+    "reference": [
+      "workshop/milos-casual-friendly-draft",
+      "workshop/milos-masked-friendly-v2-draft"
+    ],
+    "kind": "portrait",
+    "file": "public/assets/milos-uniform-friendly.webp",
+    "master": "/workspace/generated_images/exec-35c20591-debd-481f-9be9-1c85d2ac94fd.png"
+  }
+]

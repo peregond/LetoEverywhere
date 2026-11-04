@@ -1,0 +1,498 @@
+{
+  "version": 1,
+  "locale": "ru-RU",
+  "selectionType": "editorial",
+  "isStatisticalRanking": false,
+  "genders": {
+    "male": {
+      "label": "Мужчина",
+      "names": [
+        {
+          "id": "alexander",
+          "featured": true,
+          "full": {
+            "nominative": "Александр",
+            "genitive": "Александра",
+            "dative": "Александру",
+            "accusative": "Александра",
+            "instrumental": "Александром",
+            "prepositional": "Александре"
+          },
+          "familiar": {
+            "nominative": "Саша",
+            "genitive": "Саши",
+            "dative": "Саше",
+            "accusative": "Сашу",
+            "instrumental": "Сашей",
+            "prepositional": "Саше"
+          }
+        },
+        {
+          "id": "dmitry",
+          "featured": true,
+          "full": {
+            "nominative": "Дмитрий",
+            "genitive": "Дмитрия",
+            "dative": "Дмитрию",
+            "accusative": "Дмитрия",
+            "instrumental": "Дмитрием",
+            "prepositional": "Дмитрии"
+          },
+          "familiar": {
+            "nominative": "Дима",
+            "genitive": "Димы",
+            "dative": "Диме",
+            "accusative": "Диму",
+            "instrumental": "Димой",
+            "prepositional": "Диме"
+          }
+        },
+        {
+          "id": "alexey",
+          "featured": true,
+          "full": {
+            "nominative": "Алексей",
+            "genitive": "Алексея",
+            "dative": "Алексею",
+            "accusative": "Алексея",
+            "instrumental": "Алексеем",
+            "prepositional": "Алексее"
+          },
+          "familiar": {
+            "nominative": "Лёша",
+            "genitive": "Лёши",
+            "dative": "Лёше",
+            "accusative": "Лёшу",
+            "instrumental": "Лёшей",
+            "prepositional": "Лёше"
+          }
+        },
+        {
+          "id": "andrey",
+          "featured": true,
+          "full": {
+            "nominative": "Андрей",
+            "genitive": "Андрея",
+            "dative": "Андрею",
+            "accusative": "Андрея",
+            "instrumental": "Андреем",
+            "prepositional": "Андрее"
+          },
+          "familiar": {
+            "nominative": "Андрей",
+            "genitive": "Андрея",
+            "dative": "Андрею",
+            "accusative": "Андрея",
+            "instrumental": "Андреем",
+            "prepositional": "Андрее"
+          }
+        },
+        {
+          "id": "maxim",
+          "featured": true,
+          "full": {
+            "nominative": "Максим",
+            "genitive": "Максима",
+            "dative": "Максиму",
+            "accusative": "Максима",
+            "instrumental": "Максимом",
+            "prepositional": "Максиме"
+          },
+          "familiar": {
+            "nominative": "Макс",
+            "genitive": "Макса",
+            "dative": "Максу",
+            "accusative": "Макса",
+            "instrumental": "Максом",
+            "prepositional": "Максе"
+          }
+        },
+        {
+          "id": "mikhail",
+          "featured": true,
+          "full": {
+            "nominative": "Михаил",
+            "genitive": "Михаила",
+            "dative": "Михаилу",
+            "accusative": "Михаила",
+            "instrumental": "Михаилом",
+            "prepositional": "Михаиле"
+          },
+          "familiar": {
+            "nominative": "Миша",
+            "genitive": "Миши",
+            "dative": "Мише",
+            "accusative": "Мишу",
+            "instrumental": "Мишей",
+            "prepositional": "Мише"
+          }
+        },
+        {
+          "id": "ivan",
+          "featured": false,
+          "full": {
+            "nominative": "Иван",
+            "genitive": "Ивана",
+            "dative": "Ивану",
+            "accusative": "Ивана",
+            "instrumental": "Иваном",
+            "prepositional": "Иване"
+          },
+          "familiar": {
+            "nominative": "Ваня",
+            "genitive": "Вани",
+            "dative": "Ване",
+            "accusative": "Ваню",
+            "instrumental": "Ваней",
+            "prepositional": "Ване"
+          }
+        },
+        {
+          "id": "sergey",
+          "featured": false,
+          "full": {
+            "nominative": "Сергей",
+            "genitive": "Сергея",
+            "dative": "Сергею",
+            "accusative": "Сергея",
+            "instrumental": "Сергеем",
+            "prepositional": "Сергее"
+          },
+          "familiar": {
+            "nominative": "Серёжа",
+            "genitive": "Серёжи",
+            "dative": "Серёже",
+            "accusative": "Серёжу",
+            "instrumental": "Серёжей",
+            "prepositional": "Серёже"
+          }
+        },
+        {
+          "id": "nikita",
+          "featured": false,
+          "full": {
+            "nominative": "Никита",
+            "genitive": "Никиты",
+            "dative": "Никите",
+            "accusative": "Никиту",
+            "instrumental": "Никитой",
+            "prepositional": "Никите"
+          },
+          "familiar": {
+            "nominative": "Никита",
+            "genitive": "Никиты",
+            "dative": "Никите",
+            "accusative": "Никиту",
+            "instrumental": "Никитой",
+            "prepositional": "Никите"
+          }
+        },
+        {
+          "id": "kirill",
+          "featured": false,
+          "full": {
+            "nominative": "Кирилл",
+            "genitive": "Кирилла",
+            "dative": "Кириллу",
+            "accusative": "Кирилла",
+            "instrumental": "Кириллом",
+            "prepositional": "Кирилле"
+          },
+          "familiar": {
+            "nominative": "Кирилл",
+            "genitive": "Кирилла",
+            "dative": "Кириллу",
+            "accusative": "Кирилла",
+            "instrumental": "Кириллом",
+            "prepositional": "Кирилле"
+          }
+        },
+        {
+          "id": "artyom",
+          "featured": false,
+          "full": {
+            "nominative": "Артём",
+            "genitive": "Артёма",
+            "dative": "Артёму",
+            "accusative": "Артёма",
+            "instrumental": "Артёмом",
+            "prepositional": "Артёме"
+          },
+          "familiar": {
+            "nominative": "Тёма",
+            "genitive": "Тёмы",
+            "dative": "Тёме",
+            "accusative": "Тёму",
+            "instrumental": "Тёмой",
+            "prepositional": "Тёме"
+          }
+        },
+        {
+          "id": "roman",
+          "featured": false,
+          "full": {
+            "nominative": "Роман",
+            "genitive": "Романа",
+            "dative": "Роману",
+            "accusative": "Романа",
+            "instrumental": "Романом",
+            "prepositional": "Романе"
+          },
+          "familiar": {
+            "nominative": "Рома",
+            "genitive": "Ромы",
+            "dative": "Роме",
+            "accusative": "Рому",
+            "instrumental": "Ромой",
+            "prepositional": "Роме"
+          }
+        }
+      ]
+    },
+    "female": {
+      "label": "Женщина",
+      "names": [
+        {
+          "id": "anna",
+          "featured": true,
+          "full": {
+            "nominative": "Анна",
+            "genitive": "Анны",
+            "dative": "Анне",
+            "accusative": "Анну",
+            "instrumental": "Анной",
+            "prepositional": "Анне"
+          },
+          "familiar": {
+            "nominative": "Аня",
+            "genitive": "Ани",
+            "dative": "Ане",
+            "accusative": "Аню",
+            "instrumental": "Аней",
+            "prepositional": "Ане"
+          }
+        },
+        {
+          "id": "maria",
+          "featured": true,
+          "full": {
+            "nominative": "Мария",
+            "genitive": "Марии",
+            "dative": "Марии",
+            "accusative": "Марию",
+            "instrumental": "Марией",
+            "prepositional": "Марии"
+          },
+          "familiar": {
+            "nominative": "Маша",
+            "genitive": "Маши",
+            "dative": "Маше",
+            "accusative": "Машу",
+            "instrumental": "Машей",
+            "prepositional": "Маше"
+          }
+        },
+        {
+          "id": "anastasia",
+          "featured": true,
+          "full": {
+            "nominative": "Анастасия",
+            "genitive": "Анастасии",
+            "dative": "Анастасии",
+            "accusative": "Анастасию",
+            "instrumental": "Анастасией",
+            "prepositional": "Анастасии"
+          },
+          "familiar": {
+            "nominative": "Настя",
+            "genitive": "Насти",
+            "dative": "Насте",
+            "accusative": "Настю",
+            "instrumental": "Настей",
+            "prepositional": "Насте"
+          }
+        },
+        {
+          "id": "ekaterina",
+          "featured": true,
+          "full": {
+            "nominative": "Екатерина",
+            "genitive": "Екатерины",
+            "dative": "Екатерине",
+            "accusative": "Екатерину",
+            "instrumental": "Екатериной",
+            "prepositional": "Екатерине"
+          },
+          "familiar": {
+            "nominative": "Катя",
+            "genitive": "Кати",
+            "dative": "Кате",
+            "accusative": "Катю",
+            "instrumental": "Катей",
+            "prepositional": "Кате"
+          }
+        },
+        {
+          "id": "daria",
+          "featured": true,
+          "full": {
+            "nominative": "Дарья",
+            "genitive": "Дарьи",
+            "dative": "Дарье",
+            "accusative": "Дарью",
+            "instrumental": "Дарьей",
+            "prepositional": "Дарье"
+          },
+          "familiar": {
+            "nominative": "Даша",
+            "genitive": "Даши",
+            "dative": "Даше",
+            "accusative": "Дашу",
+            "instrumental": "Дашей",
+            "prepositional": "Даше"
+          }
+        },
+        {
+          "id": "ksenia",
+          "featured": true,
+          "full": {
+            "nominative": "Ксения",
+            "genitive": "Ксении",
+            "dative": "Ксении",
+            "accusative": "Ксению",
+            "instrumental": "Ксенией",
+            "prepositional": "Ксении"
+          },
+          "familiar": {
+            "nominative": "Ксюша",
+            "genitive": "Ксюши",
+            "dative": "Ксюше",
+            "accusative": "Ксюшу",
+            "instrumental": "Ксюшей",
+            "prepositional": "Ксюше"
+          }
+        },
+        {
+          "id": "alexandra",
+          "featured": false,
+          "full": {
+            "nominative": "Александра",
+            "genitive": "Александры",
+            "dative": "Александре",
+            "accusative": "Александру",
+            "instrumental": "Александрой",
+            "prepositional": "Александре"
+          },
+          "familiar": {
+            "nominative": "Саша",
+            "genitive": "Саши",
+            "dative": "Саше",
+            "accusative": "Сашу",
+            "instrumental": "Сашей",
+            "prepositional": "Саше"
+          }
+        },
+        {
+          "id": "polina",
+          "featured": false,
+          "full": {
+            "nominative": "Полина",
+            "genitive": "Полины",
+            "dative": "Полине",
+            "accusative": "Полину",
+            "instrumental": "Полиной",
+            "prepositional": "Полине"
+          },
+          "familiar": {
+            "nominative": "Полина",
+            "genitive": "Полины",
+            "dative": "Полине",
+            "accusative": "Полину",
+            "instrumental": "Полиной",
+            "prepositional": "Полине"
+          }
+        },
+        {
+          "id": "victoria",
+          "featured": false,
+          "full": {
+            "nominative": "Виктория",
+            "genitive": "Виктории",
+            "dative": "Виктории",
+            "accusative": "Викторию",
+            "instrumental": "Викторией",
+            "prepositional": "Виктории"
+          },
+          "familiar": {
+            "nominative": "Вика",
+            "genitive": "Вики",
+            "dative": "Вике",
+            "accusative": "Вику",
+            "instrumental": "Викой",
+            "prepositional": "Вике"
+          }
+        },
+        {
+          "id": "elena",
+          "featured": false,
+          "full": {
+            "nominative": "Елена",
+            "genitive": "Елены",
+            "dative": "Елене",
+            "accusative": "Елену",
+            "instrumental": "Еленой",
+            "prepositional": "Елене"
+          },
+          "familiar": {
+            "nominative": "Лена",
+            "genitive": "Лены",
+            "dative": "Лене",
+            "accusative": "Лену",
+            "instrumental": "Леной",
+            "prepositional": "Лене"
+          }
+        },
+        {
+          "id": "olga",
+          "featured": false,
+          "full": {
+            "nominative": "Ольга",
+            "genitive": "Ольги",
+            "dative": "Ольге",
+            "accusative": "Ольгу",
+            "instrumental": "Ольгой",
+            "prepositional": "Ольге"
+          },
+          "familiar": {
+            "nominative": "Оля",
+            "genitive": "Оли",
+            "dative": "Оле",
+            "accusative": "Олю",
+            "instrumental": "Олей",
+            "prepositional": "Оле"
+          }
+        },
+        {
+          "id": "yulia",
+          "featured": false,
+          "full": {
+            "nominative": "Юлия",
+            "genitive": "Юлии",
+            "dative": "Юлии",
+            "accusative": "Юлию",
+            "instrumental": "Юлией",
+            "prepositional": "Юлии"
+          },
+          "familiar": {
+            "nominative": "Юля",
+            "genitive": "Юли",
+            "dative": "Юле",
+            "accusative": "Юлю",
+            "instrumental": "Юлей",
+            "prepositional": "Юле"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,208 @@
+[
+  {
+    "id": "taxi-navigation-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: illustration-story. Asset type: portrait background for Serbian Summer mobile visual novel, 1024x1536 or taller. Primary request: viewpoint from rear passenger seat of a Belgrade taxi, looking forward between the seats as the driver enters the destination on a mounted smartphone navigation screen. Input reference: preserve this adult Serbian driver's identity, bald head, salt-and-pepper beard, burgundy polo, stocky build. New scene, not a portrait cutout. He is seated at the left steering wheel, seen from behind and in three-quarter profile, reaching one hand to the phone on the dashboard, car paused before starting. Warm late afternoon light, realistic drawn anime-inspired visual novel painting, detailed clean linework, rich Balkan summer warmth. Dashboard, two front seats, windscreen and Belgrade street beyond. Phone visibly shows a simple route map with a route line and destination pin, no readable writing, no logos, no overlay interface cards, no captions. Keep driver's whole head, reaching hand and navigation phone inside the central 75% of canvas with breathing room above the head so mobile cropping preserves them. Natural plausible car anatomy and hands. Opaque background.",
+    "references": [
+      "public/assets/guest-driver-friendly.webp"
+    ],
+    "transparent": false,
+    "selected": true,
+    "master_file": "taxi-navigation-v1.png",
+    "game_asset": "public/assets/taxi-navigation-v1.webp"
+  },
+  {
+    "id": "room-settling-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: illustration-story. Asset type: portrait interactive game background for Serbian Summer. Generate a new view of this same modest rented Belgrade bedroom using the reference room's warm realistic hand-drawn anime-inspired style, wooden floor, cream walls, bed at right, sunny open window and wooden desk on the left. No people. First-person view entering room, warm summer evening. Three clear large separate interactive objects fully inside central 75% of image: a set of metal door keys with a red fob on left-center wooden desk; a black smartphone beside a charging cable plugged into the wall on center-right bedside table; an open navy-blue suitcase on a low luggage bench in lower center with neatly folded shirts visible, easy to unpack. Make objects clear and readable, not tiny, all between 35% and 75% of image height, not at edges. Keep upper area as room/window for overlay controls. Distinct desk and bedside table, sensible geometry, cozy actual home not luxury hotel. Full bleed portrait composition about 2:3. No lettering, no caption, no UI, no watermark.",
+    "references": [
+      "public/assets/first-room.webp"
+    ],
+    "transparent": false,
+    "selected": true,
+    "master_file": "room-settling-v1.png",
+    "game_asset": "public/assets/room-settling-v1.webp"
+  },
+  {
+    "id": "dragan-kitchen-waiting-layer-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: identity-preserve / illustration-story. Asset type: transparent character cutout for separate game layers. Preserve exact face and identity of reference: Dragan, 39, mature broad muscular Serbian man, thick salt-and-pepper hair swept back, short dark beard, olive skin, very dense natural dark chest and arm hair, little black leaf tattoo above his left pectoral. Same polished realistic drawn anime-inspired visual novel style and warm light from upper right. Single character, full head and hair with generous 10% transparent margin above and sides; frame to mid thigh. No background at all, true transparent alpha, no kitchen, no wall, no table, no floor, no text, no cups or keys. Hands entirely inside image. Relaxed natural anatomy. Seated, wearing dark forest green rolled-sleeve shirt and charcoal trousers, hands empty resting loosely in lap, waiting patiently for coffee, warm subtly flirtatious eye contact toward viewer, gentle smile.",
+    "references": [
+      "public/assets/dragan-kitchen-coffee.webp"
+    ],
+    "transparent": true,
+    "selected": true,
+    "master_file": "dragan-kitchen-waiting-layer-v1.png",
+    "game_asset": "public/assets/dragan-kitchen-waiting-layer-v1.webp"
+  },
+  {
+    "id": "dragan-kitchen-spill-layer-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: identity-preserve / illustration-story. Asset type: transparent character cutout for separate game layers. Preserve exact face and identity of reference: Dragan, 39, mature broad muscular Serbian man, thick salt-and-pepper hair swept back, short dark beard, olive skin, very dense natural dark chest and arm hair, little black leaf tattoo above his left pectoral. Same polished realistic drawn anime-inspired visual novel style and warm light from upper right. Single character, full head and hair with generous 10% transparent margin above and sides; frame to mid thigh. No background at all, true transparent alpha, no kitchen, no wall, no table, no floor, no text, no cups or keys. Hands entirely inside image. Relaxed natural anatomy. Standing in dark green shirt and charcoal trousers with a very large realistic wet coffee stain from chest to waistband, droplets on open collar chest and belt. Startled wide eyes and slightly parted lips, holding shirt hem away from body. Not angry.",
+    "references": [
+      "public/assets/dragan-kitchen-spill.webp"
+    ],
+    "transparent": true,
+    "selected": true,
+    "master_file": "dragan-kitchen-spill-layer-v1.png",
+    "game_asset": "public/assets/dragan-kitchen-spill-layer-v1.webp"
+  },
+  {
+    "id": "dragan-kitchen-comfort-layer-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: identity-preserve / illustration-story. Asset type: transparent character cutout for separate game layers. Preserve exact face and identity of reference: Dragan, 39, mature broad muscular Serbian man, thick salt-and-pepper hair swept back, short dark beard, olive skin, very dense natural dark chest and arm hair, little black leaf tattoo above his left pectoral. Same polished realistic drawn anime-inspired visual novel style and warm light from upper right. Single character, full head and hair with generous 10% transparent margin above and sides; frame to mid thigh. No background at all, true transparent alpha, no kitchen, no wall, no table, no floor, no text, no cups or keys. Hands entirely inside image. Relaxed natural anatomy. Seated in same heavily coffee stained dark green shirt, warm caring affectionate smile and soft eyes toward viewer, one hand extending forward palm down to reassuringly cover the unseen player hand, no second person visible.",
+    "references": [
+      "public/assets/dragan-kitchen-coffee.webp"
+    ],
+    "transparent": true,
+    "selected": false,
+    "master_file": "dragan-kitchen-comfort-layer-v1.png",
+    "game_asset": "public/assets/dragan-kitchen-comfort-layer-v1.webp"
+  },
+  {
+    "id": "dragan-kitchen-dry-layer-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: identity-preserve / illustration-story. Asset type: transparent character cutout for separate game layers. Preserve exact face and identity of reference: Dragan, 39, mature broad muscular Serbian man, thick salt-and-pepper hair swept back, short dark beard, olive skin, very dense natural dark chest and arm hair, little black leaf tattoo above his left pectoral. Same polished realistic drawn anime-inspired visual novel style and warm light from upper right. Single character, full head and hair with generous 10% transparent margin above and sides; frame to mid thigh. No background at all, true transparent alpha, no kitchen, no wall, no table, no floor, no text, no cups or keys. Hands entirely inside image. Relaxed natural anatomy. Seated shirtless with dense dark bear-like chest hair and hairy arms, small black leaf tattoo above LEFT nipple preserved, charcoal trousers on. Cream towel over shoulder held in one hand, warm affectionate playful eye contact toward viewer, gentle smile, not shocked, no coffee cup. Upper body only non-explicit casual context.",
+    "references": [
+      "public/assets/dragan-kitchen-dry.webp"
+    ],
+    "transparent": true,
+    "selected": true,
+    "master_file": "dragan-kitchen-dry-layer-v1.png",
+    "game_asset": "public/assets/dragan-kitchen-dry-layer-v1.webp"
+  },
+  {
+    "id": "dragan-kitchen-borrowed-layer-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: identity-preserve / illustration-story. Asset type: transparent character cutout for separate game layers. Preserve exact face and identity of reference: Dragan, 39, mature broad muscular Serbian man, thick salt-and-pepper hair swept back, short dark beard, olive skin, very dense natural dark chest and arm hair, little black leaf tattoo above his left pectoral. Same polished realistic drawn anime-inspired visual novel style and warm light from upper right. Single character, full head and hair with generous 10% transparent margin above and sides; frame to mid thigh. No background at all, true transparent alpha, no kitchen, no wall, no table, no floor, no text, no cups or keys. Hands entirely inside image. Relaxed natural anatomy. Seated wearing a clean fitted black athletic T-shirt and charcoal trousers, no logo or writing. Warm playful appreciative smile toward viewer, relaxed empty hands.",
+    "references": [
+      "public/assets/dragan-kitchen-coffee.webp"
+    ],
+    "transparent": true,
+    "selected": true,
+    "master_file": "dragan-kitchen-borrowed-layer-v1.png",
+    "game_asset": "public/assets/dragan-kitchen-borrowed-layer-v1.webp"
+  },
+  {
+    "id": "jelena-kitchen-waiting-layer-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: identity-preserve / illustration-story. Asset type: transparent character cutout for separate game layers. Preserve exact face and identity of reference: Jelena, adult woman in her thirties, long copper-red braid over shoulder, freckles, green eyes, gold hoop earrings. Same polished realistic drawn anime-inspired visual novel style and warm light from upper right. Single character, full head and hair with generous 10% transparent margin above and sides; frame to mid thigh. No background at all, true transparent alpha, no kitchen, no wall, no table, no floor, no text, no cups or keys. Hands entirely inside image. Relaxed natural anatomy. Seated in pale blue open overshirt over opaque cream top and teal trousers, empty hands resting in lap, waiting patiently for coffee, affectionate curious eye contact toward viewer, gentle smile.",
+    "references": [
+      "public/assets/jelena-kitchen-coffee.webp"
+    ],
+    "transparent": true,
+    "selected": true,
+    "master_file": "jelena-kitchen-waiting-layer-v1.png",
+    "game_asset": "public/assets/jelena-kitchen-waiting-layer-v1.webp"
+  },
+  {
+    "id": "jelena-kitchen-spill-layer-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: identity-preserve / illustration-story. Asset type: transparent character cutout for separate game layers. Preserve exact face and identity of reference: Jelena, adult woman in her thirties, long copper-red braid over shoulder, freckles, green eyes, gold hoop earrings. Same polished realistic drawn anime-inspired visual novel style and warm light from upper right. Single character, full head and hair with generous 10% transparent margin above and sides; frame to mid thigh. No background at all, true transparent alpha, no kitchen, no wall, no table, no floor, no text, no cups or keys. Hands entirely inside image. Relaxed natural anatomy. Standing in pale blue overshirt and opaque cream top and teal trousers with a very large brown coffee stain across chest down to waistband. Fabric remains opaque. Surprised raised eyebrows, slightly open lips, holding overshirt away from body. Not angry.",
+    "references": [
+      "public/assets/jelena-kitchen-spill.webp"
+    ],
+    "transparent": true,
+    "selected": true,
+    "master_file": "jelena-kitchen-spill-layer-v1.png",
+    "game_asset": "public/assets/jelena-kitchen-spill-layer-v1.webp"
+  },
+  {
+    "id": "jelena-kitchen-comfort-layer-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: identity-preserve / illustration-story. Asset type: transparent character cutout for separate game layers. Preserve exact face and identity of reference: Jelena, adult woman in her thirties, long copper-red braid over shoulder, freckles, green eyes, gold hoop earrings. Same polished realistic drawn anime-inspired visual novel style and warm light from upper right. Single character, full head and hair with generous 10% transparent margin above and sides; frame to mid thigh. No background at all, true transparent alpha, no kitchen, no wall, no table, no floor, no text, no cups or keys. Hands entirely inside image. Relaxed natural anatomy. Seated in same coffee stained pale blue overshirt and opaque cream top, soft caring affectionate gaze toward viewer, one hand extending gently toward viewer palm down to reassure them, no second person visible.",
+    "references": [
+      "public/assets/jelena-kitchen-coffee.webp"
+    ],
+    "transparent": true,
+    "selected": false,
+    "master_file": "jelena-kitchen-comfort-layer-v1.png",
+    "game_asset": "public/assets/jelena-kitchen-comfort-layer-v1.webp"
+  },
+  {
+    "id": "jelena-kitchen-dry-layer-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: identity-preserve / illustration-story. Asset type: transparent character cutout for separate game layers. Preserve exact face and identity of reference: Jelena, adult woman in her thirties, long copper-red braid over shoulder, freckles, green eyes, gold hoop earrings. Same polished realistic drawn anime-inspired visual novel style and warm light from upper right. Single character, full head and hair with generous 10% transparent margin above and sides; frame to mid thigh. No background at all, true transparent alpha, no kitchen, no wall, no table, no floor, no text, no cups or keys. Hands entirely inside image. Relaxed natural anatomy. Seated wearing a clean opaque dark green sleeveless top and teal trousers, no overshirt, cream towel resting on shoulder, soft affectionate shy smile with eye contact toward viewer. Entire chest covered by opaque top. No coffee cup.",
+    "references": [
+      "public/assets/jelena-kitchen-coffee.webp"
+    ],
+    "transparent": true,
+    "selected": true,
+    "master_file": "jelena-kitchen-dry-layer-v1.png",
+    "game_asset": "public/assets/jelena-kitchen-dry-layer-v1.webp"
+  },
+  {
+    "id": "jelena-kitchen-borrowed-layer-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: identity-preserve / illustration-story. Asset type: transparent character cutout for separate game layers. Preserve exact face and identity of reference: Jelena, adult woman in her thirties, long copper-red braid over shoulder, freckles, green eyes, gold hoop earrings. Same polished realistic drawn anime-inspired visual novel style and warm light from upper right. Single character, full head and hair with generous 10% transparent margin above and sides; frame to mid thigh. No background at all, true transparent alpha, no kitchen, no wall, no table, no floor, no text, no cups or keys. Hands entirely inside image. Relaxed natural anatomy. Seated wearing a cozy oversized light grey university hoodie and teal trousers, small exact navy Cyrillic text on chest: «СПБГУ 2008». Warm appreciative affectionate smile toward viewer, relaxed empty hands.",
+    "references": [
+      "public/assets/jelena-kitchen-coffee.webp"
+    ],
+    "transparent": true,
+    "selected": true,
+    "master_file": "jelena-kitchen-borrowed-layer-v1.png",
+    "game_asset": "public/assets/jelena-kitchen-borrowed-layer-v1.webp"
+  },
+  {
+    "id": "kitchen-common-layer-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: illustration-story. Asset type: opaque kitchen background layer for a mobile visual novel. Use the reference only for the kitchen environment, REMOVE the man and all people. Cozy modest Belgrade apartment kitchen, muted sage green cupboards, cream plaster walls, wooden countertop, potted plants, small window at right with warm summer evening rooftops, wooden tabletop at very bottom foreground. Eye-level view from across the table. Central 70% clear and simple for separate character cutout. No people, no human shadows, no cups on foreground table, no keys, no text. Painterly realistic anime-inspired visual novel art with clean detailed linework and warm Balkan golden light. Full-bleed portrait 2:3, breathing room above character area.",
+    "references": [
+      "public/assets/dragan-kitchen-coffee.webp"
+    ],
+    "transparent": false,
+    "selected": true,
+    "master_file": "kitchen-common-layer-v1.png",
+    "game_asset": "public/assets/kitchen-common-layer-v1.webp"
+  },
+  {
+    "id": "dragan-kitchen-comfort-layer-v2",
+    "mode": "built-in image_gen",
+    "prompt": "Edit identity-preserve. Transparent game character cutout. Use the first reference for exact person identity and large coffee stains; use second for warm reassuring gaze and seated forward-reaching pose. Preserve the large brown coffee stain across shirt from chest through waist; do NOT clean clothing yet. Same mature muscular Dragan, salt-and-pepper hair, beard, dark forest green shirt and dark trousers. Seated, soft affectionate caring smile, looking into the viewer’s eyes, one hand gently covering one anonymous adult player's hand near the lower foreground to reassure them; only that player's hand is visible, no second face or body. No cup, no keys, no table, no room, no furniture. Whole head and hair with clear transparent breathing room above, no cropped crown. Frame down to thighs. Realistic drawn anime-inspired novel art. True transparent background.",
+    "references": [
+      "public/assets/dragan-kitchen-spill-layer-v1.webp",
+      "public/assets/dragan-kitchen-comfort-layer-v1.webp"
+    ],
+    "transparent": true,
+    "selected": true,
+    "master_file": "dragan-kitchen-comfort-layer-v2.png",
+    "game_asset": "public/assets/dragan-kitchen-comfort-layer-v2.webp"
+  },
+  {
+    "id": "jelena-kitchen-comfort-layer-v2",
+    "mode": "built-in image_gen",
+    "prompt": "Edit identity-preserve. Transparent game character cutout. Use the first reference for exact person identity and large coffee stains; use second for warm reassuring gaze and seated forward-reaching pose. Preserve the large brown coffee stain across shirt from chest through waist; do NOT clean clothing yet. Same adult Jelena, copper-red braid, freckles, green eyes, pale blue overshirt over OPAQUE cream top, teal trousers. Seated, soft affectionate caring smile, looking into the viewer’s eyes, one hand gently covering one anonymous adult player's hand near the lower foreground to reassure them; only that player's hand is visible, no second face or body. No cup, no keys, no table, no room, no furniture. Whole head and hair with clear transparent breathing room above, no cropped crown. Frame down to thighs. Realistic drawn anime-inspired novel art. True transparent background.",
+    "references": [
+      "public/assets/jelena-kitchen-spill-layer-v1.webp",
+      "public/assets/jelena-kitchen-comfort-layer-v1.webp"
+    ],
+    "transparent": true,
+    "selected": true,
+    "master_file": "jelena-kitchen-comfort-layer-v2.png",
+    "game_asset": "public/assets/jelena-kitchen-comfort-layer-v2.webp"
+  },
+  {
+    "id": "dragan-kitchen-soft-layer-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Edit only the facial expression of this coffee-stained character: replace surprised/shocked expression with a tender reassuring affectionate smile and warm softly amused eyes looking at the viewer. Preserve exact identity, body pose, clothing, very large brown coffee stains, held shirt hem, hands and all other details. No hand touching the player; no other person or hand. TRUE transparent background. Whole head/hair visible with transparent breathing room above. This is the moment before changing the wet shirt, not a clean outfit. Same realistic drawn anime-inspired game style.",
+    "references": [
+      "public/assets/dragan-kitchen-spill-layer-v1.webp"
+    ],
+    "transparent": true,
+    "selected": true,
+    "master_file": "dragan-kitchen-soft-layer-v1.png",
+    "game_asset": "public/assets/dragan-kitchen-soft-layer-v1.webp"
+  },
+  {
+    "id": "jelena-kitchen-soft-layer-v1",
+    "mode": "built-in image_gen",
+    "prompt": "Edit only the facial expression of this coffee-stained character: replace surprised/shocked expression with a tender reassuring affectionate smile and warm softly amused eyes looking at the viewer. Preserve exact identity, body pose, clothing, very large brown coffee stains, held shirt hem, hands and all other details. No hand touching the player; no other person or hand. TRUE transparent background. Whole head/hair visible with transparent breathing room above. This is the moment before changing the wet shirt, not a clean outfit. Same realistic drawn anime-inspired game style.",
+    "references": [
+      "public/assets/jelena-kitchen-spill-layer-v1.webp"
+    ],
+    "transparent": true,
+    "selected": true,
+    "master_file": "jelena-kitchen-soft-layer-v1.png",
+    "game_asset": "public/assets/jelena-kitchen-soft-layer-v1.webp"
+  }
+]

@@ -1,0 +1,4 @@
+/* Shared navigation for the room, baggage, map, viewing and bank guide. */
+.room-tools button,.quest-tools .quest-tool,.guide-bar .guide-tool,.interaction-tools button{display:grid;place-items:center;flex:0 0 44px;width:44px;height:44px;min-height:44px;padding:10px;border:1px solid #d5e2dd80;border-radius:50%;background:#153c4ce8;color:#fff7e6;box-shadow:0 2px 10px #102b4655}
+.room-tools button svg,.quest-tool svg,.guide-tool svg,.interaction-tools button svg{width:22px;height:22px;display:block}
+.room-tools button:disabled,.quest-tool:disabled,.guide-tool:disabled,.interaction-tools button:disabled{opacity:.45}

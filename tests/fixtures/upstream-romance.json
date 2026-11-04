@@ -1,0 +1,379 @@
+{
+  "upstream": "a4133da",
+  "addedScenes": {
+    "love1_1_hub": "cfd174cdf057e0f6ff1f048ed40aa85713e64574e43f76d07edf5f235262871d",
+    "love1_1_airport": "901f6e22212d7bd3af29919e172b4bef28bdfc9aa6ad24af5919df128edd4af8",
+    "love1_1_asya": "dda5eab87b73195f4e7545aaf4932899a384e7aef419eb3bb22a8cffb6f3d261",
+    "love1_1_luka": "232bb81bf3f4a483a4860be2685e085ae3bbd1125224d23ef16b95e1ff8181e6",
+    "love1_1_owner": "f811b7d056b799b141d99c97eef08a4f958e49a46cec85821932b927b48f80cf",
+    "love1_1_bank": "5fb697b0bdf08e49b5398dd6b1f2c15ccf34782affa66524be281db77f91aa1f",
+    "love1_1_mup": "d090d06930d43960a1b8d9c0eeb2188b0bd3f906a2ae6d86eedcfaa770b13f18",
+    "love1_1_milos": "86c17515f3d734be4207fa1972e54725eadf90bb605279b41f7c0da72640ff2c",
+    "love1_1_yes": "3192b8b48f1a52bbefd768334a7f4433a08a71c172803fc90478bedd3791e36a",
+    "love1_1_no": "167cf29b8df7d1da4e208e89926255ff2f689c54cc6dfda9e0f8132c95b50010",
+    "love1_2_hub": "4caa548cc51a09836b80f9b11d7156b28b8d18b78bc8275b0d5658362ecce6ed",
+    "love1_2_airport": "3862d8b936e71517e94e65d020b0c145a0dc6cc729e0f7cba6c0cb85f53d14af",
+    "love1_2_asya": "d581e36fad6794ac9b5f73a728d70b7ba67674ebd926853d5cce85307380f110",
+    "love1_2_luka": "f9736964d2a2ca5af5fde7faf377a116a2bca9d11c9fce91df8d8d6a3656edb4",
+    "love1_2_owner": "b9ab27d39c2808a05a7343e42c818d5025bdee48fcad11776a8c3424d70d2a5f",
+    "love1_2_bank": "fe2e2b487978cfa2d056d2b57f898c743479f5f871f000710d9e97b1409a9a98",
+    "love1_2_mup": "67a45a6031d3b2a418689f1dc05330b5cb824572e343af063f68a90481e92eab",
+    "love1_2_milos": "813d421d418eaadfa2de96a66de0636f32f613e2974a6ce3d8276d541000bf03",
+    "love1_2_yes": "042d462d05a0684185a6834fdb0ff8799173fa8c929a3163f0782ce39817520a",
+    "love1_2_no": "8c8d29ca82647d6cc5deb1f5281bb07e96fff30a6e39bbc05cc53e4c0333142c",
+    "love1_3_hub": "ec8336c66a6572c4086674c30584acf2662d3873128b71da9fbd82ccdcce90c9",
+    "love1_3_airport": "4f43ecc38b96f06ba6acdbd48be85cefd93a5452de2fc9fecbf739043e11bda7",
+    "love1_3_asya": "50012e35d8a912b6fed9a15198f2a33d4c3165b9e8bb5f2905d40956cdc9846f",
+    "love1_3_luka": "b5d5c00a29914824d0da86e254b940fc36b8b50d6f31430e9fe00f51311b981b",
+    "love1_3_owner": "bf6e0b5bd064bc70dc60dac50bb81c9e994b0ce6667a9adcf9e65e864676781f",
+    "love1_3_bank": "dbd60046f2fcd8c7f0c22bff199b5b552625077bf7f538dcbe0974e2b3f99bc7",
+    "love1_3_mup": "2831ce94279677c9369bf933f1d7bb7199adf9f932afe31b2bd317f0debc5035",
+    "love1_3_milos": "60b02e30ee649222e97b3ed0fb93a5af988a153e6f2dd9edfff54cadfa3c86f5",
+    "love1_3_yes": "7cee7881527cb72a93cbb36abb47ae65f8b4fc6373314495de36271d5ada8298",
+    "love1_3_no": "189ec51302ebf90ab0d5966e43ebbb83092b4026d276d87e1d7b15e20d521b89",
+    "love2_1_hub": "9aa637f0c162e1da1e3e77e8c3c0d6b8eafb202f4d31bcf001308b3d25c62b66",
+    "love2_1_airport": "92a7643f8ceed7b8bd547b34c42a93b4d1d1689206606be8d3e0554adc2eddef",
+    "love2_1_asya": "7a456e041ae2e274af012ebb6c8db15c43509b2a3523209d91a382ffc54ab528",
+    "love2_1_luka": "af86e70fb94357866f3c268d99af7a3f286da1f9193d739e71141ab312713be8",
+    "love2_1_owner": "1ead128d63af715aa0527b0fa8697bc4f58f7c9e2bef121266a39e19458357a2",
+    "love2_1_bank": "2ae2210aa0aaf9b3d6f04ac31781b6f3dae5a6b7f1299a75c4afe04f332ba82f",
+    "love2_1_mup": "b287efeb54f14ced50b69ca2ecc4995c6fd930a5db06fde96a857cf1503be452",
+    "love2_1_milos": "612037649732ec0eb0e23beb5d87c0d13dedfb12015161af38a927bcd9f91d8c",
+    "love2_1_yes": "dba1fe882b4f084025fea4516230186d509c34ac2daae71222a401815fbc20a2",
+    "love2_1_no": "faa989d5e94ff7e5908b6f7473d350fa7dd504f96e7a824afff362c5a76dede4",
+    "love2_2_hub": "427c1086f472f5ccb82507c9e3497d539b920f2b461156ba5325667626b95fb6",
+    "love2_2_airport": "ccb04e87affb9c8c2002bad3c3d0b570f23fd1104dad9540e74b30cd0dba35f9",
+    "love2_2_asya": "f675eabb1ca79332f6922027a0e3938d84f64521dc2b73ab983f43536b4ff851",
+    "love2_2_luka": "9597649a7b9cb2630a4592398c3409ec815d6d6b4b91a977292bcce93d00041e",
+    "love2_2_owner": "e7a8fd7d73ef59e2422fceaae32a565ad4f704b7f555fac4384708ec497047a8",
+    "love2_2_bank": "2a8448ee30cfe24e97cec3d17a34b57e889e5a30c7540d04761e14c36e6ecbbe",
+    "love2_2_mup": "dd01d7c5b59fdf5ba511567edc7c76bd944e7bacfc1f0e753588ed841a72bc96",
+    "love2_2_milos": "35febc5571f92622f298f0fc6bdf95011f97be235fbf4336e0663c893fdbfa8f",
+    "love2_2_yes": "d884551c9446c3133e68944fbebf568fcfc9841cacab5d7044846705b568922a",
+    "love2_2_no": "b1c8925f382c51286f98102c66c0dce748ac84edaadfb8cbc728f73079332c1c",
+    "love2_3_hub": "90e9825f0ff651b0b955363271730f351e77924a201186505834b81ad03cceb0",
+    "love2_3_airport": "79fe31bff5a000c3cb6a3fc7873da261a42c5ef655a29e81106c76d51e2cbcef",
+    "love2_3_asya": "595aff8de69ee97fca2baf30ba581d5b8a5b2e9f1cb46664d9e47317d588cb7b",
+    "love2_3_luka": "299d285912ba4cdaec78ac2605b4b4a8ab5ef9547f16412c831e1eb8d7f8634a",
+    "love2_3_owner": "d69ad2a26043fd3c28edf69850c6177a63d5feb2b0715ef5ff98953eaf4671ea",
+    "love2_3_bank": "329f4fe5d0f41e93ae0c12097f1a34a6ebcfeb155cc36f2356c72f03da9e76c7",
+    "love2_3_mup": "bbd8907d8549a75c4b9c5ce08fd6180f4f31ddc8abd98ba124ea500842c55e86",
+    "love2_3_milos": "852cd022698d04ac68b9aae63e4b2baad64b2010be7f5e3fd5bafc72341c314a",
+    "love2_3_yes": "25944c106440bddb4c949ce8af95375c0e7653d63b5e985e4bd4913f1c29fe3d",
+    "love2_3_no": "a01f5d3b058bf48b5a9b260c8f9ea4bd9d8d2b01c382bfeb0580d6e848bba4bf",
+    "love3_1_hub": "45da0c1613e91955464cdae13e656652c649c015d49ef158c9f3bbc36bbadb16",
+    "love3_1_airport": "244ae88a43f7bcb24931d508a19c53ecf21a02c049cb2865fce551ec3bf005af",
+    "love3_1_asya": "ca40de0d303e7c685c12f66eb91c03f0eb5d4ef8a960db79eeaae640a1cb4ecd",
+    "love3_1_luka": "6ba6dd622cc187d099a1706571651528b81e850741dd9844d5fe22cf8f9bec26",
+    "love3_1_owner": "7ddb3f43aff927657b40bf387393ce154f1328a5787ec655c501e5e48402356b",
+    "love3_1_bank": "42973d4e3b5d2156799c1b53760295e8ced48014963c835988d1900bd45bd882",
+    "love3_1_mup": "5c589b98aae430f8b5a430a255f283b8eacc7aa04b3222e3fbe045493375cf41",
+    "love3_1_milos": "dc290e690dceaf8b430cbd1c6f94bc2b39ddd84806035e56ce5d961d3b84c484",
+    "love3_1_fade": "ed3a13ff983a7556eeec3e10f640ee065aaa423c6b0b386289f8741d5d0397af",
+    "love3_1_morning": "bbb985087cd2aeff11c9ef0ae70857695c0aa11be61ba8ba27c5fb75342a4ad8",
+    "love3_1_no": "66cf2997b9fce9688ed0d0ca8977fac03ff7e842ba960585550203e03dd3c8d9",
+    "love3_2_hub": "b453945399c0f6cca78a09f55aa1e22fa4dbd64d95f3b30c2b9464b2b34effec",
+    "love3_2_airport": "96019b8f018d0558978f5e92df43a6cd267aa125e25c631f80c3a7076e9e4659",
+    "love3_2_asya": "395e5ac0b5f31b1ecde7ff006a94ae3279eccffc8b1a7f26cee733e3599cfff4",
+    "love3_2_luka": "18fac437a684a5d4187a0e219d0f738cdcbb211e2275fa62139dc60a9da6f3b8",
+    "love3_2_owner": "8def89e98af1dcc60423cab1fc98a9192d6bc5243b81bcd8632c6cb5da77aad7",
+    "love3_2_bank": "536d7e74b6d551f056dc011d0f7b62f882a736edae28d2ac32b076016d799705",
+    "love3_2_mup": "df5370001dfe51d49407bded6b2e34b4bb3a8cc5fad48651ad08bd4125aa7a22",
+    "love3_2_milos": "34779195c6a5ea97635f7a583d6d5b723a98032ba17709a0079162e5af3e00a4",
+    "love3_2_fade": "d0f300a2f67231f45e883cf8b59beba742d83304f3a995786da349643a60f3f7",
+    "love3_2_morning": "d892b2e2a2e0084d2637d7d205c573c4dca990df197def7ceabd46dec00ccfe7",
+    "love3_2_no": "0ea017f310b6c7855d2b0744243723c0bda85f4b3fe7b3bd6f3baa466c682f03",
+    "love3_3_hub": "acb7f729b9d1f811d15d8bc02e661f1ba8ad98a675f5c8753394b416b6cedae5",
+    "love3_3_airport": "d709cbefb1d33ec8fca29298f81c1f42570e331a9b5e3158dc0075a78a28271b",
+    "love3_3_asya": "748d07d2983ce7f835a12659920e1e858dfab44f20f38065efc5040ea6b9e65a",
+    "love3_3_luka": "9e4b9f2d5a545a7edae7e25e01d90b90693f0a94499b8c33af42dd258513de43",
+    "love3_3_owner": "2bdd3f3d8cb741ff2dc3c26f2e29e85d1a566ebd2b603c4a81eb5818a611f6da",
+    "love3_3_bank": "52731b7993b1a0cdd13d8d947d29e048e7f2723f47efd904d7a218ec88089f43",
+    "love3_3_mup": "f5d85a199bad8bea296c457ccf5713ef041fda7ee529ca27abe37f2a7926bee9",
+    "love3_3_milos": "7ef9dae745dd326c278c418b23ad7431048398951359f63c71531872f1845bc3",
+    "love3_3_fade": "6cae69962b29f247202bdfd5c960c7a9a1e40d13f67df1ff9871fa5a7a61f1f8",
+    "love3_3_morning": "5c27919f0fe681cbd5495da06bc052a24956d1928fa05e2a83966ac7c9c5833b",
+    "love3_3_no": "8d5ca363c660ac337973e79cb260799a6680e6602f7eccc81a2397865fb00439",
+    "love3_group": "61b1709f2f6f86764e0bdeb3e158112b6d5f7b5b974e1f91c26a725c535182a9",
+    "love3_group_fade": "19fd6ac1af82720da7b6e023bb32b0a44bcab6c4c874978244cb47769ef0faa0",
+    "love3_group_morning": "610014eda1fa6a070ebc4028d954857608052031c14b56dbcc23409dda8f4d53",
+    "love3_group_tea": "ceb340dc8e64cc0e6cc91957e4a62fad6c0ec71f96402867a4e8bf83d770f05c",
+    "stay_lovers": "27c9415bdd0c07786d10705c78d18dd84413b4fce955ee060995cd5cb10534ea",
+    "leave_lovers": "2088ccd2a94327ad61534bcc24ed0a8cce30dd659a6655621cec9da3b76cbe8b",
+    "return_lovers": "9bd8919072934a466bcd121a1a411c52ace79bbe08f746a78d040757ab3b2210",
+    "nikola_aside": "42cfac2c7b793403f341ea36b58497adffff08a344ecd275c2941324c89e34d1",
+    "nikola_aside_yes": "b31c8b6d7ab239f4708770685eb2554842d6d89990f83edf5f839fdaae0d361a",
+    "nikola_aside_after": "9376e23e47eaa21d86737cd5547a37503f9fbd7a7912dbe8030fadb744d75dd6"
+  },
+  "changes": [
+    {
+      "path": [
+        "decision_weigh_work",
+        "pages"
+      ],
+      "beforeExists": true,
+      "before": [
+        {
+          "speaker": "narrator",
+          "text": "Я открываю заметки о проекте. Там уже не абстрактные планы, а список ближайших шагов и пара имён, которым можно написать."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Дело не требует, чтобы я остался любой ценой. Оно просто показывает: здесь у меня получается строить."
+        },
+        {
+          "speaker": "Ася",
+          "character": "asya",
+          "emotion": "friendly",
+          "text": "Что бы ты ни выбрал{a}, у двора будет стул для тебя.",
+          "message": true
+        },
+        {
+          "speaker": "Лука",
+          "character": "luka",
+          "emotion": "friendly",
+          "text": "Если захочешь пересчитать цифры, я рядом.",
+          "message": true,
+          "action": {
+            "kind": "tap",
+            "label": "Отложить заметки и подумать о вечере",
+            "object": "Отложить заметки и подумать о вечере"
+          }
+        }
+      ],
+      "afterHash": "14357820dc8f48b3614f8bdd8c5a6e3e79ebecf3f96e2eb7d4452e7e6be47a1f"
+    },
+    {
+      "path": [
+        "decision_weigh_work",
+        "actions",
+        "3"
+      ],
+      "beforeExists": true,
+      "before": {
+        "kind": "tap",
+        "label": "Отложить заметки и подумать о вечере",
+        "object": "Отложить заметки и подумать о вечере"
+      },
+      "afterMissing": true,
+      "beforeKeys": [
+        "3"
+      ]
+    },
+    {
+      "path": [
+        "decision_weigh_work",
+        "actions",
+        "4"
+      ],
+      "beforeExists": false,
+      "afterHash": "406730c73ad7c2fc805582711eefdd50d428fe20f8ce0f97a8539acb2c9c62e1"
+    },
+    {
+      "path": [
+        "decision_weigh_people",
+        "pages"
+      ],
+      "beforeExists": true,
+      "before": [
+        {
+          "speaker": "narrator",
+          "text": "Я пролистываю контакты. Кофе, двор, чужие шутки и общие стулья складываются в жизнь, куда меня пригласили, а не втащили."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Но людям можно быть дорогими и на расстоянии. Это тоже нужно взвесить честно."
+        },
+        {
+          "speaker": "Ася",
+          "character": "asya",
+          "emotion": "friendly",
+          "text": "Что бы ты ни выбрал{a}, у двора будет стул для тебя.",
+          "message": true
+        },
+        {
+          "speaker": "Лука",
+          "character": "luka",
+          "emotion": "friendly",
+          "text": "Если захочешь пересчитать цифры, я рядом.",
+          "message": true,
+          "action": {
+            "kind": "tap",
+            "label": "Отложить телефон и подумать о вечере",
+            "object": "Отложить телефон и подумать о вечере"
+          }
+        }
+      ],
+      "afterHash": "f699ea698aaa63b551f7741a2be51511387cdb8203709558341b160f99d65a95"
+    },
+    {
+      "path": [
+        "decision_weigh_people",
+        "actions",
+        "3"
+      ],
+      "beforeExists": true,
+      "before": {
+        "kind": "tap",
+        "label": "Отложить телефон и подумать о вечере",
+        "object": "Отложить телефон и подумать о вечере"
+      },
+      "afterMissing": true,
+      "beforeKeys": [
+        "3"
+      ]
+    },
+    {
+      "path": [
+        "decision_weigh_people",
+        "actions",
+        "4"
+      ],
+      "beforeExists": false,
+      "afterHash": "e742b7f33061f4216f7c640e6518ccad478cdb0fd8c0895a3dd9eadb5ee55b8d"
+    },
+    {
+      "path": [
+        "decision_weigh_home",
+        "pages"
+      ],
+      "beforeExists": true,
+      "before": [
+        {
+          "speaker": "narrator",
+          "text": "Я представляю свою обычную улицу, знакомый подъезд, голоса, которые не нужно переводить. Там меня тоже ждут."
+        },
+        {
+          "speaker": "narrator",
+          "text": "Желание вернуться не делает лето ошибкой. Хороший вечер в Сербии не обязывает остаться, а скучать по дому — не значит сдаться."
+        },
+        {
+          "speaker": "Ася",
+          "character": "asya",
+          "emotion": "friendly",
+          "text": "Что бы ты ни выбрал{a}, у двора будет стул для тебя.",
+          "message": true
+        },
+        {
+          "speaker": "Лука",
+          "character": "luka",
+          "emotion": "friendly",
+          "text": "Если захочешь пересчитать цифры, я рядом.",
+          "message": true,
+          "action": {
+            "kind": "tap",
+            "label": "Отложить мысли и подумать о вечере",
+            "object": "Отложить мысли и подумать о вечере"
+          }
+        }
+      ],
+      "afterHash": "219bc79fd802308c6308321d1fff4e4a4aee2b29889b58153f99bff77aa419f4"
+    },
+    {
+      "path": [
+        "decision_weigh_home",
+        "actions",
+        "3"
+      ],
+      "beforeExists": true,
+      "before": {
+        "kind": "tap",
+        "label": "Отложить мысли и подумать о вечере",
+        "object": "Отложить мысли и подумать о вечере"
+      },
+      "afterMissing": true,
+      "beforeKeys": [
+        "3"
+      ]
+    },
+    {
+      "path": [
+        "decision_weigh_home",
+        "actions",
+        "4"
+      ],
+      "beforeExists": false,
+      "afterHash": "4de51ff40a2d1daef279e26fad03439e9fce7e83e35c015a6b363e98472d9f49"
+    },
+    {
+      "path": [
+        "stay_two",
+        "next"
+      ],
+      "beforeExists": true,
+      "before": "epilogue_stay",
+      "afterHash": "c15c0eddf33232d9e422c3f739ac90d36f107a1813fc05939747da908ca637d7"
+    },
+    {
+      "path": [
+        "leave_two",
+        "next"
+      ],
+      "beforeExists": true,
+      "before": "epilogue_leave",
+      "afterHash": "b71dad91af2fabf5facf9f870ebb0798287d8b38c7166c43a66441570a3302f1"
+    },
+    {
+      "path": [
+        "return_two",
+        "next"
+      ],
+      "beforeExists": true,
+      "before": "epilogue_return",
+      "afterHash": "db3a761153bec07e95156aba4a0b08ec07a35dade397ff1ff38b0daae6f0b98a"
+    },
+    {
+      "path": [
+        "d22_turn",
+        "next"
+      ],
+      "beforeExists": true,
+      "before": "d22_end",
+      "afterHash": "95419b67efd23eb6720e5943c94b1b33d7b59b58ba0230471cfbb68c7be96a8b"
+    },
+    {
+      "path": [
+        "d25_turn",
+        "next"
+      ],
+      "beforeExists": true,
+      "before": "d25_end",
+      "afterHash": "84f70f1b10988970460731c7ea097f33dbd3644037d652299ee1c53eee6f1a43"
+    },
+    {
+      "path": [
+        "d28_turn",
+        "next"
+      ],
+      "beforeExists": true,
+      "before": "d28_end",
+      "afterHash": "83d8bef0182f2b6e053557394a350a594a20463cd30c8d65fef8d5c4938ac3ef"
+    },
+    {
+      "path": [
+        "nikola_flirt",
+        "choices"
+      ],
+      "beforeExists": true,
+      "before": [
+        {
+          "label": "На секунду представить Николу без футболки",
+          "next": "nikola_daydream",
+          "effect": {
+            "nikolaDaydream": true
+          },
+          "tone": "dream"
+        },
+        {
+          "label": "Улыбнуться: «Тогда договоримся после смены»",
+          "next": "nikola_invite",
+          "effect": {
+            "nikolaDaydream": false
+          },
+          "tone": "romance"
+        }
+      ],
+      "afterHash": "07dfdfab20e3b48b209a36b1af7ddea90872a2615064d961cb810a5236bed83d"
+    }
+  ]
+}
