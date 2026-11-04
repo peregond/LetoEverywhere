@@ -10,3 +10,6 @@
 .character,.character.host-m,.character.host-f{width:auto;height:94%;aspect-ratio:3 / 8}
 .character.host-m,.character.host-f{aspect-ratio:620.5 / 1267}
 .character.attendant{background-image:url('attendant.png');background-size:contain;background-position:center bottom;aspect-ratio:2 / 3}
+
+.scene[data-scene=airport] .scene-stage{background-image:url('airport-officers.png')}
+@media (orientation:portrait){.scene[data-scene=airport] .scene-stage{background-position:70% center}}
