@@ -61,3 +61,17 @@
 /* Arrival route choice: two tagged dogs asleep outside the terminal. */
 .scene[data-scene=destination] .scene-stage{background-image:url('airport-exit-dogs-tbs.webp');background-position:center}
 @media(orientation:portrait){.scene[data-scene=destination] .scene-stage{background-image:url('airport-exit-dogs-tbs-portrait.webp');background-position:center}}
+
+/* Shared wide scenes keep their important content in the central phone crop. */
+.scene[data-scene=destination] .scene-stage{background-image:url('airport-exit-safe.webp');background-position:center}
+@media(orientation:portrait){
+ .scene[data-scene=destination] .scene-stage{background-image:url('airport-exit-safe.webp');background-position:center}
+}
+@media(min-width:900px) and (orientation:landscape){
+ .novel-shell{width:100%;max-width:none}
+ .novel-shell .scene{max-width:none}
+ .novel-shell .dialogue{padding-left:max(24px,calc((100% - 700px)/2));padding-right:max(24px,calc((100% - 700px)/2))}
+ .novel-shell .top{left:max(14px,calc((100% - 700px)/2))}
+}
+.scene[data-scene=airport] .scene-stage{background-image:url('airport-officers-safe.webp');background-position:center}
+@media(orientation:portrait){.scene[data-scene=airport] .scene-stage{background-position:center}}
