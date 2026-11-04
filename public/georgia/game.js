@@ -1,4 +1,4 @@
-import {story} from './story.js?v=8';
+import {story} from './story.js?v=9';
 import {GAME_VERSION, releases} from './releases.js';
 const app=document.querySelector('#app'), KEY='georgian-summer-save-v1';
 let state=null, menu='home', message='', dialog=null, selectedGender=null;
