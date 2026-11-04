@@ -34,8 +34,9 @@
   <link rel="stylesheet" href="./meal-menu.css?v=0.17.10">
   <link rel="stylesheet" href="./coin-catch.css?v=0.17.19">
   <link rel="stylesheet" href="./white-card.css?v=0.17.23">
-</head>
+<link rel="stylesheet" href="/platform-navigation.css"><style>.native-app [data-action="account"]{display:none}</style></head>
 <body data-screen="home">
+  <script>if (window.Capacitor?.isNativePlatform()) document.documentElement.classList.add("native-app");</script>
   <div class="ios-scroll-edge-guard" aria-hidden="true"></div>
   <main id="app" aria-label="Белградское лето">
     <div class="backdrop" aria-hidden="true"><img id="home-art" class="home-art" src="./assets/home/belgrade-day.webp" alt="" aria-hidden="true"></div>
@@ -71,5 +72,5 @@
   </main>
   <dialog id="panel"><div class="panel-heading"><h2 id="panel-title"></h2><button id="close-panel" class="close-button" aria-label="Закрыть панель"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div><div id="panel-content"></div></dialog>
   <script type="module" src="./app.js?v=0.17.25"></script>
-</body>
+<script src="/directional-navigation.js" defer></script></body>
 </html>

@@ -4,7 +4,7 @@ import {CHAPTERS} from '../public/chapters.js';
 import {STAGES} from '../public/days.js';
 const dictionary=JSON.parse(fs.readFileSync(new URL('../public/locales/en.json',import.meta.url),'utf8'));
 const app=fs.readFileSync(new URL('../public/app.js',import.meta.url),'utf8');
-const html=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8');
+const html=fs.readFileSync(new URL('../public/belgrade.html',import.meta.url),'utf8');
 // The chapter card exists as a screen and has its own stylesheet.
 assert.match(html,/id="chapter-card" class="screen chapter-card"/);assert.match(html,/chapter-card\.css/);
 assert.ok(fs.existsSync(new URL('../public/chapter-card.css',import.meta.url)));

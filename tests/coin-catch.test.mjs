@@ -43,5 +43,5 @@ for(const cls of ['coin-catcher','coin-basket-front'])assert.match(stage.childre
 dispose();
 console.log('Arcade game catches, timeout, skip, continuation, companion coffee and day-three routes checked.');
 
-const entry=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8');
+const entry=fs.readFileSync(new URL('../public/belgrade.html',import.meta.url),'utf8');
 assert.match(entry,/<link\s+rel="stylesheet"\s+href="\.\/coin-catch\.css\?v=[^"]+"/,'The actual game page loads the arcade stylesheet');

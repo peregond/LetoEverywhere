@@ -1,0 +1,2 @@
+:focus-visible { outline: 4px solid #e9a23b !important; outline-offset: 4px; }
+@media (min-width: 1400px) { .card:focus-within { box-shadow: 0 0 0 4px #e9a23b, 0 12px 36px #473d2a35; } }
