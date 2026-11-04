@@ -28,3 +28,14 @@
 .booth-foreground{position:absolute;inset:0;z-index:2;pointer-events:none;background:url('passport-booth-front.webp') center/100% 100% no-repeat}
 .passport-booth .location-label{z-index:3}
 .passport-booth:after{z-index:2}
+
+/* The refusal is presented as a stamp on the passport page. */
+.denied-shell{max-width:920px;align-items:center;justify-content:center;padding-top:max(70px,env(safe-area-inset-top));padding-bottom:max(28px,env(safe-area-inset-bottom))}
+.denied-shell .top{align-self:stretch}
+.denied-screen{width:100%;max-width:760px;margin:auto;padding:20px 0;text-align:center}
+.denied-passport{position:relative;width:100%;aspect-ratio:3 / 2;container-type:inline-size;background:url('passport-denied.webp') center/contain no-repeat;filter:drop-shadow(0 12px 28px #0008)}
+.denied-stamp{position:absolute;left:68%;top:46%;transform:translate(-50%,-50%) rotate(-12deg);color:#ad2424;opacity:.9;font:bold 5.8cqw/1 Georgia,serif;letter-spacing:.01em;white-space:nowrap;mix-blend-mode:multiply}
+.denied-screen h2{margin:16px 0 4px}
+.denied-screen .lead{margin:8px auto 20px;max-width:550px}
+.denied-screen>button{margin:4px}
+@media(max-width:600px){.denied-shell{padding-top:max(16px,env(safe-area-inset-top))}.denied-screen{padding:20px 0}.denied-screen>button{width:100%;margin:4px 0}}
