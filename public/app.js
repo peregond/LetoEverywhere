@@ -57,7 +57,7 @@ let translationsReady=false;
 try{await initialiseLanguage();translationsReady=true;}catch{setLanguage('ru');}
 const applyStaticLanguage=captureStaticUi(document);
 applyStaticLanguage();
-function updateLanguageUi(){document.documentElement.lang=getLanguage();document.querySelector('link[rel=manifest]').href=getLanguage()==='en'?'./manifest.en.webmanifest':'./manifest.webmanifest';document.title=t('Белградское лето — начало истории');markActiveLanguage(document,getLanguage());document.querySelectorAll('[data-app-version]').forEach(label=>{label.textContent=APP_VERSION;label.setAttribute('aria-label',t('Версия ')+APP_VERSION+' · '+t('История обновлений'));label.title=t('История обновлений');});}
+function updateLanguageUi(){document.documentElement.lang=getLanguage();document.querySelector('link[rel=manifest]').href='./collection.webmanifest';document.title=t('Белградское лето — начало истории');markActiveLanguage(document,getLanguage());document.querySelectorAll('[data-app-version]').forEach(label=>{label.textContent=APP_VERSION;label.setAttribute('aria-label',t('Версия ')+APP_VERSION+' · '+t('История обновлений'));label.title=t('История обновлений');});}
 updateLanguageUi();
 const catalog = await fetch('./names.json').then(r => { if(!r.ok) throw new Error('Не удалось загрузить имена'); return r.json(); });
 const settings = readLocal('settings', { textSize:18, music:false, volume:.55 });
