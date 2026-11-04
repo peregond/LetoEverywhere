@@ -1,4 +1,4 @@
-import {story} from './story.js?v=7';
+import {story} from './story.js?v=8';
 import {GAME_VERSION, releases} from './releases.js';
 const app=document.querySelector('#app'), KEY='georgian-summer-save-v1';
 let state=null, menu='home', message='', dialog=null, selectedGender=null;
@@ -39,7 +39,7 @@ function about(){showDialog('Об игре',el('p','','Авторский экс
 function homeIcon(label,path,action){const b=button('',action,'home-icon');b.setAttribute('aria-label',label);b.title=label;const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('aria-hidden','true');const shape=document.createElementNS(ns,'path');shape.setAttribute('d',path);svg.append(shape);b.append(svg);return b}
 function menuView(shell){
   shell.classList.add('home-shell');
-  const art=el('img','home-cover');art.src='home-cover.webp';art.alt='';art.setAttribute('aria-hidden','true');art.fetchPriority='high';shell.append(art);
+  const art=el('img','home-cover');art.src='home-cover-wide.webp';art.alt='';art.setAttribute('aria-hidden','true');art.fetchPriority='high';shell.append(art);
   const header=el('header','home-header'),nav=el('nav','home-utilities');nav.setAttribute('aria-label','Меню игры');
   nav.append(homeIcon('Главы','M4 3h6a3 3 0 0 1 2 2v16a4 4 0 0 0-4-2H4V3Zm16 0h-6a2 2 0 0 0-2 2v16a4 4 0 0 1 4-2h4V3Z',chapters),homeIcon('Об игре','M12 11v6m0-10v1M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20',about),homeIcon('Настройки','m9 3-.5 2-2 1-2-.5L2 10l1.5 1.5v2L2 15l2.5 4.5 2-.5 2 1 .5 2h6l.5-2 2-1 2 .5L22 15l-1.5-1.5v-2L22 10l-2.5-4.5-2 .5-2-1L15 3H9ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6',settings));const version=button('v'+GAME_VERSION,releaseNotes,'version-button');version.setAttribute('aria-label','Версия '+GAME_VERSION+' · История обновлений');const back=el('a','home-back','← Все истории');back.href='../';header.append(back,version,nav);
   const box=el('section','home-title');const title=el('h1','','Грузинское');title.append(el('em','','лето'));box.append(title);

@@ -16,7 +16,7 @@
 .home-bottom .primary{width:100%;min-height:58px;padding:16px;border-radius:40px;background:#c33f29;color:#fff7e6;font:600 18px/1.4 Arial,sans-serif;box-shadow:0 4px 20px #14374722}
 .home-new-game{min-height:44px;border:0;background:#103244a6;border-radius:24px;color:#fff7e6;font:15px/1.4 Arial,sans-serif}
 .home-icon:hover{background:#20576b}.home-bottom .primary:hover{background:#ad3523}
-@media(min-width:900px) and (hover:hover) and (pointer:fine){#app[data-screen=home]{padding:24px;background:#123746}.home-shell{min-height:min(960px,calc(100dvh - 48px));border-radius:20px;box-shadow:0 20px 70px #071e3866}}
+@media(min-width:900px) and (hover:hover) and (pointer:fine){#app[data-screen=home]{padding:24px;background:#123746}.home-shell{min-height:min(960px,calc(100dvh - 48px));border-radius:0;box-shadow:none}}
 @media(orientation:landscape) and (max-height:600px){.home-shell{max-width:100%;padding:16px 28px;min-height:100dvh}.home-cover{object-position:center 60%}.home-title{width:50%;margin:12px 0}.home-title h1{font-size:clamp(36px,7vw,58px)}.home-bottom{width:min(45%,400px)}.home-back{margin-top:8px}}
 
 /* Navigation uses the same translucent treatment as the other controls. */
@@ -27,10 +27,17 @@
 /* Center the same cover layout on desktop, with a blurred extension behind it. */
 @media(min-width:900px){
   #app[data-screen=home]{position:relative;isolation:isolate;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:100dvh;padding:24px;background:#263e44}
-  #app[data-screen=home]::before{content:'';position:absolute;z-index:-1;inset:-40px;background:url('home-cover.webp') center 48%/cover no-repeat;filter:blur(30px) brightness(.65);pointer-events:none}
-  .home-shell{width:min(600px,100%);max-width:600px;min-height:calc(100dvh - 48px);padding:28px 28px 36px;border-radius:20px;box-shadow:0 20px 70px #071e3866}
+  #app[data-screen=home]::before{content:'';position:absolute;z-index:-1;inset:0;background:url('home-cover-wide.webp') center/cover no-repeat;filter:none;pointer-events:none}
+  .home-shell{width:min(600px,100%);max-width:600px;min-height:calc(100dvh - 48px);padding:28px 28px 36px;border-radius:0;box-shadow:none}
   .home-cover{inset:0;width:100%;height:100%;object-position:center}
   .home-title{width:100%;margin:24px 0 0;text-align:center}
   .home-title h1{font-size:clamp(40px,5vw,68px)}
   .home-bottom{width:100%;margin-top:auto;padding-top:25px}
+}
+
+@media(min-width:900px){
+ #app[data-screen=home]{padding:0}
+ .home-shell{min-height:100dvh;box-shadow:none;border-radius:0}
+ .home-cover{display:none}
+ .home-shell:after{background:linear-gradient(#0b2c4633,transparent 36%,transparent 70%,#10324480)}
 }
