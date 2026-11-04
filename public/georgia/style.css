@@ -57,3 +57,7 @@
  .scene[data-scene=baggage_note] .scene-stage{background-image:url('passport-note-portrait.webp');background-position:center center}
  .scene[data-scene=baggage_note] .passport-note-text{top:50%;width:54%;font-size:clamp(12px,3.5vw,20px)}
 }
+
+/* Arrival route choice: two tagged dogs asleep outside the terminal. */
+.scene[data-scene=destination] .scene-stage{background-image:url('airport-exit-dogs.webp');background-position:center}
+@media(orientation:portrait){.scene[data-scene=destination] .scene-stage{background-image:url('airport-exit-dogs-portrait.webp');background-position:center}}
