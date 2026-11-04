@@ -24,5 +24,13 @@
 .home-back:hover{background:#20576b}
 .home-header .version-button{flex:none}
 @media(max-width:480px){.home-header{gap:6px}.home-utilities{gap:5px}.home-back{padding:0 10px;font-size:13px}.home-icon{width:42px;height:42px;padding:10px}.home-header .version-button{position:absolute;top:calc(68px + env(safe-area-inset-top));left:50%;transform:translateX(-50%);z-index:1}.home-title{margin-top:52px}}
-/* On wider screens the artwork and title each have their own space. */
-@media(min-width:900px) and (min-height:601px){#app[data-screen=home]{display:flex;align-items:center;justify-content:center}.home-shell{width:min(1200px,100%);max-width:none;min-height:min(760px,calc(100dvh - 48px));padding:28px 36px 36px;background:#153d4d}.home-cover{left:auto;width:65%;object-position:center 48%}.home-shell:after{background:linear-gradient(90deg,#123746 0%,#123746f2 27%,#1237469c 45%,transparent 70%),linear-gradient(0deg,#10324480,transparent 35%)}.home-header{width:100%}.home-title{width:43%;margin:auto 0 24px;text-align:left}.home-title h1{font-size:clamp(48px,5.5vw,74px)}.home-bottom{width:min(40%,420px);margin:0 0 auto;padding-top:0}}
+/* Center the same cover layout on desktop, with a blurred extension behind it. */
+@media(min-width:900px){
+  #app[data-screen=home]{position:relative;isolation:isolate;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:100dvh;padding:24px;background:#263e44}
+  #app[data-screen=home]::before{content:'';position:absolute;z-index:-1;inset:-40px;background:url('home-cover.webp') center 48%/cover no-repeat;filter:blur(30px) brightness(.65);pointer-events:none}
+  .home-shell{width:min(600px,100%);max-width:600px;min-height:calc(100dvh - 48px);padding:28px 28px 36px;border-radius:20px;box-shadow:0 20px 70px #071e3866}
+  .home-cover{inset:0;width:100%;height:100%;object-position:center}
+  .home-title{width:100%;margin:24px 0 0;text-align:center}
+  .home-title h1{font-size:clamp(40px,5vw,68px)}
+  .home-bottom{width:100%;margin-top:auto;padding-top:25px}
+}
