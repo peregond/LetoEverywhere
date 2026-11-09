@@ -75,3 +75,48 @@
 }
 .scene[data-scene=airport] .scene-stage{background-image:url('airport-officers-safe.webp');background-position:center}
 @media(orientation:portrait){.scene[data-scene=airport] .scene-stage{background-position:center}}
+
+/* Телави: иллюстрации маршрута, доступная мини-игра и финал. */
+.scene[data-location=telavi-road] .scene-stage{background-image:linear-gradient(#243e4c22,#243e4c44),url('telavi-road.webp')}
+.scene[data-location=telavi-shop] .scene-stage{background-image:linear-gradient(130deg,#eed4a9aa,#a86c3a66),url('telavi-road.webp')}
+.scene[data-location=telavi-hotel] .scene-stage{background-image:url('telavi-hotel.webp')}
+.scene[data-location=telavi-room] .scene-stage{background-image:url('telavi-room.webp')}
+.scene[data-location=telavi-hospital] .scene-stage{background-image:linear-gradient(145deg,#e3eddfdd,#8ba1a6bb),url('telavi-room.webp')}
+.scene[data-location=telavi-news] .scene-stage{background-image:url('telavi-news.webp')}
+.scene[data-location=telavi-news] .scene-stage:before{content:'ВЫМЫШЛЕННЫЙ СЮЖЕТ / ПАРОДИЯ';position:absolute;top:20px;right:20px;z-index:3;padding:8px 12px;border-radius:5px;background:#9b332f;color:white;font:700 12px/1.3 system-ui,sans-serif;letter-spacing:.05em}
+.scene-stage[data-effect=swerve]{animation:telavi-swerve .6s ease-out}
+.scene-stage[data-effect=push]{animation:telavi-push .8s ease-out}
+.scene-stage[data-effect=flash]:after{animation:telavi-flash .7s ease-out}
+.scene-stage[data-effect=dizzy]:before{content:'✦  🐕  ✦  🐦  ✦';position:absolute;z-index:3;top:22%;left:50%;transform:translateX(-50%);font-size:clamp(28px,5vw,55px);animation:telavi-dizzy 2s ease-in-out infinite alternate}
+@keyframes telavi-swerve{25%{transform:rotate(-1deg) translateX(-6px)}55%{transform:rotate(1deg) translateX(5px)}}
+@keyframes telavi-push{50%{transform:translateX(5px)}}
+@keyframes telavi-flash{0%{background:#fff;opacity:1}100%{background:#fff;opacity:0}}
+@keyframes telavi-dizzy{to{transform:translateX(-50%) rotate(8deg)}}
+.makeup-shell,.ending-shell{max-width:700px;justify-content:center}
+.makeup-card,.ending-card{width:100%;margin:auto;padding:clamp(20px,5vw,36px);border-radius:18px;background:#fff8eefa;color:#203b3e;box-shadow:0 15px 60px #0006}
+.makeup-card .eyebrow,.ending-card .eyebrow{color:#a35a3e}.makeup-card h2,.ending-card h2{font-size:clamp(27px,5vw,40px)}
+.makeup-preview{display:flex;align-items:center;justify-content:center;gap:15px;min-height:95px;margin:16px 0;border:3px solid #d6b786;border-radius:45%;background:radial-gradient(ellipse,#ffffff,#d9e8df);color:#5a6258;text-align:center}.makeup-mirror{font-size:35px;color:#b68552}.makeup-look{max-width:70%;line-height:1.4}
+.makeup-options{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:15px 0}.makeup-options strong{width:100%}.makeup-option{border:1px solid #b4c4b6;border-radius:20px;padding:8px 12px;background:#fff;color:#203b3e}.makeup-option[aria-pressed=true]{background:#20596a;color:white}.makeup-card>.primary{width:100%}
+.ending-shell{color:#fff;background:#101c22;max-width:none}.ending-card{max-width:650px;background:#101c22;color:#f7ead4;text-align:center;box-shadow:none}.ending-card>button{display:block;width:100%;margin:10px 0}.ending-card h2{line-height:1.3;margin:25px 0}
+@media(prefers-reduced-motion:reduce){.scene-stage[data-effect]{animation:none!important}.scene-stage[data-effect]:before,.scene-stage[data-effect]:after{animation:none!important}}
+.novel-shell .top .auto-button{min-height:44px;padding:0 12px;border:1px solid #ffffff80;border-radius:24px;background:#173e48d9;color:white;font:13px system-ui,sans-serif}
+.character.telavi-driver,.character.telavi-reception,.character.telavi-guest,.character.telavi-friends{background-size:contain;background-position:center bottom;background-repeat:no-repeat}
+.character.telavi-driver{background-image:url('telavi-driver.webp');aspect-ratio:2 / 3}
+.character.telavi-reception{background-image:url('telavi-reception.webp');aspect-ratio:2 / 3}
+.character.telavi-guest{background-image:url('telavi-guest.webp');aspect-ratio:1199 / 1312}
+.character.telavi-friends{background-image:url('telavi-friends.webp');aspect-ratio:3 / 2;max-width:95%;height:85%}
+.scene[data-location=telavi-shop] .scene-stage{background-image:url('telavi-store.webp')}
+.scene[data-location=telavi-hospital] .scene-stage{background-image:url('telavi-hospital.webp')}
+.scene[data-scene=telavi_protest] .scene-stage{background-image:url('telavi-protest.webp')}
+.scene[data-scene=telavi_push] .scene-stage,.scene[data-scene=telavi_wrestlers] .scene-stage{background-image:url('telavi-wrestlers.webp')}
+.character.telavi-friend1,.character.telavi-friend2,.character.telavi-friend3{aspect-ratio:1199 / 1312;background-size:contain;background-position:center bottom;background-repeat:no-repeat}
+.character.telavi-friend1{background-image:url('telavi-friend1.webp')}
+.character.telavi-friend2{background-image:url('telavi-friend2.webp')}
+.character.telavi-friend3{background-image:url('telavi-friend3.webp')}
+.scene[data-scene=telavi_hospital] .scene-stage[data-gender=female]{background-image:url('telavi-hospital-female.webp')}
+.scene[data-scene=telavi_hospital] .scene-stage[data-gender=male]{background-image:url('telavi-hospital-male.webp')}
+.character.telavi-friend1[data-expression=concerned]{background-image:url('telavi-friend1-concerned.webp')}
+.character.telavi-friend2[data-expression=concerned]{background-image:url('telavi-friend2-concerned.webp')}
+.character.telavi-friend3[data-expression=concerned]{background-image:url('telavi-friend3-concerned.webp')}
+@media(orientation:portrait){.scene[data-location=telavi-hospital] .scene-stage{background-position:34% center}}
+.scene[data-scene^=telavi_argument] .character.telavi-guest{background-image:url('telavi-guest-door.webp');aspect-ratio:1494 / 1050;max-width:95%;height:90%}
