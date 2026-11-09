@@ -120,3 +120,15 @@
 .character.telavi-friend3[data-expression=concerned]{background-image:url('telavi-friend3-concerned.webp')}
 @media(orientation:portrait){.scene[data-location=telavi-hospital] .scene-stage{background-position:34% center}}
 .scene[data-scene^=telavi_argument] .character.telavi-guest{background-image:url('telavi-guest-door.webp');aspect-ratio:1494 / 1050;max-width:95%;height:90%}
+
+/* Shared widescreen illustrations: important details stay in the central phone crop. */
+.scene[data-scene=address] .scene-stage{background-image:url('tbilisi-street.webp')}
+.scene[data-scene=telavi_start] .scene-stage,.scene[data-scene=telavi_fuel] .scene-stage{background-image:url('telavi-taxi-interior.webp')}
+.scene[data-scene=telavi_dog] .scene-stage,.scene[data-scene=telavi_driver] .scene-stage{background-image:url('telavi-ditch.webp')}
+.scene[data-scene=telavi_reception] .scene-stage,.scene[data-scene=telavi_warning] .scene-stage,.scene[data-scene=telavi_why] .scene-stage,.scene[data-scene=telavi_answer] .scene-stage{background-image:url('telavi-reception-bg.webp')}
+.scene[data-scene=telavi_balcony1] .scene-stage,.scene[data-scene=telavi_guest] .scene-stage,.scene[data-scene=telavi_balcony2] .scene-stage,.scene[data-scene=telavi_show] .scene-stage,.scene[data-scene=telavi_pop] .scene-stage,.scene[data-scene=telavi_sorry] .scene-stage,.scene[data-scene=telavi_angry] .scene-stage{background-image:url('telavi-balcony.webp')}
+.scene[data-scene=telavi_knock] .scene-stage,.scene[data-scene^=telavi_argument] .scene-stage{background-image:url('telavi-corridor.webp')}
+.scene[data-scene=telavi_fist] .scene-stage{background-image:url('telavi-fist.webp')}
+.scene[data-scene=telavi_dizzy] .scene-stage{background-image:url('telavi-dizzy.webp')}
+.scene[data-scene=telavi_news1] .scene-stage,.scene[data-scene=telavi_news2] .scene-stage,.scene[data-scene=telavi_news3] .scene-stage,.scene[data-scene=telavi_news4] .scene-stage{background-image:url('telavi-news-presenter.webp')}
+#app[data-screen=game][data-scene=telavi_makeup]{background:linear-gradient(#182c2e55,#182c2e88),url('telavi-makeup-bg.webp') center/cover fixed}
