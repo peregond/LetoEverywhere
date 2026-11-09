@@ -132,3 +132,26 @@
 .scene[data-scene=telavi_dizzy] .scene-stage{background-image:url('telavi-dizzy.webp')}
 .scene[data-scene=telavi_news1] .scene-stage,.scene[data-scene=telavi_news2] .scene-stage,.scene[data-scene=telavi_news3] .scene-stage,.scene[data-scene=telavi_news4] .scene-stage{background-image:url('telavi-news-presenter.webp')}
 #app[data-screen=game][data-scene=telavi_makeup]{background:linear-gradient(#182c2e55,#182c2e88),url('telavi-makeup-bg.webp') center/cover fixed}
+
+/* Subtle staging stays inside the illustrated frame and never covers controls. */
+.character.telavi-friend1[data-expression=excited]{background-image:url('telavi-friend1-excited.webp')}
+.character.telavi-friend2[data-expression=surprised]{background-image:url('telavi-friend2-surprised.webp')}
+.character.telavi-friend3[data-expression=playful]{background-image:url('telavi-friend3-playful.webp')}
+.character.telavi-guest[data-expression=angry]{background-image:url('telavi-guest-angry.webp')}
+.scene-stage[data-staging=journey]{animation:journey-drift 12s ease-in-out infinite alternate}
+.scene-fx{position:absolute;inset:0;z-index:2;overflow:hidden;pointer-events:none}
+.celebration-light{position:absolute;width:clamp(5px,1vw,10px);height:clamp(5px,1vw,10px);border-radius:50%;background:#ffe5a1;box-shadow:0 0 12px 5px #ffc14a88;animation:wedding-glow 3.6s ease-in-out infinite alternate}
+.light-0{left:36%;top:34%}.light-1{left:41%;top:29%;animation-delay:.6s}.light-2{left:46%;top:32%;animation-delay:1.2s}.light-3{left:50%;top:28%;animation-delay:.9s}.light-4{left:54%;top:32%;animation-delay:1.8s}.light-5{left:59%;top:29%;animation-delay:.3s}.light-6{left:64%;top:34%;animation-delay:1.5s}
+.champagne-cork{position:absolute;left:50%;top:69%;width:17px;height:26px;border-radius:5px 5px 3px 3px;background:#bb8752;border:2px solid #765332;opacity:0;animation:cork-pop 1.6s ease-out both}
+.champagne-drop{position:absolute;left:50%;top:63%;width:7px;height:13px;border-radius:70% 70% 60% 60%;background:#ffeac0;opacity:0;animation:champagne-splash 1.7s ease-out both;--dx:0px;--dy:-90px}
+.drop-0{--dx:-82px;--dy:-65px}.drop-1{--dx:-60px;--dy:-114px}.drop-2{--dx:-26px;--dy:-140px}.drop-3{--dx:13px;--dy:-154px}.drop-4{--dx:51px;--dy:-126px}.drop-5{--dx:87px;--dy:-82px}.drop-6{--dx:-99px;--dy:-25px}.drop-7{--dx:98px;--dy:-26px}
+.broadcast-dot{position:absolute;left:max(20px,calc(50% - 240px));top:24px;width:9px;height:9px;border-radius:50%;background:#ffdddd;box-shadow:0 0 8px #e64040;animation:broadcast-pulse 3s ease-in-out infinite}
+.broadcast-line{position:absolute;inset:0;background:linear-gradient(transparent 47%,#ffffff0c 50%,transparent 53%);background-size:100% 12px;opacity:.5}
+@keyframes journey-drift{from{background-position:48% center}to{background-position:52% center}}
+@keyframes wedding-glow{from{opacity:.3;transform:scale(.8)}to{opacity:.85;transform:scale(1.15)}}
+@keyframes cork-pop{0%,15%{opacity:0;transform:translate(-50%,0) rotate(0)}25%{opacity:1}75%,100%{opacity:0;transform:translate(35px,-270px) rotate(200deg)}}
+@keyframes champagne-splash{0%,16%{opacity:0;transform:translate(0,0) scale(.5)}25%{opacity:1}85%,100%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(.6)}}
+@keyframes broadcast-pulse{50%{opacity:.55}}
+@media(prefers-reduced-motion:reduce){.scene-stage[data-staging=journey]{animation:none}.scene-fx *{animation:none!important}.champagne-cork,.champagne-drop{display:none}.celebration-light{opacity:.5}}
+/* Keep gestures and faces inside narrow phone stages. */
+.character.telavi-friend1,.character.telavi-friend2,.character.telavi-friend3,.character.telavi-guest{max-width:96%}
