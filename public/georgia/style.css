@@ -196,3 +196,5 @@
 .release-date{display:block;color:#63796e;font:14px/1.4 system-ui,sans-serif}
 .georgia-update{position:fixed;z-index:100;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));width:min(390px,calc(100% - 32px));padding:20px;border:1px solid #d5b67c;border-radius:16px;background:#fff8e9;color:#203b3e;box-shadow:0 14px 48px #0008;font:16px/1.4 system-ui,sans-serif}
 .georgia-update strong{font-size:19px}.georgia-update p{margin:8px 0 14px}.georgia-update .update-error{color:#a52e25}.georgia-update .update-error[hidden]{display:none}.update-actions{display:flex;gap:8px}.update-actions button{flex:1;min-height:44px}.update-actions .primary{background:#20596a;color:#fff8e9}.update-actions .secondary{background:#e9eee7;color:#203b3e;border-color:#a6bcb0}
+/* Keep the rescue group and the taxi together in the narrow phone crop. */
+@media(orientation:portrait){.scene[data-scene=telavi_push] .scene-stage{background-position:43% center}}

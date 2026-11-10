@@ -1,5 +1,5 @@
 import {story} from './story.js?v=13';
-import {GAME_VERSION, releases} from './releases.js?v=4';
+import {GAME_VERSION, releases} from './releases.js?v=5';
 import {startUpdateChecks} from '../update-check.js?v=georgia-1';
 const app=document.querySelector('#app'), KEY='georgian-summer-save-v1';
 let state=null, menu='home', message='', dialog=null, selectedGender=null, autoPlay=false, autoTimer=null;
