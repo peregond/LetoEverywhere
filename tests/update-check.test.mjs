@@ -16,3 +16,6 @@ const stop=startUpdateChecks({current:'0.17.6',onUpdate:v=>offered.push(v),docum
 await new Promise(resolve=>setTimeout(resolve,0));assert.deepEqual(offered,['0.18.0']);
 await callback();assert.deepEqual(offered,['0.18.0'],'The same update is not shown repeatedly');
 stop();console.log('Update detection, no-cache fetching, offline behavior and deduplication passed.');
+const georgiaSource={url:'./releases.js',parse:source=>/\bversion\s*:\s*['"](\d+\.\d+\.\d+)['"]/.exec(source)?.[1]??null};
+assert.equal(await latestVersion(async(url,options)=>{assert.match(url,/^\.\/releases\.js\?update-check=123$/);assert.equal(options.cache,'no-store');return {ok:true,text:async()=>"export const releases=[{version:'0.2.4'},{version:'0.2.3'}]"}},()=>123,georgiaSource),'0.2.4');
+assert.equal(await latestVersion(async()=>({ok:true,text:async()=>'invalid'}),()=>123,georgiaSource),null);

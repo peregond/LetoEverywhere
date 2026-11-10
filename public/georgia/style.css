@@ -193,3 +193,6 @@
 .ending-card{background:#101c22a8;border-radius:18px;box-shadow:0 15px 50px #0005}
 .scene[data-scene=telavi_protest] .scene-stage{background-image:url('telavi-protest-signs.webp')}
 .protest-sign-text{position:absolute;inset:0;width:100%;height:100%;z-index:2;pointer-events:none;fill:#232631;font:bold 39px system-ui,sans-serif}
+.release-date{display:block;color:#63796e;font:14px/1.4 system-ui,sans-serif}
+.georgia-update{position:fixed;z-index:100;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));width:min(390px,calc(100% - 32px));padding:20px;border:1px solid #d5b67c;border-radius:16px;background:#fff8e9;color:#203b3e;box-shadow:0 14px 48px #0008;font:16px/1.4 system-ui,sans-serif}
+.georgia-update strong{font-size:19px}.georgia-update p{margin:8px 0 14px}.georgia-update .update-error{color:#a52e25}.georgia-update .update-error[hidden]{display:none}.update-actions{display:flex;gap:8px}.update-actions button{flex:1;min-height:44px}.update-actions .primary{background:#20596a;color:#fff8e9}.update-actions .secondary{background:#e9eee7;color:#203b3e;border-color:#a6bcb0}
