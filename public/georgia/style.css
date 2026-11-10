@@ -155,3 +155,41 @@
 @media(prefers-reduced-motion:reduce){.scene-stage[data-staging=journey]{animation:none}.scene-fx *{animation:none!important}.champagne-cork,.champagne-drop{display:none}.celebration-light{opacity:.5}}
 /* Keep gestures and faces inside narrow phone stages. */
 .character.telavi-friend1,.character.telavi-friend2,.character.telavi-friend3,.character.telavi-guest{max-width:96%}
+
+/* The traveller sees the road and the driver from inside the taxi. */
+.scene[data-scene=telavi_start] .scene-stage,.scene[data-scene=telavi_city] .scene-stage{background-image:url('telavi-driving.webp')}
+.scene[data-scene=telavi_fuel] .scene-stage{background-image:url('telavi-driver-seated.webp')}
+
+.scene[data-scene^=telavi_cashier] .scene-stage{background-image:url('telavi-cashier.webp')}
+.scene[data-scene=telavi_boast] .scene-stage{background-image:url('telavi-boast.webp')}
+.scene[data-scene=telavi_handsfree] .scene-stage{background-image:url('telavi-handsfree.webp')}
+.scene[data-scene=telavi_dog_road] .scene-stage{background-image:url('telavi-dog-road.webp')}
+.scene[data-scene=telavi_dog] .scene-stage,.scene[data-scene=telavi_driver] .scene-stage{background-image:url('telavi-ditch-empty.webp')}
+@media(orientation:portrait){.scene[data-scene=telavi_fuel] .scene-stage{background-position:23% center}.scene[data-scene=telavi_start] .scene-stage,.scene[data-scene=telavi_city] .scene-stage{animation:none;background-position:30% center}}
+
+.scene[data-scene=telavi_wait] .scene-stage,.scene[data-scene=telavi_passing] .scene-stage{background-image:url('telavi-passing.webp')}
+.scene[data-scene=telavi_wrestlers] .scene-stage{background-image:url('telavi-arrival.webp')}
+.scene[data-scene=telavi_push] .scene-stage{background-image:url('telavi-rescue.webp')}
+.scene[data-scene=telavi_thanks] .scene-stage,.scene[data-scene=telavi_contact] .scene-stage{background-image:url('telavi-contact.webp')}
+@media(orientation:portrait){.scene[data-scene=telavi_boast] .scene-stage,.scene[data-scene=telavi_handsfree] .scene-stage{background-position:24% center}.scene[data-scene=telavi_wrestlers] .scene-stage{background-position:40% center}}
+
+.reception-counter{position:absolute;inset:0;width:100%;height:100%;z-index:2;pointer-events:none}
+.scene[data-scene=telavi_reception] .character.telavi-reception,.scene[data-scene=telavi_warning] .character.telavi-reception,.scene[data-scene=telavi_answer] .character.telavi-reception{bottom:20%;height:72%;filter:none}
+.scene[data-location=telavi-room] .character.telavi-reception{width:min(80%,50vh);background-size:auto 125%;background-position:center top}
+.champagne-bottle{position:absolute;left:50%;bottom:1%;width:32%;height:30%;transform:translateX(-50%);background:url('telavi-champagne-bottle.webp') center bottom/contain no-repeat}
+.scene[data-scene=telavi_arrive] .scene-stage,.scene[data-scene=telavi_hotel] .scene-stage{background-image:url('telavi-hotel-five-floors.webp')}
+.scene[data-scene=telavi_friends] .scene-stage,.scene[data-scene=telavi_friend1] .scene-stage,.scene[data-scene=telavi_friend2] .scene-stage,.scene[data-scene=telavi_friend3] .scene-stage{background-image:url('telavi-room-fifth-day.webp')}
+.scene[data-scene=telavi_music] .scene-stage,.scene[data-scene=telavi_wave] .scene-stage,.scene[data-scene=telavi_friend_shrug] .scene-stage,.scene[data-scene=telavi_return] .scene-stage,.scene[data-scene=telavi_after_makeup] .scene-stage,.scene[data-scene=telavi_inside] .scene-stage,.scene[data-scene=telavi_friend_react] .scene-stage{background-image:url('telavi-room-fifth-evening.webp')}
+.scene[data-scene=telavi_balcony1] .scene-stage,.scene[data-scene=telavi_balcony2] .scene-stage,.scene[data-scene=telavi_show] .scene-stage,.scene[data-scene=telavi_pop] .scene-stage,.scene[data-scene=telavi_sorry] .scene-stage,.scene[data-scene=telavi_angry] .scene-stage{background-image:url('telavi-balcony-fifth.webp')}
+.scene[data-scene=telavi_guest] .scene-stage{background-image:url('telavi-wedding-guests.webp')}
+
+.scene[data-scene=telavi_angry] .scene-stage{background-image:url('telavi-wedding-table.webp')}
+.scene[data-scene=telavi_knock] .scene-stage,.scene[data-scene^=telavi_argument] .scene-stage{background-image:url('telavi-hotel-hallway.webp')}
+.scene[data-scene^=telavi_argument] .character.telavi-guest{background-image:url('telavi-guest-ref-door.webp')}
+
+.scene[data-location=telavi-news] .scene-stage:before{content:none}
+.scene[data-scene=telavi_news1] .scene-stage,.scene[data-scene=telavi_news2] .scene-stage,.scene[data-scene=telavi_news3] .scene-stage,.scene[data-scene=telavi_news4] .scene-stage{background-image:url('telavi-satire-presenter.webp')}
+.ending-shell{background:linear-gradient(#101c22a8,#101c22da),url('telavi-ending-dj.webp') center/cover no-repeat}
+.ending-card{background:#101c22a8;border-radius:18px;box-shadow:0 15px 50px #0005}
+.scene[data-scene=telavi_protest] .scene-stage{background-image:url('telavi-protest-signs.webp')}
+.protest-sign-text{position:absolute;inset:0;width:100%;height:100%;z-index:2;pointer-events:none;fill:#232631;font:bold 39px system-ui,sans-serif}

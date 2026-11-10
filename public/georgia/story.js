@@ -1,4 +1,4 @@
-import {telaviStory} from './telavi-story.js?v=2';
+import {telaviStory} from './telavi-story.js?v=3';
 // Сцены хранятся отдельно от интерфейса; новые главы можно добавлять узлами.
 const line=(speaker,text,next)=>({speaker,text,next});
 const choice=(speaker,text,choices)=>({speaker,text,choices});
