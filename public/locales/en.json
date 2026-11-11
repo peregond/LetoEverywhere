@@ -1,4 +1,6 @@
 {
+  "Прогресс хранится на этом устройстве. В настройках можно скачать сохранение и загрузить его на другом устройстве.": "Progress is stored on this device. In Settings, you can download your save and load it on another device.",
+  "Открыты дни 1–15. Дальнейшие главы доступны по промокоду. Твой прогресс сохранён.": "Days 1–15 are open. Later chapters are available with a promo code. Your progress is saved.",
   "Свидание без прикосновений": "A date without touching",
   "Передумать: только дружба": "Change my mind: just friends",
   "Мы гуляем рядом, без прикосновений. Свидание остаётся свиданием, а границы каждого — в силе.": "We walk side by side without touching. It is still a date, and we respect each other’s boundaries.",
@@ -6609,5 +6611,20 @@
   "Начать тест": "Start test",
   "Вернуться в мастерскую": "Return to workshop",
   "Установить на главный экран": "Install on the home screen",
-  "В Chrome открой меню ⋮ и выбери «Установить приложение» или «Добавить на главный экран». Затем запусти игру с новой иконки.": "In Chrome, open the ⋮ menu and choose “Install app” or “Add to Home screen”. Then launch the game from the new icon."
+  "В Chrome открой меню ⋮ и выбери «Установить приложение» или «Добавить на главный экран». Затем запусти игру с новой иконки.": "In Chrome, open the ⋮ menu and choose “Install app” or “Add to Home screen”. Then launch the game from the new icon.",
+  "Никола: «Когда захочешь, напиши. Я сохраню для тебя историю про самую смешную смену в пекарне».": "Nikola: “Write whenever you like. I will save the story of my funniest bakery shift for you.”",
+  "Милица: «Я дорисую наш город в блокноте. Если захочешь, потом покажу».": "Milica: “I will finish drawing our city in my notebook. I can show you later if you like.”",
+  "Драган: «Спасибо за этот вечер. Если захочешь поговорить, ты знаешь, где меня найти».": "Dragan: “Thank you for this evening. If you want to talk, you know where to find me.”",
+  "Йелена: «Мне было хорошо делить с тобой время. Напиши, когда тебе захочется».": "Jelena: “I enjoyed sharing this time with you. Write whenever you feel like it.”",
+  "Ася: «Не обязательно знать всё заранее. Напиши, как устроишься, хорошо?»": "Asya: “You do not have to know everything in advance. Let me know how you settle in, all right?”",
+  "Лука: «Если захочешь обсудить планы, разберём их по одному вопросу за раз».": "Luka: “If you want to talk through your plans, we will take them one question at a time.”",
+  "Ана: «Я сохраню снимок этого лета. Напишешь — пришлю тебе».": "Ana: “I will keep a photograph of this summer. Write to me and I will send it.”",
+  "Стефан: «Спасибо за разговоры. Если захочешь, покажу, что получилось в мастерской».": "Stefan: “Thank you for our conversations. If you like, I will show you what I made in the workshop.”",
+  "Марко: «Удачи тебе с дальнейшими планами. Буду рад новостям».": "Marko: “Good luck with your plans. I would be glad to hear your news.”",
+  "Вук: «Я пришлю ту музыку, о которой мы говорили, если ты не против».": "Vuk: “I will send you the music we talked about, if that is all right.”",
+  "Лазар: «За пределами банковского окна тоже есть жизнь. Надеюсь, мы ещё поговорим».": "Lazar: “There is life beyond the bank counter too. I hope we talk again.”",
+  "Теодора: «Спасибо, что увидел{a} во мне не только сотрудницу банка. Буду рада твоему сообщению».": "Teodora: “Thank you for seeing me as more than a bank employee. I would be glad to hear from you.”",
+  "Ивана: «Пусть в твоей папке будет меньше поводов для тревоги. И напиши, если захочешь».": "Ivana: “May your folder give you fewer reasons to worry. And write if you would like to.”",
+  "Страхиня: «Спасибо за доверие. Мне будет приятно узнать, как у тебя дела».": "Strahinja: “Thank you for your trust. I would like to hear how you are doing.”",
+  "Человек в балаклаве: «Я не спешу с именем. Но наш разговор можно продолжить, когда захочешь».": "The masked officer: “I am not rushing to share my name. But we can continue our conversation whenever you like.”"
 }

@@ -78,6 +78,16 @@ test('evening invitations depend on meeting people; friendship never advances ro
  }
 });
 
+test('the final evening gives each known person a distinct farewell in every ending',()=>{
+ for(const ending of ['stay','leave','return']){
+  const page=NODES['route_epilogue_'+ending].pages[1];
+  const lines=EVENING_PEOPLE.map(([id])=>pageText(page,{routeEndingWith:id}));
+  assert.equal(new Set(lines).size,EVENING_PEOPLE.length);
+  assert.match(pageText(page,{routeEndingWith:'milos'}),/балаклаве/);
+  assert.match(pageText(page,{routeEndingWith:'alone'}),/наедине/);
+ }
+});
+
 test('group consent is separate for both companions and the player; a refusal stays friendly',()=>{
  const group=NODES.evening4.choices.find(c=>c.next==='route4_group_airport');
  assert.equal(choiceVisible(group,{host:'dragan',hostBond:'romance',companion:'milica',milicaBond:'friendship'}),false);

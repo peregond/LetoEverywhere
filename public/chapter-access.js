@@ -1,6 +1,6 @@
 // Preview access is a device preference, separate from story saves and workshop access.
 import {readLocal,writeLocal} from './storage.js?v=0.17.2';
-export const PUBLIC_LAST_DAY=5;
+export const PUBLIC_LAST_DAY=15;
 const normalizeCode=value=>typeof value==='string'?value.normalize('NFKC').trim().toLocaleLowerCase('ru'):'';
 export const acceptsChapterCode=value=>['вучич','олег'].includes(normalizeCode(value));
 export const hasPreviewAccess=()=>readLocal('preview-chapters',false)===true;

@@ -2,10 +2,10 @@ import {STORY_VERSION} from './story-version.js?v=0.17.2';
 import {readLocal,writeLocal} from './storage.js';
 const fingerprint=save=>save?JSON.stringify([save.storyVersion,save.profile,save.node,save.index,save.flags,save.journal,save.log,save.rewind,save.chapterMarks]):null;
 export class CloudProgress {
-  constructor({getLocal,restore,changed}){Object.assign(this,{getLocal,restore,changed,user:null,ready:false,revision:null,syncedAt:null,pending:null,conflict:null,busy:false,message:'Проверяем аккаунт…'});window.addEventListener('online',()=>this.refresh());}
+  constructor({getLocal,restore,changed}){Object.assign(this,{getLocal,restore,changed,user:null,ready:false,revision:null,syncedAt:null,pending:null,conflict:null,busy:false,localOnly:!!(window.Capacitor?.isNativePlatform()||globalThis.location?.hostname?.endsWith('.github.io')),message:'Проверяем аккаунт…'});window.addEventListener('online',()=>this.refresh());}
   emit(){this.changed();}
   async refresh(){
-    if (window.Capacitor?.isNativePlatform() || globalThis.location?.hostname?.endsWith(".github.io")) { this.ready=true; this.message='Сохранено на устройстве'; this.emit(); return; }
+    if(this.localOnly){this.ready=true;this.message='Сохранено на устройстве';this.emit();return;}
     if(this.busy)return;
     try{
       const response=await fetch('/api/player',{cache:'no-store'});if(!response.ok)throw Error();

@@ -1,6 +1,6 @@
 import {setQuestIcon} from './quest-controls.js?v=0.17.8';
 // The phone page the hero reads before choosing a bank. Reading progress is a small bit mask owned by the caller.
-import {t} from './i18n.js?v=0.17.26';
+import {t} from './i18n.js?v=0.17.27';
 import {GUIDE,BANKS,BANK_KEYS} from './bank-data.js?v=1';
 
 const make=(doc,tag,className,text)=>{const node=doc.createElement(tag);if(className)node.className=className;if(text!==undefined)node.textContent=text;return node;};

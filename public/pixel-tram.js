@@ -1,5 +1,5 @@
 // A small keyboard/touch puzzle. No timers; mistakes reset the tram without changing story progress.
-import {t} from './i18n.js?v=0.17.26';
+import {t} from './i18n.js?v=0.17.27';
 import {T} from './days.js?v=0.17.2';
 const TITLE=T('Пиксельный трамвай','Pixel Tram');
 const HINT=T('Довези трамвай до чашки. Лужи возвращают к старту.','Drive the tram to the cup. Puddles return you to the start.');

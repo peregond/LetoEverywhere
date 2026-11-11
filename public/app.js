@@ -1,27 +1,27 @@
-import {mountCoinCatch} from './coin-catch.js?v=0.17.26';
-import {mountFlatSettleQuest} from './flat-settle-quest.js?v=0.17.26';
-import {mountWhiteCard} from './white-card.js?v=0.17.26';
-import {arrivalPhoneFrame,ARRIVAL_PHONE_TEXT} from './arrival-phone.js?v=0.17.26';
-import {mountPixelTram} from './pixel-tram.js?v=0.17.26';
+import {mountCoinCatch} from './coin-catch.js?v=0.17.27';
+import {mountFlatSettleQuest} from './flat-settle-quest.js?v=0.17.27';
+import {mountWhiteCard} from './white-card.js?v=0.17.27';
+import {arrivalPhoneFrame,ARRIVAL_PHONE_TEXT} from './arrival-phone.js?v=0.17.27';
+import {mountPixelTram} from './pixel-tram.js?v=0.17.27';
 import {rentalRedirect} from './rental-story.js?v=0.17.2';
 import {RENTAL_NAMES,rentalOwner,rentalCounterpart} from './rental-people.js?v=0.17.2';
-import {chapterAvailable,hasPreviewAccess,hasChapterDebugAccess} from './chapter-access.js?v=0.17.2';
+import {chapterAvailable,hasPreviewAccess,hasChapterDebugAccess} from './chapter-access.js?v=0.17.27';
 import {renderHomeHero} from './home-hero.js?v=0.17.2';
-import {renderEpisodeContact} from './episode-contact.js?v=0.17.26';
+import {renderEpisodeContact} from './episode-contact.js?v=0.17.27';
 import {familySpeaker,familyText} from './family-contact.js?v=1';
-import {drawChapterMap} from './chapter-map.js?v=0.17.26';
-import {mountWorkshopEntry,mountWorkshop} from './workshop.js?v=0.17.26';
-import {mountRoomInteraction} from './room-interaction.js?v=0.17.26';
-import {mountDistrictMap,mountViewingQuest} from './scene-quests.js?v=0.17.26';
-import {mountBankGuide} from './bank-guide.js?v=0.17.26';
+import {drawChapterMap} from './chapter-map.js?v=0.17.27';
+import {mountWorkshopEntry,mountWorkshop} from './workshop.js?v=0.17.27';
+import {mountRoomInteraction} from './room-interaction.js?v=0.17.27';
+import {mountDistrictMap,mountViewingQuest} from './scene-quests.js?v=0.17.27';
+import {mountBankGuide} from './bank-guide.js?v=0.17.27';
 import {BANK_FLAG} from './bank-data.js?v=1';
 import {applyFlatEffect,viewMaskOf,setViewMask} from './flat-data.js?v=1';
-import {renderArrivalPhone} from './arrival-phone.js?v=0.17.26';
-import {mountMessenger} from './messenger.js?v=0.17.26';
+import {renderArrivalPhone} from './arrival-phone.js?v=0.17.27';
+import {mountMessenger} from './messenger.js?v=0.17.27';
 import {messengerFrame,messageAt,visibleMessagePage} from './messenger-model.js?v=0.17.2';
 import {MESSENGER_CONFIG} from './messenger-config.js?v=0.16.1';
 import {ART_FRAMES,positionArtwork} from './art-framing.js?v=0.17.2';
-import {t,html,initialiseLanguage,getLanguage,setLanguage,captureStaticUi,translateHistory} from './i18n.js?v=0.17.26';
+import {t,html,initialiseLanguage,getLanguage,setLanguage,captureStaticUi,translateHistory} from './i18n.js?v=0.17.27';
 import {STAGES} from './days.js?v=0.17.2';
 import {MAX_LOG_RECORDS} from './save-limits.js?v=0.17.2';
 import {cueFor} from './music-cues.js?v=0.17.2';
@@ -29,9 +29,9 @@ import {ambienceFor,stingFor} from './sound-cues.js?v=0.17.2';
 import {setAmbience,playSting} from './sfx.js?v=0.17.2';
 import {choiceVisible,applyRomanceEffect,nameOf,SLOTS} from './romance.js?v=0.17.2';
 import {CHAPTERS,chapterFor,readChapterMarks,rememberChapter,restartChapter,jumpToChapter,continuationFor} from './chapters.js?v=0.17.2';
-import {drawBeatAction} from './beat-action.js?v=0.17.26';
-import {drawAccountForm,drawRecoveryCode} from './account-form.js?v=0.17.26';
-import { NODES, JOURNAL, START, STORY_VERSION, BACKGROUNDS, CHARACTER_SPRITES, CHOICE_TONES, beatActionAt, presentationFor, pageText, resolveStoryText, interpolate } from './story.js?v=0.17.26';
+import {drawBeatAction} from './beat-action.js?v=0.17.27';
+import {drawAccountForm,drawRecoveryCode} from './account-form.js?v=0.17.27';
+import { NODES, JOURNAL, START, STORY_VERSION, BACKGROUNDS, CHARACTER_SPRITES, CHOICE_TONES, beatActionAt, presentationFor, pageText, resolveStoryText, interpolate } from './story.js?v=0.17.27';
 import { loadSave, writeSave, readLocal, writeLocal } from './storage.js';
 import {snapVolume,stepperMarkup,bindStepper} from './volume-steps.js?v=0.17.2';
 import {clampSize,textLines,textSizeMarkup,bindTextSize} from './text-size.js?v=0.17.2';
@@ -43,13 +43,13 @@ import {mountNamePicker} from './name-picker.js?v=0.17.2';
 import {LANGUAGES,mountLanguageSwitch,markActiveLanguage} from './language-switch.js?v=0.17.2';
 import {setSfxVolume} from './sfx.js?v=0.17.2';
 import { setMusic, setVolume, setMusicScene } from './audio.js?v=0.17.2';
-import {renderDistrictMap as drawDistrictMap} from './district-map.js?v=0.17.26';
-import { CloudProgress } from './cloud.js?v=0.17.2';
+import {renderDistrictMap as drawDistrictMap} from './district-map.js?v=0.17.27';
+import { CloudProgress } from './cloud.js?v=0.17.27';
 import { rememberStep, rewindStep, readRewind } from './rewind.js?v=0.4.1';
 import {dialogueVoice,logVoice,speakerIdentity} from './dialogue-voice.js?v=0.17.2';
-import {appendChoiceContents} from './choice-ui.js?v=0.17.26';
+import {appendChoiceContents} from './choice-ui.js?v=0.17.27';
 import {mountBaggageInteraction} from './interaction.js?v=0.17.2';
-import {APP_VERSION} from './release.js?v=0.17.26';
+import {APP_VERSION} from './release.js?v=0.17.27';
 import {startUpdateChecks} from './update-check.js?v=0.17.24';
 
 const $ = id => document.getElementById(id);
@@ -335,7 +335,7 @@ function showChapterLock(){
   const root=$('chapter-card');root.replaceChildren();
   const box=document.createElement('div');box.className='chapter-card-inner';
   const title=document.createElement('h2');title.textContent=t('Продолжение пока закрыто');
-  const copy=document.createElement('p');copy.textContent=t('Открыты дни 1–5. Дальнейшие главы доступны по промокоду. Твой прогресс сохранён.');
+  const copy=document.createElement('p');copy.textContent=t('Открыты дни 1–15. Дальнейшие главы доступны по промокоду. Твой прогресс сохранён.');
   const settingsButton=document.createElement('button');settingsButton.className='primary';settingsButton.textContent=t('Ввести промокод');settingsButton.onclick=()=>openPanel('settings');
   const menu=document.createElement('button');menu.className='secondary';menu.textContent=t('На главный экран');menu.onclick=home;
   box.append(title,copy,settingsButton,menu);root.append(box);
@@ -463,7 +463,7 @@ function renderGame({skipMessenger=false}={}) {
   if(cardWanted&&previousChapter&&(previousChapter!==chapter.id&&state.node===chapter.start&&state.index===0||previousChapter!==chapter.id&&state.node==='rental_day_'+chapter.day&&state.index===0))showChapterCard(CHAPTERS.find(c=>c.id===previousChapter),chapter);
 }
 // A guest is somebody the cloud has finished checking who is not signed in; nobody is nagged while the check is still running.
-function isGuest(){return !!cloud?.ready&&!cloud.user;}
+function isGuest(){return !!cloud?.ready&&!cloud.user&&!cloud.localOnly;}
 function drawSavePrompt(){
   const box=document.createElement('div');box.className='save-prompt';
   const title=document.createElement('strong');title.textContent=t('Сохрани прогресс');
@@ -847,11 +847,11 @@ function openAccount() {
     }
     if(recoveryCodeOnce)drawRecoveryCode(content,recoveryCodeOnce,()=>{recoveryCodeOnce=null;openAccount();});
     const out=document.createElement('button');out.type='button';out.className='text-button account-link';out.textContent=t('Выйти из аккаунта');out.disabled=cloud.busy;out.addEventListener('click',async()=>{if(cloud.busy)return;clearTimeout(cloud.timer);try{const response=await fetch('/api/account',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'logout'})});if(!response.ok)throw Error();cloud.user=null;cloud.pending=null;cloud.conflict=null;recoveryCodeOnce=null;await cloud.refresh();openAccount();}catch{toast('Не удалось выйти. Проверь связь и попробуй ещё раз.');}});content.append(out);
-  }else{
+  }else if(!cloud?.localOnly){
     const intro=document.createElement('p');intro.className='auth-intro';intro.textContent=t('Войди, чтобы продолжить историю с другого устройства. Без входа прогресс остаётся в этом браузере.');content.append(intro);
     drawAccountForm(content,{mode:authMode,legacyAvailable:cloud?.legacyAvailable,onMode:mode=>{authMode=mode;openAccount();},onSuccess:async result=>{recoveryCodeOnce=result.recoveryCode??null;await cloud.refresh();openAccount();}});
   }
-  const privacy=document.createElement('p');privacy.className='sound-hint';privacy.textContent=t('В аккаунте сохраняются персонаж, сцена, ответы и дневник. Другие игроки их не видят.');content.append(privacy);
+  const privacy=document.createElement('p');privacy.className='sound-hint';privacy.textContent=t(cloud?.localOnly?'Прогресс хранится на этом устройстве. В настройках можно скачать сохранение и загрузить его на другом устройстве.':'В аккаунте сохраняются персонаж, сцена, ответы и дневник. Другие игроки их не видят.');content.append(privacy);
   panel.showModal();
 }
 function exportSave() {

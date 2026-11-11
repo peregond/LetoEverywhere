@@ -1,5 +1,6 @@
 // Newest first. Add a player-facing entry whenever APP_VERSION changes.
 export const RELEASE_NOTES = [
+ ['0.17.27','Все 15 дней открыты без промокода. У каждого спутника своя прощальная реплика, а прогресс на GitHub Pages сохраняется на устройстве.','All 15 days are open without a code. Every companion has a personal farewell, and progress on GitHub Pages stays on your device.'],
  ['0.17.26','Встречи учитывают прежнее знакомство, свидание возможно без прикосновений, а в подробных ночных сценах вместо черновых кадров показана готовая комната.','Meetings reflect whether you have met before, dates can take place without touching, and detailed night scenes use a finished room instead of draft frames.'],
  ['0.17.25','В фантазиях в аэропорту снова появляются фон и образы Николы.','Nikola’s airport daydreams show their background and portraits again.'],
  ['0.17.24','Исправлена проверка обновлений при запуске игры.','Fixed the update check when the game starts.'],

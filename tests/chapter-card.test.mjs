@@ -12,7 +12,7 @@ assert.ok(fs.existsSync(new URL('../public/chapter-card.css',import.meta.url)));
 const asks=app.split('wantCard=true').length-1;assert.equal(asks,4,'advance, choice, beat action and "continue" ask for a card');
 assert.match(app,/previousChapter!==chapter\.id&&state\.node===chapter\.start&&state\.index===0/);
 // The save prompt is only for guests the cloud has finished checking, and it is also shown on the final screen.
-assert.match(app,/function isGuest\(\)\{return !!cloud\?\.ready&&!cloud\.user;\}/);
+assert.match(app,/function isGuest\(\)\{return !!cloud\?\.ready&&!cloud\.user&&!cloud\.localOnly;\}/);
 assert.match(app,/if\(isGuest\(\)\)inner\.append\(drawSavePrompt\(\)\)/);assert.match(app,/drawEndingPrompt\(\);\n\}/);
 // Every label the card draws has an English translation, for every chapter.
 for(const key of ['ДЕНЬ','ИЗ 15','День','из 15','завершён','ПЕРЕД ПЕРВЫМ ДНЁМ','ПРОЛОГ','Начать день','Начать','Сохрани прогресс','Создать аккаунт','Уже есть аккаунт? Войти'])assert.ok(Object.hasOwn(dictionary,key),key);

@@ -120,6 +120,23 @@ export function rebuildFifteenDays({NODES:N,JOURNAL:J,CHARACTER_SPRITES:sprites}
   N.route15_start.choices.unshift(choice('Попросить помощи: '+name,'Ask '+en+' for help','route15_help_'+id,'romance',{}, {all:[flag('routeOfficeBond_'+id,'romance'),{not:flag(kind==='bank'?'routeBankHelped':'routePapersHelped',true)}]}));
   add('route15_help_'+id,[note(kind==='bank'?'Благодаря нашим отношениям сотрудник лично проверяет мою банковскую заявку, замечает недостающую справку и помогает подготовить её для повторного рассмотрения. После проверки банк сообщает об одобрении.':'Благодаря нашим отношениям сотрудник лично проверяет мою папку, замечает ошибку в адресе и помогает подать исправленные документы.',kind==='bank'?'Because of our relationship, the employee personally checks my bank application, spots a missing document and helps prepare it for reconsideration. After reviewing it, the bank confirms approval.':'Because of our relationship, the employee personally checks my folder, spots an address error and helps submit corrected documents.')],'route15_start',{effectOnEnter:{routeDocumentHelp:id,[kind==='bank'?'routeBankHelped':'routePapersHelped']:true,[kind==='bank'?'routeBankOutcome':'routePapersOutcome']:kind==='bank'?'approved':'accepted'}});
  }
+ const farewell={
+  nikola:T('Никола: «Когда захочешь, напиши. Я сохраню для тебя историю про самую смешную смену в пекарне».','Nikola: “Write whenever you like. I will save the story of my funniest bakery shift for you.”'),
+  milica:T('Милица: «Я дорисую наш город в блокноте. Если захочешь, потом покажу».','Milica: “I will finish drawing our city in my notebook. I can show you later if you like.”'),
+  dragan:T('Драган: «Спасибо за этот вечер. Если захочешь поговорить, ты знаешь, где меня найти».','Dragan: “Thank you for this evening. If you want to talk, you know where to find me.”'),
+  jelena:T('Йелена: «Мне было хорошо делить с тобой время. Напиши, когда тебе захочется».','Jelena: “I enjoyed sharing this time with you. Write whenever you feel like it.”'),
+  asya:T('Ася: «Не обязательно знать всё заранее. Напиши, как устроишься, хорошо?»','Asya: “You do not have to know everything in advance. Let me know how you settle in, all right?”'),
+  luka:T('Лука: «Если захочешь обсудить планы, разберём их по одному вопросу за раз».','Luka: “If you want to talk through your plans, we will take them one question at a time.”'),
+  ana:T('Ана: «Я сохраню снимок этого лета. Напишешь — пришлю тебе».','Ana: “I will keep a photograph of this summer. Write to me and I will send it.”'),
+  stefan:T('Стефан: «Спасибо за разговоры. Если захочешь, покажу, что получилось в мастерской».','Stefan: “Thank you for our conversations. If you like, I will show you what I made in the workshop.”'),
+  marko:T('Марко: «Удачи тебе с дальнейшими планами. Буду рад новостям».','Marko: “Good luck with your plans. I would be glad to hear your news.”'),
+  vuk:T('Вук: «Я пришлю ту музыку, о которой мы говорили, если ты не против».','Vuk: “I will send you the music we talked about, if that is all right.”'),
+  lazar:T('Лазар: «За пределами банковского окна тоже есть жизнь. Надеюсь, мы ещё поговорим».','Lazar: “There is life beyond the bank counter too. I hope we talk again.”'),
+  teodora:T('Теодора: «Спасибо, что увидел{a} во мне не только сотрудницу банка. Буду рада твоему сообщению».','Teodora: “Thank you for seeing me as more than a bank employee. I would be glad to hear from you.”'),
+  ivana:T('Ивана: «Пусть в твоей папке будет меньше поводов для тревоги. И напиши, если захочешь».','Ivana: “May your folder give you fewer reasons to worry. And write if you would like to.”'),
+  strahinya:T('Страхиня: «Спасибо за доверие. Мне будет приятно узнать, как у тебя дела».','Strahinja: “Thank you for your trust. I would like to hear how you are doing.”'),
+  milos:T('Человек в балаклаве: «Я не спешу с именем. Но наш разговор можно продолжить, когда захочешь».','The masked officer: “I am not rushing to share my name. But we can continue our conversation whenever you like.”')
+ };
  for(const [ending,ru,en] of [
   ['stay','Я решаю остаться. Проверю право на дальнейшее пребывание, бюджет и сроки; желание жить здесь не заменяет этих шагов.','I decide to stay. I will check my right to remain, budget and deadlines; wanting to live here does not replace these steps.'],
   ['leave','Я решаю уехать. Это не провал и не обещание никогда не возвращаться. Сегодня мне нужен дом.','I decide to leave. It is not failure or a promise never to return. Today I need home.'],
@@ -134,7 +151,7 @@ export function rebuildFifteenDays({NODES:N,JOURNAL:J,CHARACTER_SPRITES:sprites}
    ':true':T('Благодаря помощи близкого человека исправленные документы приняли. Ответ банка ещё впереди.','With help from someone close to me, the corrected documents were accepted. The bank’s answer is still ahead.'),
    default:result.text
   }};
-  N['route_epilogue_'+ending].pages[1]={...note('Я благодарю тех, кто был рядом.','I thank those who were near.'),byFlag:{flag:'routeEndingWith',text:{...Object.fromEntries(EVENING_PEOPLE.map(([id,ru,en])=>[id,T(ru+': «Спасибо за этот вечер. Можно написать, когда захочешь, без обязанности обещать больше».',en+': “Thank you for this evening. Write whenever you like, without an obligation to promise more.”')])),alone:T('Сегодня мне хорошо наедине с собой. Это тоже продолжение истории.','Today I feel good on my own. That is a continuation of the story too.'),company:T('Компания не требует обещаний: мы договариваемся иногда писать друг другу.','The group asks for no promises: we agree to write to one another sometimes.'),default:T('Я благодарю тех, кто был рядом.','I thank those who were near.')}}};
+  N['route_epilogue_'+ending].pages[1]={...note('Я благодарю тех, кто был рядом.','I thank those who were near.'),byFlag:{flag:'routeEndingWith',text:{...farewell,alone:T('Сегодня мне хорошо наедине с собой. Это тоже продолжение истории.','Today I feel good on my own. That is a continuation of the story too.'),company:T('Компания не требует обещаний: мы договариваемся иногда писать друг другу.','The group asks for no promises: we agree to write to one another sometimes.'),default:T('Я благодарю тех, кто был рядом.','I thank those who were near.')}}};
  }
  extendFifteenOfficeRomance({NODES:N,add,note,say,choice});
  J.bank_acquaintance.text=T('Личное знакомство с сотрудником может помочь с банковской заявкой.','A personal relationship with an employee may help with the bank application.');

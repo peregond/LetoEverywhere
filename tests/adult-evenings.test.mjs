@@ -15,7 +15,11 @@ test('compatible nights require a deliberate choice and return to the current da
    const node=NODES[`adult_evening${day}_${person}_${beat}`];
    assert.ok(node.activeRoute);assert.equal(node.routeDay,day);assert.equal(node.adult,true);
    assert.equal(node.skipTo,`route${day}_close`);
-   if(person!=='nikola')for(const page of node.pages)assert.equal(presentationFor(node,page,{}).bg,'belgrade-room-night',`${person}: finished nighttime background`);
+   if(person!=='nikola')for(const page of node.pages){
+    const completed=['milica','dragan','jelena','asya','luka','ana','stefan','marko','lazar','strahinya'];
+    const expected=beat==='afterglow'?(completed.includes(person)?`${person}-night-afterglow-v1`:`${person}-evening-soft-v1`):'belgrade-room-night';
+    assert.equal(presentationFor(node,page,{}).bg,expected,`${person}: finished nighttime background`);
+   }
   }
   assert.equal(NODES[`adult_evening${day}_${person}_morning`].next,`route${day}_close`);
  }

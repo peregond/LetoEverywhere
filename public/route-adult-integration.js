@@ -7,6 +7,7 @@ import {DAYS,T} from './days.js?v=0.17.2';
 export function integrateAdultEvenings({NODES,JOURNAL,BACKGROUNDS,n,scene}) {
  const staged={};
  extendAdultEvenings({NODES:staged,JOURNAL,BACKGROUNDS,n,scene});
+ const completed=['nikola','milica','dragan','jelena','asya','luka','ana','stefan','marko','lazar','strahinya','milos'];
  const beats=['home','door','fade','prep','sex','sex_deep','cum_inside','cum_cloth','cum_chest','afterglow','morning'];
  for(const day of [1,...ADULT_DAYS_ROUTE]) for(const person of (day===1?['nikola','milica']:ADULT_PEOPLE)) {
   // This version of the scene has an unmasked portrait and identifies him by
@@ -24,8 +25,9 @@ export function integrateAdultEvenings({NODES,JOURNAL,BACKGROUNDS,n,scene}) {
    // Keep the text and choices playable against a finished nighttime room
    // until those individual illustrations are ready. Nikola's set is complete.
    if(person!=='nikola'&&beat!=='morning'){
-    node.bg='belgrade-room-night';
-    for(const page of node.pages)if(page.bg)page.bg='belgrade-room-night';
+    const background=beat==='afterglow'?(completed.includes(person)?`${person}-night-afterglow-v1`:`${person}-evening-soft-v1`):'belgrade-room-night';
+    node.bg=background;
+    for(const page of node.pages)if(page.bg)page.bg=background;
    }
    const map=target=>target?.startsWith(old+'_')?prefix+target.slice(old.length):end;
    node.next=beat==='morning'?end:node.next?map(node.next):node.next;
@@ -39,7 +41,6 @@ export function integrateAdultEvenings({NODES,JOURNAL,BACKGROUNDS,n,scene}) {
  }
  // Show completed, identity-checked afterglows on the shorter consensual
  // route as well. Do not use unfinished storyboards or Vuk's mismatched face.
- const completed=['nikola','milica','dragan','jelena','asya','luka','ana','stefan','marko','lazar','strahinya','milos'];
  for(const person of completed){
   const art=person==='nikola'?'nikola-afterglow-smile-v1':`${person}-night-afterglow-v1`;
   if(person==='milos')BACKGROUNDS[art]={label:T('ВЕЧЕР · ПОСЛЕ','EVENING · AFTER'),description:T('Человек в балаклаве отдыхает','The masked person rests'),file:art,position:'50% 35%',optional:true};

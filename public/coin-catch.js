@@ -1,4 +1,4 @@
-import {t} from './i18n.js?v=0.17.26';
+import {t} from './i18n.js?v=0.17.27';
 import {setQuestIcon} from './quest-controls.js?v=0.17.8';
 
 export const COIN_TARGET=8;

@@ -1,4 +1,4 @@
-import {t} from './i18n.js?v=0.17.26';
+import {t} from './i18n.js?v=0.17.27';
 export function drawAccountForm(container,{mode='login',legacyAvailable=false,onMode,onSuccess}) {
   const tabs=document.createElement('div');tabs.className='auth-tabs';
   for(const [id,title] of [['login','Войти'],['register','Создать аккаунт']]){const button=document.createElement('button');button.type='button';button.textContent=t(title);button.setAttribute('aria-pressed',String(mode===id));button.addEventListener('click',()=>onMode(id));tabs.append(button);}container.append(tabs);
