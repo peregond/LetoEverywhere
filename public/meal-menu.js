@@ -1,4 +1,4 @@
-import {t} from './i18n.js?v=0.17.23';
+import {t} from './i18n.js?v=0.17.26';
 import {setQuestIcon} from './quest-controls.js?v=0.17.8';
 
 // The picture is a single static illustration; labels and selection are real controls.

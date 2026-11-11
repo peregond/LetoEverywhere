@@ -3,6 +3,7 @@ import {test} from 'node:test';
 import {NODES,pageText,STORY_VERSION} from '../public/story.js';
 import {choiceVisible} from '../public/romance.js';
 import {normalizeProgress} from '../lib/save-format.js';
+import fs from 'node:fs';
 for(const [id,kind] of [['lazar','bank'],['teodora','bank'],['ivana','papers'],['strahinya','papers']])test(id+' unlocks a lasting fictional outcome',()=>{
  const c=NODES.route15_start.choices.find(x=>x.next==='route15_help_'+id);assert.equal(choiceVisible(c,{}),false);assert.equal(choiceVisible(c,{['routeOfficeBond_'+id]:'friendship'}),false);
  const flags={['routeOfficeBond_'+id]:'romance'};assert.equal(choiceVisible(c,flags),true);Object.assign(flags,NODES[c.next].effectOnEnter);assert.equal(flags[kind==='bank'?'routeBankOutcome':'routePapersOutcome'],kind==='bank'?'approved':'accepted');assert.equal(choiceVisible(c,flags),false);
@@ -11,4 +12,11 @@ for(const [id,kind] of [['lazar','bank'],['teodora','bank'],['ivana','papers'],[
 });
 test('bank and documents remain separate and both can affect the epilogue',()=>{
  const f={...NODES.route15_help_lazar.effectOnEnter,...NODES.route15_help_ivana.effectOnEnter};assert.equal(f.routeBankOutcome,'approved');assert.equal(f.routePapersOutcome,'accepted');assert.match(pageText(NODES.route_epilogue_stay.pages[2],f,'ru'),/одобрили.*приняли/);
+});
+test('bank help states the approval recorded by the outcome',()=>{
+ for(const id of ['lazar','teodora']){
+  const page=NODES['route15_help_'+id].pages[0];
+  assert.match(pageText(page,{},'ru'),/банк сообщает об одобрении/);
+  assert.match(JSON.parse(fs.readFileSync(new URL('../public/locales/en.json',import.meta.url)))[page.text],/bank confirms approval/);
+ }
 });

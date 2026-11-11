@@ -20,6 +20,13 @@ export function integrateAdultEvenings({NODES,JOURNAL,BACKGROUNDS,n,scene}) {
   for(const beat of beats){
    const node=staged[`${old}_${beat}`];
    if(!node)throw new Error(`Missing adult scene: ${old}_${beat}`);
+   // Several detailed-night CGs are production storyboards, not finished art.
+   // Keep the text and choices playable against a finished nighttime room
+   // until those individual illustrations are ready. Nikola's set is complete.
+   if(person!=='nikola'&&beat!=='morning'){
+    node.bg='belgrade-room-night';
+    for(const page of node.pages)if(page.bg)page.bg='belgrade-room-night';
+   }
    const map=target=>target?.startsWith(old+'_')?prefix+target.slice(old.length):end;
    node.next=beat==='morning'?end:node.next?map(node.next):node.next;
    if(node.choices)node.choices=node.choices.map(c=>({...c,next:map(c.next)}));

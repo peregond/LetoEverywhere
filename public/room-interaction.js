@@ -1,4 +1,4 @@
-import {t} from './i18n.js?v=0.17.23';
+import {t} from './i18n.js?v=0.17.26';
 import {T} from './flat-data.js?v=1';
 import {setQuestIcon} from './quest-controls.js?v=0.17.8';
 export const ROOM_TASKS=[

@@ -1,7 +1,7 @@
 import {unlockPreview} from './chapter-access.js?v=0.17.2';
-import { t, getLanguage } from './i18n.js?v=0.17.23';
+import { t, getLanguage } from './i18n.js?v=0.17.26';
 import { acceptsWorkshopCode, buildArtCatalog, EMOTIONS, CORE_EMOTIONS } from './workshop-model.js?v=0.17.2';
-import { mountStoryAtlas } from './story-atlas.js?v=0.17.23';
+import { mountStoryAtlas } from './story-atlas.js?v=0.17.26';
 
 const el = (tag, text, className) => {
   const node = document.createElement(tag);

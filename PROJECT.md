@@ -1,6 +1,7 @@
 # Сербское лето: общий контекст для Codex и Claude Code
 
 ## Текущий снимок
+- Актуальный репозиторий — `https://github.com/peregond/LetoEverywhere`. Публикация выполняется только через GitHub Pages из ветки `main` по `.github/workflows/pages.yml`. Указания ниже о публикации через Sites и прежнем репозитории устарели; порядок выпуска — `docs/PUBLISHING.md`.
 - Версия опубликованного сайта на 3 ноября 2026: 0.17.24 (источник истины для сборки: public/release.js).
 - Исходный коммит опубликованного Sites-снимка: 2e7ba94ae790645c62c55f4d1b43017922ada2a1. GitHub может содержать более новые изменения.
 - Репозиторий назначения: https://github.com/peregond/SerbianSummer.

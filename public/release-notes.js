@@ -1,5 +1,6 @@
 // Newest first. Add a player-facing entry whenever APP_VERSION changes.
 export const RELEASE_NOTES = [
+ ['0.17.26','Встречи учитывают прежнее знакомство, свидание возможно без прикосновений, а в подробных ночных сценах вместо черновых кадров показана готовая комната.','Meetings reflect whether you have met before, dates can take place without touching, and detailed night scenes use a finished room instead of draft frames.'],
  ['0.17.25','В фантазиях в аэропорту снова появляются фон и образы Николы.','Nikola’s airport daydreams show their background and portraits again.'],
  ['0.17.24','Исправлена проверка обновлений при запуске игры.','Fixed the update check when the game starts.'],
  ['0.17.23','Новая сюжетная структура на пятнадцать дней, городские главы и оформление белого картона объединены в одной версии.','The fifteen-day story, city chapters and white card quest are together in one release.'],

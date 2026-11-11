@@ -65,7 +65,10 @@ test('evening invitations depend on meeting people; friendship never advances ro
   const f={companion:'milica',milicaBond:'friendship'};choose(`evening${day}_milica`,f,`evening${day}_milica_friend`);assert.equal(f.routeRel_milica,undefined);assert.equal(f.love_airport,undefined);
  }
  const f={companion:'nikola',nikolaBond:'romance'};
- choose('evening2_nikola',f,'evening2_nikola_date');assert.equal(f.routeRel_nikola,1);
+ choose('evening2_nikola',f,'evening2_nikola_date');assert.equal(f.routeRel_nikola,undefined);
+ const declined={...f};choose('evening2_nikola_date',declined,'evening2_nikola_friend');assert.equal(declined.routeRel_nikola,undefined);
+ const noTouch={...f};choose('evening2_nikola_date',noTouch,'evening2_nikola_date_no_touch');assert.equal(noTouch.routeRel_nikola,1);
+ choose('evening2_nikola_date',f,'evening2_nikola_date_yes');assert.equal(f.routeRel_nikola,1);
  choose('evening4_nikola',f,'evening4_nikola_kiss_ask');assert.equal(f.routeRel_nikola,1);
  choose('evening4_nikola_kiss_ask',f,'evening4_nikola_kiss');assert.equal(f.routeRel_nikola,2);
  choose('evening6_nikola',f,'evening6_nikola_night_ask');choose('evening6_nikola_night_ask',f,'evening6_nikola_fade');assert.equal(f.routeRel_nikola,3);assert.equal(f.love_airport,'lover');

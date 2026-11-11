@@ -1,4 +1,4 @@
-import {t} from './i18n.js?v=0.17.23';
+import {t} from './i18n.js?v=0.17.26';
 // Presentation only: unlocks and restart points continue to come from saved chapter marks.
 export function drawChapterMap(root,{chapters,source,current,onSelect,isAvailable=()=>true,debugAccess=false}){
  const doc=root.ownerDocument;

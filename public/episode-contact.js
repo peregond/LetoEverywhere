@@ -1,4 +1,4 @@
-import{t}from'./i18n.js?v=0.17.23';
+import{t}from'./i18n.js?v=0.17.26';
 // A remote speaker stays visibly separate from the player's physical location.
 export function renderEpisodeContact(root,contact){
  root.hidden=!contact;

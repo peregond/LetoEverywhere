@@ -1,4 +1,4 @@
-import {t} from './i18n.js?v=0.17.23';
+import {t} from './i18n.js?v=0.17.26';
 // A presentation step before the narration; the saved story page stays unchanged.
 export const ARRIVAL_PHONE_TEXT='Вот наш подъезд. Комната забронирована для вас. Напишите, когда будете рядом — встречу с ключами.';
 export const ARRIVAL_PHONE_PHOTO={src:'./assets/courtyard-door.webp',alt:'Фотография подъезда от Драгана'};

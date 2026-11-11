@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {test} from 'node:test';
-import {NODES} from '../public/story.js';
+import {NODES,presentationFor} from '../public/story.js';
 import {choiceVisible} from '../public/romance.js';
 import {ADULT_PEOPLE,ADULT_DAYS_ROUTE} from '../public/adult-cast.js?v=0.17.2';
 
@@ -15,6 +15,7 @@ test('compatible nights require a deliberate choice and return to the current da
    const node=NODES[`adult_evening${day}_${person}_${beat}`];
    assert.ok(node.activeRoute);assert.equal(node.routeDay,day);assert.equal(node.adult,true);
    assert.equal(node.skipTo,`route${day}_close`);
+   if(person!=='nikola')for(const page of node.pages)assert.equal(presentationFor(node,page,{}).bg,'belgrade-room-night',`${person}: finished nighttime background`);
   }
   assert.equal(NODES[`adult_evening${day}_${person}_morning`].next,`route${day}_close`);
  }

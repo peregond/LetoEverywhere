@@ -1,4 +1,4 @@
-import {t,html} from './i18n.js?v=0.17.23';
+import {t,html} from './i18n.js?v=0.17.26';
 export function renderDistrictMap(element,node,onChoose,isVisible=()=>true) {
   element.hidden=!node.map;
   if(!node.map){element.replaceChildren();return;}
